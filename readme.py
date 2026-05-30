@@ -62,7 +62,7 @@ class ReadMe(object):
         for i in range(1, len(self.proxyList)):
             proxy = self.proxyList[i]
             if proxy.startswith("https://gcore.jsdelivr.net/"):
-                link += " [加速链接%d](%s/217heidai/adblockfilters@main/rules/%s) |"%(i, proxy, fileName)
+                link += " [加速链接%d](%s/he-yu-qing/adblockfilters@main/rules/%s) |"%(i, proxy, fileName)
             else:
                 link += " [加速链接%d](%s/https://raw.githubusercontent.com/he-yu-qing/adblockfilters/main/rules/%s) |"%(i, proxy, fileName)
         
@@ -145,7 +145,7 @@ class ReadMe(object):
             f.write("\n")
             
             f.write("## Star History\n")
-            f.write("[![Star History Chart](https://api.star-history.com/svg?repos=217heidai/adblockfilters&type=Date)](https://star-history.com/#217heidai/adblockfilters&Date)\n")
+            f.write("[![Star History Chart](https://api.star-history.com/svg?repos=he-yu-qing/adblockfilters&type=Date)](https://star-history.com/#he-yu-qing/adblockfilters&Date)\n")
 
             f.write("\n")
             f.write("## 以下是广告\n")
