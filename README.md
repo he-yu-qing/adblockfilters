@@ -69,7 +69,13 @@
 | OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/OISD_Basic.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/OISD_Basic.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/OISD_Basic.txt) | 2025/06/16 |
 | StevenBlack hosts | host | [原始链接](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/StevenBlack_hosts.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/StevenBlack_hosts.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/StevenBlack_hosts.txt) | 2025/06/16 |
 | Pollock hosts | host | [原始链接](https://someonewhocares.org/hosts/hosts) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/Pollock_hosts.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/Pollock_hosts.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/Pollock_hosts.txt) | 2025/06/15 |
-| my | [原始链接](https://someonewhocares.org/hosts/hosts) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/Pollock_hosts.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/Pollock_hosts.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/Pollock_hosts.txt) | 2025/06/15 |
+| Hagezi Ultimate | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt) | | | | 2026/05/30 |
+| Hagezi Xiaomi | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt) | | | | 2026/05/30 |
+| anti-AD | filter | [原始链接](https://anti-ad.net/adguard.txt) | | | | 2026/05/30 |
+| ADgk | filter | [原始链接](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt) | | | | 2026/05/30 |
+| AdAway | host | [原始链接](https://adaway.org/hosts.txt) | | | | 2026/05/30 |
+| GoodbyeAds | host | [原始链接](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt) | | | | 2026/05/30 |
+| 1024_hosts | host | [原始链接](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts) | | | | 2026/05/30 |
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=217heidai/adblockfilters&type=Date)](https://star-history.com/#217heidai/adblockfilters&Date)
