@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、EasyList、EasyList China、EasyPrivacy、CJX's Annoyance List、xinggsf rule、xinggsf mv、jiekouAD、anti-AD、ADgk、大圣净化 Purple、AdRules DNS List、Hagezi Light、Hagezi Pro、Hagezi Ultimate、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、Hagezi TikTok、1Hosts Lite、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway、GoodbyeAds、1024_hosts、jiekouAD、秋风广告过滤规则、AdGuard Allowlist。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260530221222
-! Last modified: 2026/05/30 22:12:22
-! Blocked Filters: 45605
+! Version: 20260530223335
+! Last modified: 2026/05/30 22:33:35
+! Blocked Filters: 45608
 !
 ###AC_ad
 ###AD_160
@@ -41616,6 +41616,7 @@ zzzyk.com###Tinfo
 ||au.w.inmobi.cn/c.asm^$app=com.baidu.yuedu
 ||aucdn.net^$media,domain=clgt.one
 ||aucdn.net^$media,domain=vxxx.com
+||audid-api.taobao.com/v2.0/a^$third-party
 ||audio-*.scdn.co/audio/$media,redirect=noopmp4-1s,app=Spotify.exe
 ||audio-*.scdn.co/audio/$media,~xmlhttprequest,redirect=noopmp4-1s,domain=spotify.com
 ||audio-ak*-*.akamaized.net/audio/$media,~xmlhttprequest,redirect=noopmp4-1s,app=Spotify.exe
@@ -43765,6 +43766,7 @@ zzzyk.com###Tinfo
 ||mesh.if.iqiyi.com/portal/lw/search/$xmlhttprequest,removeparam=ad
 ||mesh.if.iqiyi.com/portal/lw/search/$xmlhttprequest,removeparam=adExt
 ||mesh.if.iqiyi.com/tvg/v2/lw/base_info?entity_id=*&ad_ext=
+||metok.sys.miui.com
 ||metric*.rediff.com^
 ||metrics*.fitanalytics.com^
 ||mf*.advantage.as^
@@ -43808,7 +43810,6 @@ zzzyk.com###Tinfo
 ||missevan.com^$domain=jijidown.com
 ||mistat.*.xiaomi.com^
 ||mitbbs.*/servicedata/static_ad.php
-||mitv.tracking.miui.com
 ||miwifi.com^*ads/
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 ||mkto-*.com^$third-party
@@ -44980,6 +44981,7 @@ zzzyk.com###Tinfo
 ||tracking.*.miui.com^
 ||tracking.cds.dmm.
 ||tracking.geo.*.amazonaws.com^
+||tracking.miui.com
 ||tracking.olx.
 ||transfermarkt.com.tr^$replace=/<tm-consent[\s\S]*?<\/tm-consent>(<!DOCTYPE html>)/\$1/,document
 ||trck.*.prod-na.turntable.sonic.advertising.amazon.dev^
@@ -45141,6 +45143,7 @@ zzzyk.com###Tinfo
 ||w3t.cn^*/fx.js
 ||w3xue.com/js/pro541.js
 ||wa.gmx.
+||wa.kuwo.cn/lyrics/img/kwgg/
 ||waipian*.com/statics/recommend/
 ||wan.$~image
 ||wan.liebao.cn/zt/

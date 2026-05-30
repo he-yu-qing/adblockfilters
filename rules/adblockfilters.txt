@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、EasyList、EasyList China、EasyPrivacy、CJX's Annoyance List、xinggsf rule、xinggsf mv、jiekouAD、anti-AD、ADgk、大圣净化 Purple、AdRules DNS List、Hagezi Light、Hagezi Pro、Hagezi Ultimate、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、Hagezi TikTok、1Hosts Lite、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway、GoodbyeAds、1024_hosts、jiekouAD、秋风广告过滤规则、AdGuard Allowlist。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260530221222
-! Last modified: 2026/05/30 22:12:22
-! Blocked Filters: 106372
+! Version: 20260530223335
+! Last modified: 2026/05/30 22:33:35
+! Blocked Filters: 106380
 !
 ###AC_ad
 ###AD_160
@@ -50644,6 +50644,7 @@ fapeza.com##.navbar-item-sky
 fapeza.com#$#.navbar { margin-top: 0 !important; }
 fapeza.com#$#.superberb { display: none !important; }
 fapfolder.club##.hbanner
+faphouse.com##a[href^="https://flirtify.com/"]
 fapiao.bangnimang.net#%#(function(){window._czc={push:function(){}}})();
 fapmeifyoucan.net#%#//scriptlet('set-cookie', 'fameifyoucandisclamer', '1')
 fapnado.*##.zpot-vertical
@@ -91097,6 +91098,7 @@ zzzyk.com###Tinfo
 ||auctionzip.com/eKtvxkQ2/init.js
 ||auctiva.com/Default.aspx?query
 ||audacy.com/data-events/
+||audid-api.taobao.com/v2.0/a^$third-party
 ||audimark.de/tracking/
 ||audio-*.scdn.co/audio/$media,redirect=noopmp4-1s,app=Spotify.exe
 ||audio-*.scdn.co/audio/$media,~xmlhttprequest,redirect=noopmp4-1s,domain=spotify.com
@@ -94622,6 +94624,10 @@ zzzyk.com###Tinfo
 ||fapclub.sex/js/hr.js
 ||fapdick.com/templates/FapDick/images/premseexx
 ||fapfappy.com/*.php$script,~third-party
+||faphouse.com/api/collector/
+||faphouse.com/collector/
+||faphouse.com/widget/
+||faphouse.com^$subdocument,third-party
 ||fapix.porn/front/js/unwanted.js
 ||fapnado.*.php|
 ||fapnado.*/bump/
@@ -98901,6 +98907,7 @@ zzzyk.com###Tinfo
 ||meteor.today/ad/
 ||meteored.com/cmp/web/events/analytic/
 ||metka.ru/counter/
+||metok.sys.miui.com
 ||metrepeaches.com^$popup
 ||metrezaannatto.shop^$popup
 ||metric*.rediff.com^
@@ -99031,7 +99038,6 @@ zzzyk.com###Tinfo
 ||mitbbs.ca/ad_
 ||mitbbs.com/ad_
 ||mitbbs.com/img/app
-||mitv.tracking.miui.com
 ||mivalyo.com/ad?type=
 ||miwifi.com^*ads/
 ||mixer.video.iqiyi.com/jp/mixin/resources/
@@ -103914,6 +103920,7 @@ zzzyk.com###Tinfo
 ||tracking.*.miui.com^
 ||tracking.cds.dmm.
 ||tracking.geo.*.amazonaws.com^
+||tracking.miui.com
 ||tracking.olx.
 ||trackitonline.ru/pics/lety.gif
 ||tracktollywood.com/wp-content/cache/min/1/wp-content/plugins/tt-splash-screen/
@@ -104749,6 +104756,7 @@ zzzyk.com###Tinfo
 ||w3xue.com/js/pro541.js
 ||w51t.com^$subdocument
 ||wa.gmx.
+||wa.kuwo.cn/lyrics/img/kwgg/
 ||waaw.ac/cdn-cgi/trace
 ||waaw1.tv/cdn-cgi/trace
 ||wacowla.com/wp-content/plugins/popover/js/

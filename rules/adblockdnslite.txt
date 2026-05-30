@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、EasyList、EasyList China、EasyPrivacy、CJX's Annoyance List、xinggsf rule、xinggsf mv、jiekouAD、anti-AD、ADgk、大圣净化 Purple、AdRules DNS List、Hagezi Light、Hagezi Pro、Hagezi Ultimate、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、Hagezi TikTok、1Hosts Lite、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway、GoodbyeAds、1024_hosts、jiekouAD、秋风广告过滤规则、AdGuard Allowlist。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260530221222
-! Last modified: 2026/05/30 22:12:22
-! Blocked domains: 5533
+! Version: 20260530223335
+! Last modified: 2026/05/30 22:33:35
+! Blocked domains: 5516
 ! unBlocked domains: 21
 !
 ||00xvppy.cn^
@@ -593,10 +593,8 @@
 ||c.click.alimama.com^
 ||pre-ad.alimama.com^
 ||pre3-ad.alimama.com^
-||static.alimama.com^
 ||tf.logview.alimama.com^
 ||openmonitor.alipay-eco.com^
-||amdc.alipay.com^
 ||collect.alipay.com^
 ||loggw.alipay.com^
 ||loggw-ex.alipay.com^
@@ -1047,7 +1045,6 @@
 ||byscy.cn^
 ||dm.bytedance.com^
 ||location-traceroute-sg.bytedance.com^
-||mssdk.bytedance.com^
 ||mssdk-bu.bytedance.com^
 ||tnc3-aliec2.bytedance.com^
 ||tnc3-alisc1.bytedance.com^
@@ -2395,7 +2392,6 @@
 ||notice.iqiyi.com^
 ||paopao.iqiyi.com^
 ||paopao-monitor.iqiyi.com^
-||policy.video.iqiyi.com^
 ||puma-api.iqiyi.com^
 ||static.g.iqiyi.com^
 ||store.iqiyi.com^
@@ -2454,6 +2450,7 @@
 ||pic.jd-bbs.com^
 ||addata.jd.com^
 ||ads-union.jd.com^
+||ads.union.jd.com^
 ||blackhole.m.jd.com^
 ||c-nfa.jd.com^
 ||cc.m.jd.com^
@@ -2700,14 +2697,10 @@
 ||web-sentry.kurogame.com^
 ||web-sentry.kurogame.net^
 ||kushou.com^
-||deliver.kuwo.cn^
 ||g.kuwo.cn^
-||kwmsg.kuwo.cn^
-||log.kuwo.cn^
 ||mobilead.kuwo.cn^
 ||rich.kuwo.cn^
 ||updatepage.kuwo.cn^
-||wa.kuwo.cn^
 ||kuxkddg.cn^
 ||kuyun.com^
 ||kvhee.com^
@@ -2920,13 +2913,12 @@
 ||tuiguang.meitu.com^
 ||xiuxiu.android.dl.meitu.com^
 ||adgame.waimai.meituan.com^
-||api-unionid.meituan.com^
 ||hreport.meituan.com^
 ||httpdns.meituan.com^
 ||report.meituan.com^
 ||analytics.meituan.net^
 ||data-sdk-uuid-log.d.meituan.net^
-||dreport.meituan.net^
+||data-sdk-uuid-report.dreport.meituan.net^
 ||cloudcollect.meitudata.com^
 ||meitubeauty.meitudata.com^
 ||my-material.zone1.meitudata.com^
@@ -3041,6 +3033,7 @@
 ||cse.avlyun.sec.miui.com^
 ||data.sec.miui.com^
 ||data.sec.intl.miui.com^
+||fcanr.tracking.miui.com^
 ||feedback.miui.com^
 ||flash.sec.miui.com^
 ||flash.sec.intl.miui.com^
@@ -3056,7 +3049,7 @@
 ||logupdate.avlyun.sec.miui.com^
 ||m.beehive.in.intl.miui.com^
 ||mazu.sec.miui.com^
-||metok.sys.miui.com^
+||mitv.tracking.miui.com^
 ||mqs-log.miui.com^
 ||notify.sec.miui.com^
 ||pmir.sec.miui.com^
@@ -3066,9 +3059,9 @@
 ||proxy.sec.miui.com^
 ||r.browser.intl.miui.com^
 ||r.sg.sec.miui.com^
+||router.tracking.miui.com^
 ||sentry.sec.miui.com^
 ||srv.sec.miui.com^
-||tracking.miui.com^
 ||tracking.eu.miui.com^
 ||tracking.intl.miui.com^
 ||transfer.sec.miui.com^
@@ -3511,7 +3504,6 @@
 ||adsview.qq.com^
 ||adsview2.qq.com^
 ||adver.qq.com^
-||aegis.qq.com^
 ||analy.qq.com^
 ||analytics.map.qq.com^
 ||api.youtu.qq.com^
@@ -3687,7 +3679,6 @@
 ||rhtc.quanminyouxi.cn^
 ||adtrack.quark.cn^
 ||applog.lc.quark.cn^
-||px.wpk.quark.cn^
 ||track.lc.quark.cn^
 ||irc.qubiankeji.com^
 ||qudajie.com^
@@ -4215,7 +4206,6 @@
 ||adash.m.taobao.com^
 ||adashbc.m.taobao.com^
 ||adashbc.ut.taobao.com^
-||adashx.m.taobao.com^
 ||adashx.ut.taobao.com^
 ||adashx4ae.ut.taobao.com^
 ||adashx4id.ut.taobao.com^
@@ -4228,20 +4218,16 @@
 ||ai.m.taobao.com^
 ||alimelog.taobao.com^
 ||amdcopen.m.taobao.com^
-||audid-api.taobao.com^
 ||audid-api-sg.taobao.com^
 ||baichuan-sdk.taobao.com^
 ||c-adash.m.taobao.com^
 ||click.tz.simba.taobao.com^
 ||dsp.simba.taobao.com^
 ||eco.taobao.com^
-||err.taobao.com^
 ||fav.simba.taobao.com^
-||fourier.taobao.com^
 ||g.click.taobao.com^
 ||gaode-jmacs.m.taobao.com^
 ||global.click.taobao.com^
-||h-adashx.ut.taobao.com^
 ||h-adashx4ae.ut.taobao.com^
 ||h-adashx4sg.ut.taobao.com^
 ||h-adashx4yt.ut.taobao.com^
@@ -4463,13 +4449,14 @@
 ||ads.uc.cn^
 ||adtrack.uc.cn^
 ||api.mp.uc.cn^
-||applog.uc.cn^
 ||applog-perf.uc.cn^
 ||applog.ucdns.uc.cn^
 ||applogios.uc.cn^
 ||coral-task.uc.cn^
 ||dispatcher.upmc.uc.cn^
 ||feedback.uc.cn^
+||gj.applog.uc.cn^
+||gj.track.uc.cn^
 ||gjapplog.uc.cn^
 ||gjtrack.uc.cn^
 ||h-adashx.ut.uc.cn^
@@ -4477,7 +4464,6 @@
 ||mparticle.uc.cn^
 ||s-adashx.ut.uc.cn^
 ||t.uc.cn^
-||track.uc.cn^
 ||wmedia-track.uc.cn^
 ||woodpecker.uc.cn^
 ||u.uc123.com^
@@ -4783,7 +4769,6 @@
 ||httpdns.volcengineapi.com^
 ||apmplus.volces.com^
 ||apmplus.ap-southeast-1.volces.com^
-||gator.volces.com^
 ||mssdk.volces.com^
 ||tab.volces.com^
 ||report.voovmeeting.com^
@@ -4968,7 +4953,6 @@
 ||splash-online-decision.xiaohongshu.com^
 ||api.xiaohuxi.cn^
 ||adtrack.xiaojukeji.com^
-||api.installer.xiaomi.com^
 ||api.miui.security.xiaomi.com^
 ||api.xmpush.global.xiaomi.com^
 ||appstore.cdn.pandora.xiaomi.com^
@@ -5449,7 +5433,6 @@
 ||mcs.zijieapi.com^
 ||minigame5-normal-hl.zijieapi.com^
 ||minigame5-normal-lq.zijieapi.com^
-||mon.zijieapi.com^
 ||mssdk.zijieapi.com^
 ||mssdk3-normal-hj.zijieapi.com^
 ||mssdk3-normal-hl.zijieapi.com^
