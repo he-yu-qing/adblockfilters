@@ -45,68 +45,40 @@
 
 | 规则 | 类型 | 原始链接 | 加速链接1 | 加速链接2 | 加速链接3 | 更新日期 |
 |:-|:-|:-|:-|:-|:-|:-|
-| AdGuard Base filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/AdGuard_Base_filter.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Base_filter.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Base_filter.txt) | 2025/06/16 |
-| AdGuard Chinese filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/AdGuard_Chinese_filter.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Chinese_filter.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Chinese_filter.txt) | 2025/06/16 |
-| AdGuard Mobile Ads filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/AdGuard_Mobile_Ads_filter.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Mobile_Ads_filter.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_Mobile_Ads_filter.txt) | 2025/06/13 |
-| AdGuard DNS filter | filter | [原始链接](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/AdGuard_DNS_filter.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_DNS_filter.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdGuard_DNS_filter.txt) | 2025/06/16 |
-| AdRules DNS List | filter | [原始链接](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/AdRules_DNS_List.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdRules_DNS_List.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AdRules_DNS_List.txt) | 2025/06/16 |
-| CJX's Annoyance List | filter | [原始链接](https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/CJX's_Annoyance_List.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/CJX's_Annoyance_List.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/CJX's_Annoyance_List.txt) | 2025/05/26 |
-| EasyList | filter | [原始链接](https://easylist-downloads.adblockplus.org/easylist.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/EasyList.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/EasyList.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/EasyList.txt) | 2025/06/16 |
-| EasyList China | filter | [原始链接](https://easylist-downloads.adblockplus.org/easylistchina.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/EasyList_China.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/EasyList_China.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/EasyList_China.txt) | 2025/06/16 |
-| EasyPrivacy | filter | [原始链接](https://easylist-downloads.adblockplus.org/easyprivacy.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/EasyPrivacy.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/EasyPrivacy.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/EasyPrivacy.txt) | 2025/06/16 |
-| xinggsf mv | filter | [原始链接](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/xinggsf_mv.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/xinggsf_mv.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/xinggsf_mv.txt) | 2025/05/30 |
-| xinggsf rule | filter | [原始链接](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/xinggsf_rule.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/xinggsf_rule.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/xinggsf_rule.txt) | 2025/05/16 |
-| jiekouAD | filter | [原始链接](https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/jiekouAD.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/jiekouAD.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/jiekouAD.txt) | 2025/06/13 |
-| 1Hosts (Lite) | dns | [原始链接](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/1Hosts_(Lite).txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/1Hosts_(Lite).txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/1Hosts_(Lite).txt) | 2025/06/16 |
-| AWAvenue Ads Rule | dns | [原始链接](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/AWAvenue_Ads_Rule.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AWAvenue_Ads_Rule.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/AWAvenue_Ads_Rule.txt) | 2025/06/13 |
-| DNS-Blocklists Light | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/DNS-Blocklists_Light.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/DNS-Blocklists_Light.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/DNS-Blocklists_Light.txt) | 2025/06/16 |
-| Hblock | dns | [原始链接](https://hblock.molinero.dev/hosts_adblock.txt) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/Hblock.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/Hblock.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/Hblock.txt) | 2025/06/16 |
-| OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/OISD_Basic.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/OISD_Basic.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/OISD_Basic.txt) | 2025/06/16 |
-| StevenBlack hosts | host | [原始链接](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/StevenBlack_hosts.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/StevenBlack_hosts.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/StevenBlack_hosts.txt) | 2025/06/16 |
-| Pollock hosts | host | [原始链接](https://someonewhocares.org/hosts/hosts) | [加速链接1](https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/Pollock_hosts.txt) | [加速链接2](https://github.boki.moe/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/Pollock_hosts.txt) | [加速链接3](https://ghfast.top/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/Pollock_hosts.txt) | 2025/06/15 |
-| Hagezi Ultimate | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt) | | | | 2026/05/30 |
-| Hagezi Xiaomi | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt) | | | | 2026/05/30 |
+| AdGuard Base filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt) | | | | 2026/05/30 |
+| AdGuard Chinese filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt) | | | | 2026/05/30 |
+| AdGuard Mobile Ads filter | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/MobileFilter/sections/adservers.txt) | | | | 2026/05/30 |
+| AdGuard DNS filter | filter | [原始链接](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt) | | | | 2026/05/30 |
+| EasyList | filter | [原始链接](https://easylist-downloads.adblockplus.org/easylist.txt) | | | | 2026/05/30 |
+| EasyList China | filter | [原始链接](https://easylist-downloads.adblockplus.org/easylistchina.txt) | | | | 2026/05/30 |
+| EasyPrivacy | filter | [原始链接](https://easylist-downloads.adblockplus.org/easyprivacy.txt) | | | | 2026/05/30 |
+| CJX's Annoyance List | filter | [原始链接](https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt) | | | | 2026/05/30 |
+| xinggsf rule | filter | [原始链接](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt) | | | | 2026/05/30 |
+| xinggsf mv | filter | [原始链接](https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt) | | | | 2026/05/30 |
+| jiekouAD | filter | [原始链接](https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt) | | | | 2026/05/30 |
 | anti-AD | filter | [原始链接](https://anti-ad.net/adguard.txt) | | | | 2026/05/30 |
 | ADgk | filter | [原始链接](https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt) | | | | 2026/05/30 |
+| 大圣净化 Purple | filter | [原始链接](https://raw.githubusercontent.com/hhui64/url-filter/master/all/purple.txt) | | | | 2026/05/30 |
+| AdRules DNS List | dns | [原始链接](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt) | | | | 2026/05/30 |
+| Hagezi Light | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | | | | 2026/05/30 |
+| Hagezi Pro | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt) | | | | 2026/05/30 |
+| Hagezi Ultimate | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt) | | | | 2026/05/30 |
+| Hagezi Threat Intelligence | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt) | | | | 2026/05/30 |
+| Hagezi Anti-Piracy | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/piracy.txt) | | | | 2026/05/30 |
+| Hagezi Xiaomi | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt) | | | | 2026/05/30 |
+| Hagezi Apple | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt) | | | | 2026/05/30 |
+| Hagezi Huawei | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt) | | | | 2026/05/30 |
+| Hagezi TikTok | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt) | | | | 2026/05/30 |
+| 1Hosts Lite | dns | [原始链接](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt) | | | | 2026/05/30 |
+| OISD Full | dns | [原始链接](https://abp.oisd.nl/) | | | | 2026/05/30 |
+| AWAvenue Ads Rule | dns | [原始链接](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt) | | | | 2026/05/30 |
+| Hblock | dns | [原始链接](https://hblock.molinero.dev/hosts_adblock.txt) | | | | 2026/05/30 |
+| BlockListProject Ads | dns | [原始链接](https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt) | | | | 2026/05/30 |
+| BlockListProject Tracking | dns | [原始链接](https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt) | | | | 2026/05/30 |
+| Peter Lowe | dns | [原始链接](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext) | | | | 2026/05/30 |
 | AdAway | host | [原始链接](https://adaway.org/hosts.txt) | | | | 2026/05/30 |
 | GoodbyeAds | host | [原始链接](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt) | | | | 2026/05/30 |
 | 1024_hosts | host | [原始链接](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts) | | | | 2026/05/30 |
-| Hagezi Threat Intelligence Feeds | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt) | | | | 2026/05/30 |
-| Hagezi Anti-Piracy | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/piracy.txt) | | | | 2026/05/30 |
-| 大圣净化 Purple | filter | [原始链接](https://raw.githubusercontent.com/hhui64/url-filter/master/all/purple.txt) | | | | 2026/05/30 |
-| Hagezi Huawei IoT | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt) | | | | 2026/05/30 |
-| Hagezi Apple Telemetry | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt) | | | | 2026/05/30 |
-| Hagezi WebRTC Blocklist | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/wrtc.txt) | | | | 2026/05/30 |
-| AdRules DNS List | dns | [原始链接](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt) | | | | 2026/05/30 |
-| Hagezi Light | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | | | | 2026/05/30 |
-| Hagezi Pro | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt) | | | | 2026/05/30 |
-| Hagezi Ultimate | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt) | | | | 2026/05/30 |
-| Hagezi Xiaomi | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt) | | | | 2026/05/30 |
-| Hagezi TikTok | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt) | | | | 2026/05/30 |
-| Hagezi Apple | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt) | | | | 2026/05/30 |
-| Hagezi Huawei | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt) | | | | 2026/05/30 |
-| 1Hosts Lite | dns | [原始链接](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt) | | | | 2026/05/30 |
-| OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | | | | 2026/05/30 |
-| AWAvenue Ads Rule | dns | [原始链接](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt) | | | | 2026/05/30 |
-| Hblock | dns | [原始链接](https://hblock.molinero.dev/hosts_adblock.txt) | | | | 2026/05/30 |
-| BlockListProject Ads | dns | [原始链接](https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt) | | | | 2026/05/30 |
-| BlockListProject Tracking | dns | [原始链接](https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt) | | | | 2026/05/30 |
-| Peter Lowe | dns | [原始链接](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext) | | | | 2026/05/30 |
-| AdRules DNS List | dns | [原始链接](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt) | | | | 2026/05/30 |
-| Hagezi Light | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | | | | 2026/05/30 |
-| Hagezi Pro | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt) | | | | 2026/05/30 |
-| Hagezi Ultimate | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt) | | | | 2026/05/30 |
-| Hagezi Xiaomi | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt) | | | | 2026/05/30 |
-| Hagezi TikTok | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt) | | | | 2026/05/30 |
-| Hagezi Apple | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt) | | | | 2026/05/30 |
-| Hagezi Huawei | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt) | | | | 2026/05/30 |
-| 1Hosts Lite | dns | [原始链接](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt) | | | | 2026/05/30 |
-| OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | | | | 2026/05/30 |
-| AWAvenue Ads Rule | dns | [原始链接](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt) | | | | 2026/05/30 |
-| Hblock | dns | [原始链接](https://hblock.molinero.dev/hosts_adblock.txt) | | | | 2026/05/30 |
-| BlockListProject Ads | dns | [原始链接](https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt) | | | | 2026/05/30 |
-| BlockListProject Tracking | dns | [原始链接](https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt) | | | | 2026/05/30 |
-| Peter Lowe | dns | [原始链接](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext) | | | | 2026/05/30 |
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=217heidai/adblockfilters&type=Date)](https://star-history.com/#217heidai/adblockfilters&Date)
