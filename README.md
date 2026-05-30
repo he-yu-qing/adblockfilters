@@ -76,6 +76,42 @@
 | AdAway | host | [原始链接](https://adaway.org/hosts.txt) | | | | 2026/05/30 |
 | GoodbyeAds | host | [原始链接](https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Hosts/GoodbyeAds.txt) | | | | 2026/05/30 |
 | 1024_hosts | host | [原始链接](https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts) | | | | 2026/05/30 |
+| Hagezi Threat Intelligence Feeds | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt) | | | | 2026/05/30 |
+| Hagezi Anti-Piracy | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/piracy.txt) | | | | 2026/05/30 |
+| 大圣净化 Purple | filter | [原始链接](https://raw.githubusercontent.com/hhui64/url-filter/master/all/purple.txt) | | | | 2026/05/30 |
+| Hagezi Huawei IoT | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt) | | | | 2026/05/30 |
+| Hagezi Apple Telemetry | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt) | | | | 2026/05/30 |
+| Hagezi WebRTC Blocklist | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/wrtc.txt) | | | | 2026/05/30 |
+| AdRules DNS List | dns | [原始链接](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt) | | | | 2026/05/30 |
+| Hagezi Light | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | | | | 2026/05/30 |
+| Hagezi Pro | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt) | | | | 2026/05/30 |
+| Hagezi Ultimate | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt) | | | | 2026/05/30 |
+| Hagezi Xiaomi | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt) | | | | 2026/05/30 |
+| Hagezi TikTok | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt) | | | | 2026/05/30 |
+| Hagezi Apple | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt) | | | | 2026/05/30 |
+| Hagezi Huawei | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt) | | | | 2026/05/30 |
+| 1Hosts Lite | dns | [原始链接](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt) | | | | 2026/05/30 |
+| OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | | | | 2026/05/30 |
+| AWAvenue Ads Rule | dns | [原始链接](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt) | | | | 2026/05/30 |
+| Hblock | dns | [原始链接](https://hblock.molinero.dev/hosts_adblock.txt) | | | | 2026/05/30 |
+| BlockListProject Ads | dns | [原始链接](https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt) | | | | 2026/05/30 |
+| BlockListProject Tracking | dns | [原始链接](https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt) | | | | 2026/05/30 |
+| Peter Lowe | dns | [原始链接](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext) | | | | 2026/05/30 |
+| AdRules DNS List | dns | [原始链接](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt) | | | | 2026/05/30 |
+| Hagezi Light | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | | | | 2026/05/30 |
+| Hagezi Pro | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt) | | | | 2026/05/30 |
+| Hagezi Ultimate | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt) | | | | 2026/05/30 |
+| Hagezi Xiaomi | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.xiaomi.txt) | | | | 2026/05/30 |
+| Hagezi TikTok | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.tiktok.txt) | | | | 2026/05/30 |
+| Hagezi Apple | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.apple.txt) | | | | 2026/05/30 |
+| Hagezi Huawei | dns | [原始链接](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/native.huawei.txt) | | | | 2026/05/30 |
+| 1Hosts Lite | dns | [原始链接](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt) | | | | 2026/05/30 |
+| OISD Basic | dns | [原始链接](https://abp.oisd.nl/basic/) | | | | 2026/05/30 |
+| AWAvenue Ads Rule | dns | [原始链接](https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt) | | | | 2026/05/30 |
+| Hblock | dns | [原始链接](https://hblock.molinero.dev/hosts_adblock.txt) | | | | 2026/05/30 |
+| BlockListProject Ads | dns | [原始链接](https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt) | | | | 2026/05/30 |
+| BlockListProject Tracking | dns | [原始链接](https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt) | | | | 2026/05/30 |
+| Peter Lowe | dns | [原始链接](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext) | | | | 2026/05/30 |
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=217heidai/adblockfilters&type=Date)](https://star-history.com/#217heidai/adblockfilters&Date)
