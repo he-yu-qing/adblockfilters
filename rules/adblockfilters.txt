@@ -1,11 +1,11 @@
 !
 ! Title: AdBlock Filter
-! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、EasyList、EasyList China、EasyPrivacy、CJX's Annoyance List、xinggsf rule、xinggsf mv、jiekouAD、anti-AD、ADgk、大圣净化 Purple、AdRules DNS List、Hagezi Light、Hagezi Pro、Hagezi Ultimate、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、Hagezi TikTok、1Hosts Lite、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway、GoodbyeAds、1024_hosts。
+! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、EasyList、EasyList China、EasyPrivacy、CJX's Annoyance List、xinggsf rule、xinggsf mv、jiekouAD、anti-AD、ADgk、大圣净化 Purple、AdRules DNS List、Hagezi Light、Hagezi Pro、Hagezi Ultimate、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、Hagezi TikTok、1Hosts Lite、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway、GoodbyeAds、1024_hosts、jiekouAD、秋风广告过滤规则、AdGuard Allowlist。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260530191848
-! Last modified: 2026/05/30 19:18:48
-! Blocked Filters: 106364
+! Version: 20260530213728
+! Last modified: 2026/05/30 21:37:28
+! Blocked Filters: 106372
 !
 ###AC_ad
 ###AD_160
@@ -52037,10 +52037,6 @@ forum.release-apk.com#%#(()=>{document.addEventListener("DOMContentLoaded",(()=>
 forum.release-apk.com#%#//scriptlet('abort-on-property-read', 'justDetectAdblock')
 forum.release-apk.com#%#//scriptlet('trusted-replace-node-text', 'script', 'window.getComputedStyle', '/\(\n.*?window\.getComputedStyle[\s\S]*?\) \?/', '(!0) ?')
 forum.release-apk.com#@#div[data-phpbb-ads-id]
-forum.sbenny.com##.ad-wrapper2
-forum.sbenny.com##.notice-content:has(> #aff)
-forum.sbenny.com#%#//scriptlet('prevent-setTimeout', 'offsetHeight')
-forum.sbenny.com#@##adsbox
 forum.team-mediaportal.com#?#.block-container > .js-replyNewMessageContainer > div[style^="min-width: 250px; min-height: 250px;"]:has(> .adsbygoogle)
 forum.team-mediaportal.com#?#.block-container > .js-replyNewMessageContainer > div[style^="min-width:250px;min-height:250px;"]:has(> .adsbygoogle)
 forum.telefonino.net##.blz_link_container
@@ -53136,6 +53132,7 @@ gamenguide.com##.mleft > div > div.product-box1
 gamenora.com##.widget-sidebar > .kare
 gameofbay.org,pirateproxy.yt$$script[src="//go.oclasrv.com/apu.php?"][onerror="()"]
 gamepadla.com###sliderBlock:has(> .relative > .sliderBlock > .ads)
+gamepadla.com##.pMain:has(.asd_fa0ad9)
 gamepadla.com#?#.sliderBlock:contains(ADS)
 gamepadla.com#?#.sliderBlock:has-text(ADS)
 gamepedia.com##body div#content > div#atflb
@@ -55550,7 +55547,12 @@ hb.qq.com##div[style*="width:960px; height:90px;"]
 hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
 hb.xinhuanet.com##[class^="gg"],.zt
 hb163.cn##.ad_panel_980
+hboav.com##.close_box
 hboav.com#$?#.cc5278_banner_ad { remove: true; }
+hboav.com#%#//scriptlet("set-constant", "adbk", "false")
+hboav.com#%#//scriptlet("set-constant", "onload", "null")
+hboav.com#@#.close_box0
+hboav.com#@#script + div[class="cc5278_banner_ad"]
 hbr.org##.AdSlotZone_ad-container__eXYUj
 hbr.org##.PartnerCenter-module_container__w6Ige
 hbr.org##.PrimaryAd_ad-container__YHDwJ
@@ -72050,6 +72052,8 @@ powerpyx.com##.code-block-14
 powiatowa.info#?#.jm-title-wrap > .jm-title:contains(/^REKLAMA$/)
 powstream.*,stre4mplay.*,streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*###uverlay
 powstream.*,stre4mplay.*,streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*##.ad
+powvideo.net###keepFloatin
+powvideo.net##iframe[src^="//wontent.powvideo.net/apw.hh"]
 powvideo.net,streamplay.to,uxstyle.com###overlay
 poynter.org###above-the-brands
 pp.ua###id_ad_image
@@ -89641,7 +89645,7 @@ zzzyk.com###Tinfo
 ||5axxw.com/extends/ad/
 ||5dariyanews.com/images/adherecolads.jpg
 ||5dariyanews.com/images/local-classifieds-online-ad.gif
-||5dm.*/htm$image
+||5dm.*/ggjpg/
 ||5dm.link/htmI/*.gif
 ||5dm.tv/html/5dma.jpg
 ||5dm.tv/html/5dmm.jpg
@@ -94900,8 +94904,6 @@ zzzyk.com###Tinfo
 ||forum.miata.net/sp/
 ||forum.nissanklub.pl/public/700x150.gif
 ||forum.release-apk.com^$replace=/\(\n.*?window\.getComputedStyle[\s\S]*?\) \?/(!0) ?/,document
-||forum.sbenny.com/affredirect.php
-||forum.sbenny.com/js/sbenny/affiliate-links.json
 ||forum.tomshw.it/*/amazon/getdata*.php?
 ||forum.zuvio.com.tw/api/article/finish
 ||forumfree.net/js/anti_adb.js
@@ -95836,6 +95838,9 @@ zzzyk.com###Tinfo
 ||haymarket.com/injector/deliver/
 ||hb.wpmucdn.com/thirdeyemedia.wpmudev.host/5a0d26e8-7036-49f5-a883-1fcdaf372013.js
 ||hba*.hepsiburada.com^
+||hboav.com/guga/
+||hboav.com/guga/*.php$domain=5278.cc
+||hboav.com/guga/images/$xmlhttprequest,redirect=nooptext
 ||hcbbsoss.oss-cn-hangzhou.aliyuncs.com^*-banner
 ||hcbdsm.com/exo1.html
 ||hcbdsm.com/frtl.js
@@ -100841,6 +100846,9 @@ zzzyk.com###Tinfo
 ||poweredbyeden.com/widget/tracker/
 ||powforums.com/js/hta.php
 ||powvibeo.*/ben/$subdocument,~third-party
+||powvideo.net/bon/exonat.html
+||powvideo.net/bun/$important
+||powvideo.net/js/pu*/pu*.min.js?v=
 ||poxiao.com/template/default/images/12345.js
 ||ppcdn.it/iol/tracklib.3.js
 ||ppcnt.*/go.php?id=$popup
