@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、EasyList、EasyList China、EasyPrivacy、CJX's Annoyance List、xinggsf rule、xinggsf mv、jiekouAD、anti-AD、ADgk、大圣净化 Purple、AdRules DNS List、Hagezi Light、Hagezi Pro、Hagezi Ultimate、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、Hagezi TikTok、1Hosts Lite、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway、GoodbyeAds、1024_hosts、jiekouAD、秋风广告过滤规则、AdGuard Allowlist。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260601011226
-! Last modified: 2026/06/01 01:12:26
-! Blocked Filters: 106256
+! Version: 20260601115021
+! Last modified: 2026/06/01 11:50:21
+! Blocked Filters: 106253
 !
 ###AC_ad
 ###AD_160
@@ -55230,7 +55230,6 @@ gvm.com.tw##.promotion > .sp-txt
 gvm.com.tw##.promotion_ad
 gwaher.com###anti_ab
 gx.cn###html-box-AD
-gxbs.net##.big_banner,.sec_banner,[style^="width:980px; height:80px;"],[style^="width:980px;height:70px;"],[style^="width:980px;height:150px;"]
 gxeea.cn##.m-wrap-school
 gxnews.com.cn##embed[src^="http://user.hongdou.gxnews.com.cn/upload/index/201"],img[src^="http://user.hongdou.gxnews.com.cn/upload/index/201"],div#ads1,div.ads2,div#left_3_sjb,div.top2,div.top3,#top > div.top1:nth-child(2),div.m_ad,div.ad_ba,DIV#mainbody_2,DIV#header_3
 gyanipandit.com##a[href^="https://wisetrolley.com/"]
@@ -84704,8 +84703,6 @@ watch.shout-tv.com#%#//scriptlet('json-prune', 'streams.*.adUnits.*')
 watch.shout-tv.com#%#//scriptlet('m3u-prune', '-mediatailor-config-via-sdk/', '.m3u8')
 watch.sling.com#%#//scriptlet('json-prune', 'playback_info.ad_info ssai_manifest')
 watch.soccerloverss.live##.featured-post.section
-watch.spencerdevs.xyz##[href="https://zaccounts.io/"]
-watch.spencerdevs.xyz##a[href="https://zaccounts.io"]
 watchanime.video,animeporn.tube,hentaiporn.tube,hentaivideo.tv,naughtyhentai.com,hentaianime.tv,pornxxx.tv,cartoonporn.tv,hentaimovie.tv###myContent
 watchanime.video,animeporn.tube,hentaiporn.tube,hentaivideo.tv,naughtyhentai.com,hentaianime.tv,pornxxx.tv,cartoonporn.tv,hentaimovie.tv##.under-video
 watchasian.ac#?#.block > div.tab-content:has(> div[class^="ads_place_"])
