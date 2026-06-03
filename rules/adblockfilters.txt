@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、EasyList、EasyList China、EasyPrivacy、CJX's Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、xinggsf rule、xinggsf mv、jiekouAD、AdRules DNS List、DNS-Blocklists Light、Hagezi Pro、Hagezi Threat Intelligence、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、AdAway、GoodbyeAds、StevenBlack hosts、Pollock hosts、AdGuard Allowlist。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260603034744
-! Last modified: 2026/06/03 03:47:44
-! Blocked Filters: 107603
+! Version: 20260603115334
+! Last modified: 2026/06/03 11:53:34
+! Blocked Filters: 107605
 !
 ###AC_ad
 ###AD_160
@@ -52425,7 +52425,7 @@ forums.redflagdeals.com###header_billboard_bottom
 forums.redflagdeals.com###primisContainer
 forums.redflagdeals.com###primisPlayerContainerDiv
 forums.redflagdeals.com##.forum_topic_inline_bigbox
-forums.redflagdeals.com##.topic-card:has(> .sponsored-offer)
+forums.redflagdeals.com##.topiclist > .topic:has(span.sponsored)
 forums.redflagdeals.com##div[class$="_post_ad"]
 forums.redflagdeals.com##li[class^="forum_topic_inline_container_"]
 forums.sailinganarchy.com##div[data-widget-key="postcast_sponsors"]
@@ -54599,6 +54599,7 @@ globes.co.il#%#//scriptlet("set-constant", "document.blocked_var", "1")
 globimmo.net###adConH
 globimmo.net###adplus-anchor
 globimmo.net##.fAdW
+globsads.com#@#[href^="http://globsads.com/"]
 glodls.to##img[style^="width:728px;height:90px;"]
 glogow-info.pl###outer-800 > div > div[style="background:none;margin:0;width:515px;height:300px;"]
 glogow-info.pl###outer-800 > div > div[style="font-size:8px; color: grey; text-align: left;"]
@@ -67784,7 +67785,6 @@ nevcoins.club#%#//scriptlet("abort-on-property-read", "adsBlocked")
 nevcoins.club#%#//scriptlet("set-constant", "NoAdBlock", "noopFunc")
 neveitalia.it#%#//scriptlet('prevent-addEventListener', 'bugfix', 'fix')
 neveitalia.it#%#//scriptlet('prevent-element-src-loading', 'img', '/assets/images/logo-gds-bianco.svg')
-new-fmovies.cam##a[target="_blank"] > img
 new-game-apk.com/wp-content/uploads/2017/*_SLUT_18_*.gif
 new-gomovies.online##.jwplayer > div.jw-logo-top-left
 new-gomovies.online##.jwplayer > div.jw-logo-top-right
@@ -89684,6 +89684,7 @@ zzzyk.com###Tinfo
 ||120askimages.com/ask/js/q
 ||120askimages.com/ask/zhenshi/templates/pub/js/loadPart.js
 ||121.204.246.*.gif
+||121zou.com^$subdocument
 ||123-hd.com/wp-content/uploads/*/300x4*.gif
 ||123av.*/assets/ad/
 ||123du.cc/show/2/
@@ -93116,7 +93117,6 @@ zzzyk.com###Tinfo
 ||catalove.com/ntv/
 ||catbox.moe/bb5wdv.jpg
 ||catch.tube/images/pro/converter/converter.png
-||catchvideo.net/static/android-banner-full-
 ||cavecoat.top^$popup
 ||cb.com.cn/index/ad/
 ||cba.pl/min.cba.js
@@ -93440,6 +93440,7 @@ zzzyk.com###Tinfo
 ||cfgr3.com/videos/*.mp4$rewrite=abp-resource:blank-mp4,domain=hitbdsm.com
 ||cfmediaview.com/API/MV_Visit.ashx
 ||cfzhushou.com^*/King_Chance_Layer.js
+||cgdyw.net/xx/
 ||cgjnf.com/*/adsbanner
 ||cgjnf.com/movies/disk3/adsbanner/$media,redirect=noopmp4-1s
 ||cgtn.com/api/collect/
@@ -95666,6 +95667,7 @@ zzzyk.com###Tinfo
 ||fjuga.top
 ||fkf5.com/public/js/static.js
 ||fkxs.net/tops/
+||fl6n.com/adtop/
 ||flaanation.com/uploads/banners/
 ||flac24bitmusic.com/uploads/headerbaner.gif
 ||flac24bitmusic.com/uploads/pryamo.gif
