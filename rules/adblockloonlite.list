@@ -1,14 +1,14 @@
 #
 #!name=AdBlock Loon Lite
-#!desc=适用于 Loon 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Xtra)。Lite 版仅针对国内域名拦截。
+#!desc=适用于 Loon 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。Lite 版仅针对国内域名拦截。
 #!homepage=https://github.com/217heidai/adblockfilters
 #!raw-url=https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockloonlite.list
 #!tag=AdBlock, 217heidai
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/06/04 22:35:15
-#!support=26355
+#!date=2026/06/04 23:24:35
+#!support=26346
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,server.000444.cn
@@ -484,9 +484,7 @@ DOMAIN-SUFFIX,ipv4.music.163.com
 DOMAIN-SUFFIX,ir-sdk.dun.163.com
 DOMAIN-SUFFIX,ir.mail.163.com
 DOMAIN-SUFFIX,irpmt.mail.163.com
-DOMAIN-SUFFIX,lofter.httpdns.c.163.com
 DOMAIN-SUFFIX,log.uu.163.com
-DOMAIN-SUFFIX,music.httpdns.c.163.com
 DOMAIN-SUFFIX,n.3g.163.com
 DOMAIN-SUFFIX,netapm.music.163.com
 DOMAIN-SUFFIX,nex.163.com
@@ -4794,24 +4792,14 @@ DOMAIN-SUFFIX,bcd-sougou.com.cn
 DOMAIN-SUFFIX,bcd-youdao.com.cn
 DOMAIN-SUFFIX,bcde.hl.cn
 DOMAIN-SUFFIX,aod-image-material.cdn.bcebos.com
-DOMAIN-SUFFIX,baiducom.bj.bcebos.com
 DOMAIN-SUFFIX,cms-image.cdn.bcebos.com
 DOMAIN-SUFFIX,cpu-baidu-com-block.cdn.bcebos.com
-DOMAIN-SUFFIX,dd713.bj.bcebos.com
-DOMAIN-SUFFIX,dingbu.bj.bcebos.com
 DOMAIN-SUFFIX,fc-feed.cdn.bcebos.com
-DOMAIN-SUFFIX,gg88.bj.bcebos.com
 DOMAIN-SUFFIX,global-staticplat.cdn.bcebos.com
-DOMAIN-SUFFIX,huiboimg.bj.bcebos.com
 DOMAIN-SUFFIX,kuailian0001.cdn.bcebos.com
 DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com
 DOMAIN-SUFFIX,pmp-ad.cdn.bcebos.com
-DOMAIN-SUFFIX,qwe0231141.bj.bcebos.com
-DOMAIN-SUFFIX,seonn199.bj.bcebos.com
 DOMAIN-SUFFIX,shijuezhongguo.cdn.bcebos.com
-DOMAIN-SUFFIX,tob-cms.bj.bcebos.com
-DOMAIN-SUFFIX,vv84.bj.bcebos.com
-DOMAIN-SUFFIX,wenku-cms.bj.bcebos.com
 DOMAIN-SUFFIX,wzjs.cdn.bcebos.com
 DOMAIN-SUFFIX,wzjs2.cdn.bcebos.com
 DOMAIN-SUFFIX,httpdns.bcelive.com
@@ -16201,6 +16189,7 @@ DOMAIN-SUFFIX,klaytno.mytokenpocket.vip
 DOMAIN-SUFFIX,mytzdhz.cn
 DOMAIN-SUFFIX,mywarworld.cn
 DOMAIN-SUFFIX,mywlkj.com
+DOMAIN-SUFFIX,adm.myzaker.com
 DOMAIN-SUFFIX,ggs.myzaker.com
 DOMAIN-SUFFIX,gstat.myzaker.com
 DOMAIN-SUFFIX,myip.myzaker.com
@@ -18547,6 +18536,7 @@ DOMAIN-SUFFIX,qp-kuailian.com.cn
 DOMAIN-SUFFIX,qpguaxianshiyongzaifukuan.com.cn
 DOMAIN-SUFFIX,gvideo.qpic.cn
 DOMAIN-SUFFIX,mmgame.qpic.cn
+DOMAIN-SUFFIX,puui.qpic.cn
 DOMAIN-SUFFIX,qpiu.cn
 DOMAIN-SUFFIX,qpk-bite.com.cn
 DOMAIN-SUFFIX,qpk-sogou.com.cn
@@ -20472,6 +20462,7 @@ DOMAIN-SUFFIX,qpb.sohu.com
 DOMAIN-SUFFIX,qpb0.sohu.com
 DOMAIN-SUFFIX,qpb1.sohu.com
 DOMAIN-SUFFIX,reke.at.sohu.com
+DOMAIN-SUFFIX,s.go.sohu.com
 DOMAIN-SUFFIX,stat.m.tv.sohu.com
 DOMAIN-SUFFIX,track.sohu.com
 DOMAIN-SUFFIX,upgrade.m.tv.sohu.com

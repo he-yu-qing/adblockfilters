@@ -1,11 +1,11 @@
 #
 # Title: AdBlock Shadowrocket Lite
-# Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Xtra)。Lite 版仅针对国内域名拦截。
+# Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20260604223516
-# Last modified: 2026/06/04 22:35:16
-# Blocked domains: 26355
+# Version: 20260604232436
+# Last modified: 2026/06/04 23:24:36
+# Blocked domains: 26346
 #
 [Rule]
 DOMAIN-SUFFIX,server.000444.cn,REJECT-DROP
@@ -481,9 +481,7 @@ DOMAIN-SUFFIX,ipv4.music.163.com,REJECT-DROP
 DOMAIN-SUFFIX,ir-sdk.dun.163.com,REJECT-DROP
 DOMAIN-SUFFIX,ir.mail.163.com,REJECT-DROP
 DOMAIN-SUFFIX,irpmt.mail.163.com,REJECT-DROP
-DOMAIN-SUFFIX,lofter.httpdns.c.163.com,REJECT-DROP
 DOMAIN-SUFFIX,log.uu.163.com,REJECT-DROP
-DOMAIN-SUFFIX,music.httpdns.c.163.com,REJECT-DROP
 DOMAIN-SUFFIX,n.3g.163.com,REJECT-DROP
 DOMAIN-SUFFIX,netapm.music.163.com,REJECT-DROP
 DOMAIN-SUFFIX,nex.163.com,REJECT-DROP
@@ -4791,24 +4789,14 @@ DOMAIN-SUFFIX,bcd-sougou.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,bcd-youdao.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,bcde.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,aod-image-material.cdn.bcebos.com,REJECT-DROP
-DOMAIN-SUFFIX,baiducom.bj.bcebos.com,REJECT-DROP
 DOMAIN-SUFFIX,cms-image.cdn.bcebos.com,REJECT-DROP
 DOMAIN-SUFFIX,cpu-baidu-com-block.cdn.bcebos.com,REJECT-DROP
-DOMAIN-SUFFIX,dd713.bj.bcebos.com,REJECT-DROP
-DOMAIN-SUFFIX,dingbu.bj.bcebos.com,REJECT-DROP
 DOMAIN-SUFFIX,fc-feed.cdn.bcebos.com,REJECT-DROP
-DOMAIN-SUFFIX,gg88.bj.bcebos.com,REJECT-DROP
 DOMAIN-SUFFIX,global-staticplat.cdn.bcebos.com,REJECT-DROP
-DOMAIN-SUFFIX,huiboimg.bj.bcebos.com,REJECT-DROP
 DOMAIN-SUFFIX,kuailian0001.cdn.bcebos.com,REJECT-DROP
 DOMAIN-SUFFIX,mobads-pre-config.cdn.bcebos.com,REJECT-DROP
 DOMAIN-SUFFIX,pmp-ad.cdn.bcebos.com,REJECT-DROP
-DOMAIN-SUFFIX,qwe0231141.bj.bcebos.com,REJECT-DROP
-DOMAIN-SUFFIX,seonn199.bj.bcebos.com,REJECT-DROP
 DOMAIN-SUFFIX,shijuezhongguo.cdn.bcebos.com,REJECT-DROP
-DOMAIN-SUFFIX,tob-cms.bj.bcebos.com,REJECT-DROP
-DOMAIN-SUFFIX,vv84.bj.bcebos.com,REJECT-DROP
-DOMAIN-SUFFIX,wenku-cms.bj.bcebos.com,REJECT-DROP
 DOMAIN-SUFFIX,wzjs.cdn.bcebos.com,REJECT-DROP
 DOMAIN-SUFFIX,wzjs2.cdn.bcebos.com,REJECT-DROP
 DOMAIN-SUFFIX,httpdns.bcelive.com,REJECT-DROP
@@ -16198,6 +16186,7 @@ DOMAIN-SUFFIX,klaytno.mytokenpocket.vip,REJECT-DROP
 DOMAIN-SUFFIX,mytzdhz.cn,REJECT-DROP
 DOMAIN-SUFFIX,mywarworld.cn,REJECT-DROP
 DOMAIN-SUFFIX,mywlkj.com,REJECT-DROP
+DOMAIN-SUFFIX,adm.myzaker.com,REJECT-DROP
 DOMAIN-SUFFIX,ggs.myzaker.com,REJECT-DROP
 DOMAIN-SUFFIX,gstat.myzaker.com,REJECT-DROP
 DOMAIN-SUFFIX,myip.myzaker.com,REJECT-DROP
@@ -18544,6 +18533,7 @@ DOMAIN-SUFFIX,qp-kuailian.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,qpguaxianshiyongzaifukuan.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,gvideo.qpic.cn,REJECT-DROP
 DOMAIN-SUFFIX,mmgame.qpic.cn,REJECT-DROP
+DOMAIN-SUFFIX,puui.qpic.cn,REJECT-DROP
 DOMAIN-SUFFIX,qpiu.cn,REJECT-DROP
 DOMAIN-SUFFIX,qpk-bite.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,qpk-sogou.com.cn,REJECT-DROP
@@ -20469,6 +20459,7 @@ DOMAIN-SUFFIX,qpb.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,qpb0.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,qpb1.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,reke.at.sohu.com,REJECT-DROP
+DOMAIN-SUFFIX,s.go.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,stat.m.tv.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,track.sohu.com,REJECT-DROP
 DOMAIN-SUFFIX,upgrade.m.tv.sohu.com,REJECT-DROP

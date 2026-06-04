@@ -1,11 +1,11 @@
 #
 # Title: AdBlock DNSMasq Lite
-# Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Xtra)。Lite 版仅针对国内域名拦截。
+# Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20260604223515
-# Last modified: 2026/06/04 22:35:15
-# Blocked domains: 26355
+# Version: 20260604232434
+# Last modified: 2026/06/04 23:24:34
+# Blocked domains: 26346
 #
 local=/server.000444.cn/
 local=/status.007yp.com/
@@ -480,9 +480,7 @@ local=/ipv4.music.163.com/
 local=/ir-sdk.dun.163.com/
 local=/ir.mail.163.com/
 local=/irpmt.mail.163.com/
-local=/lofter.httpdns.c.163.com/
 local=/log.uu.163.com/
-local=/music.httpdns.c.163.com/
 local=/n.3g.163.com/
 local=/netapm.music.163.com/
 local=/nex.163.com/
@@ -4790,24 +4788,14 @@ local=/bcd-sougou.com.cn/
 local=/bcd-youdao.com.cn/
 local=/bcde.hl.cn/
 local=/aod-image-material.cdn.bcebos.com/
-local=/baiducom.bj.bcebos.com/
 local=/cms-image.cdn.bcebos.com/
 local=/cpu-baidu-com-block.cdn.bcebos.com/
-local=/dd713.bj.bcebos.com/
-local=/dingbu.bj.bcebos.com/
 local=/fc-feed.cdn.bcebos.com/
-local=/gg88.bj.bcebos.com/
 local=/global-staticplat.cdn.bcebos.com/
-local=/huiboimg.bj.bcebos.com/
 local=/kuailian0001.cdn.bcebos.com/
 local=/mobads-pre-config.cdn.bcebos.com/
 local=/pmp-ad.cdn.bcebos.com/
-local=/qwe0231141.bj.bcebos.com/
-local=/seonn199.bj.bcebos.com/
 local=/shijuezhongguo.cdn.bcebos.com/
-local=/tob-cms.bj.bcebos.com/
-local=/vv84.bj.bcebos.com/
-local=/wenku-cms.bj.bcebos.com/
 local=/wzjs.cdn.bcebos.com/
 local=/wzjs2.cdn.bcebos.com/
 local=/httpdns.bcelive.com/
@@ -16197,6 +16185,7 @@ local=/klaytno.mytokenpocket.vip/
 local=/mytzdhz.cn/
 local=/mywarworld.cn/
 local=/mywlkj.com/
+local=/adm.myzaker.com/
 local=/ggs.myzaker.com/
 local=/gstat.myzaker.com/
 local=/myip.myzaker.com/
@@ -18543,6 +18532,7 @@ local=/qp-kuailian.com.cn/
 local=/qpguaxianshiyongzaifukuan.com.cn/
 local=/gvideo.qpic.cn/
 local=/mmgame.qpic.cn/
+local=/puui.qpic.cn/
 local=/qpiu.cn/
 local=/qpk-bite.com.cn/
 local=/qpk-sogou.com.cn/
@@ -20468,6 +20458,7 @@ local=/qpb.sohu.com/
 local=/qpb0.sohu.com/
 local=/qpb1.sohu.com/
 local=/reke.at.sohu.com/
+local=/s.go.sohu.com/
 local=/stat.m.tv.sohu.com/
 local=/track.sohu.com/
 local=/upgrade.m.tv.sohu.com/
