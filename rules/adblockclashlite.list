@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20260605022424
-# Last modified: 2026/06/05 02:24:24
-# Blocked domains: 26341
+# Version: 20260605113905
+# Last modified: 2026/06/05 11:39:05
+# Blocked domains: 26338
 #
 [Rule]
 DOMAIN-SUFFIX,server.000444.cn,REJECT-DROP
@@ -920,10 +920,10 @@ DOMAIN-SUFFIX,ad.jia.360.cn,REJECT-DROP
 DOMAIN-SUFFIX,ad.life.360.cn,REJECT-DROP
 DOMAIN-SUFFIX,agd.p.360.cn,REJECT-DROP
 DOMAIN-SUFFIX,agd2.p.360.cn,REJECT-DROP
-DOMAIN-SUFFIX,browser.360.cn,REJECT-DROP
 DOMAIN-SUFFIX,c.mse.360.cn,REJECT-DROP
 DOMAIN-SUFFIX,c.sayhi.360.cn,REJECT-DROP
 DOMAIN-SUFFIX,care.help.360.cn,REJECT-DROP
+DOMAIN-SUFFIX,dd.browser.360.cn,REJECT-DROP
 DOMAIN-SUFFIX,down.360.cn,REJECT-DROP
 DOMAIN-SUFFIX,f.360.cn,REJECT-DROP
 DOMAIN-SUFFIX,fenxi.360.cn,REJECT-DROP
@@ -1265,7 +1265,6 @@ DOMAIN-SUFFIX,wqapp.50cms.com,REJECT-DROP
 DOMAIN-SUFFIX,50tt.com,REJECT-DROP
 DOMAIN-SUFFIX,51.com,REJECT-DROP
 DOMAIN-SUFFIX,51.la,REJECT-DROP
-DOMAIN-SUFFIX,ads.51.net,REJECT-DROP
 DOMAIN-SUFFIX,511a.cn,REJECT-DROP
 DOMAIN-SUFFIX,511cwpt.com,REJECT-DROP
 DOMAIN-SUFFIX,511hs.com,REJECT-DROP
@@ -4251,7 +4250,6 @@ DOMAIN-SUFFIX,atelier-mobilier.com,REJECT-DROP
 DOMAIN-SUFFIX,aiseet.aa.atianqi.com,REJECT-DROP
 DOMAIN-SUFFIX,atlasds.cn,REJECT-DROP
 DOMAIN-SUFFIX,atlggfy.cn,REJECT-DROP
-DOMAIN-SUFFIX,atobo.com,REJECT-DROP
 DOMAIN-SUFFIX,uc2.atobo.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,atomscience.cn,REJECT-DROP
 DOMAIN-SUFFIX,atpanel.com,REJECT-DROP
@@ -5093,6 +5091,7 @@ DOMAIN-SUFFIX,bitget-pxn.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,bitget-txr.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,bitget-ycf.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,bitgetfv.com.cn,REJECT-DROP
+DOMAIN-SUFFIX,www.bitgetwallet.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,bitpue.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,bixinqianbaoapp.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,img11.biyan8.com,REJECT-DROP
@@ -13239,7 +13238,6 @@ DOMAIN-SUFFIX,jpg2.cn,REJECT-DROP
 DOMAIN-SUFFIX,jpgarden.cn,REJECT-DROP
 DOMAIN-SUFFIX,jpl-whatsapp.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,jpmorganpayments.cn,REJECT-DROP
-DOMAIN-SUFFIX,jpnbnm.cn,REJECT-DROP
 DOMAIN-SUFFIX,jprqx-whatsapp.hl.cn,REJECT-DROP
 DOMAIN-SUFFIX,jpush.cn,REJECT-DROP
 DOMAIN-SUFFIX,jpush.io,REJECT-DROP
@@ -26137,7 +26135,6 @@ DOMAIN-SUFFIX,stat.zol.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,wappv.zol.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,ydjs.zol.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,zombieden.cn,REJECT-DROP
-DOMAIN-SUFFIX,static.zongheng.com,REJECT-DROP
 DOMAIN-SUFFIX,zonst.com,REJECT-DROP
 DOMAIN-SUFFIX,zoo-zoom.com.cn,REJECT-DROP
 DOMAIN-SUFFIX,zooj.cn,REJECT-DROP
