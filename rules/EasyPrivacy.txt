@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606060235
+! Version: 202606060948
 ! Title: EasyPrivacy
-! Last modified: 06 Jun 2026 02:35 UTC
+! Last modified: 06 Jun 2026 09:48 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 05de65e1d3fe94fcc476272878ba6f1ccd2e75c1
+! Commit: c043625505108e49669cbc2e472c4faccd9b8d60
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16768,6 +16768,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||googleusercontent.com/*/wf/open?upn=$image
 ! OpenTable
 ://track.opentable.
+! https://github.com/uBlockOrigin/uAssets/issues/33186
+://tralut.*/collect/value?
+://tralut.*/js/script-dynamic.js
+://tralut.*/js/tracking.js
 ! Vinted
 ://www.vinted.*/relay/events
 ! akamaihd.net
@@ -55731,6 +55735,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
+@@||dwt.soundcloud.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=soundcloud.com
 @@||gva.et-gv.fr^$script,domain=culture.gouv.fr
 @@||mycleverpush.com/iframe?$domain=bsdex.de
 @@||n8s.jp^$script,domain=nikkei.com
