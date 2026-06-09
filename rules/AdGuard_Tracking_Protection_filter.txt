@@ -79311,6 +79311,33 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||alt.cobweb.com^
+||analytics.learndirect.com^
+||ctm.turnbull-scott.co.uk^
+||data.deschouwwitgoed.nl^
+||metrics.nautilus2.pl^
+||sst.amweb.nl^
+||sst.beckhuis.com^
+||sst.bike-eu.com^
+||sst.charrell.be^
+||sst.dearchitect.nl^
+||sst.desko.nl^
+||sst.distrifood.nl^
+||sst.missethoreca.nl^
+||sst.msm.nl^
+||sst.onlineveilingmeester.nl^
+||sst.parkingcentrumoosterdok.nl^
+||sst.salarisnet.nl^
+||sst.stickerei-stoiber.ch^
+||sst.stickerei-stoiber.de^
+||tagging.trined.nl^
+||tagging.utwente.nl^
+||tagging.voordeelvanger.nl^
+||tggng.suitable.de^
+||tds.vss-security.nl^
+||tracking.vbr.ru^
+||track.shiksha.com^
+||stats.sailtheship.xyz^
 ||analytics.oeksound.com^
 ||dd.qwant.com^
 ||k.qwant.com^
@@ -181416,6 +181443,7 @@ zonedirector.avadacom.com$image
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
 !
+.js?tg=$~third-party
 /advanced-ads-tracking/assets/dist/ga-tracking.js
 /hit-track.php
 /wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics/*
@@ -181490,7 +181518,6 @@ zonedirector.avadacom.com$image
 &cx=c&gtm=
 &ep.analytics_storage=
 /*JmVu.js?sp=
-/*JmVu.js?tg=
 /plugins/tagging/*
 /tag/proxy?id=G-
 /user-data-minified.$script
@@ -182232,6 +182259,9 @@ mexc.com#%#//scriptlet('set-local-storage-item', '_yjsu_yjad', '$remove$')
 !
 ! NOTE: Specific rules
 !
+||shuba.life/api/views
+||cdn.viberu.ru/dist/tracking.*.js
+||rugbypass.com/api/tracking/
 ||static0.pocketlintimages.com/assets/sentinel-events-tracker.*.js
 ||dulo.tv/api/ping
 ||happycow.net/analytics_socket|
@@ -191369,6 +191399,8 @@ d4?appid*type*
 !
 !
 !
+! https://github.com/uBlockOrigin/uAssets/issues/33222
+@@||cdn.petametrics.com^$script,domain=meidasnews.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139956
 @@||smetrics.airmiles.ca/*identity/acquire?$domain=oauth.airmiles.ca
 ! https://aswbe.ana.co.jp/webapps/reservation/payment-input
@@ -197166,6 +197198,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||idlecollect.com^
 ||illinvention.com^
 ||illustriousoatmeal.com^
+||imagebuffer.com^
 ||imagecutie.com^
 ||immensehoney.com^
 ||imminentshake.com^
