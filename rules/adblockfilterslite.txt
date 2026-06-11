@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260611202026
-! Last modified: 2026/06/11 20:20:26
+! Version: 20260612025618
+! Last modified: 2026/06/12 02:56:18
 ! Blocked Filters: 185569
 !
 ###-CookieConsentContainer
@@ -60687,7 +60687,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||googletagmanager.com/gtm.js$domain=thethaiger.com
 @@||googletagmanager.com/gtm.js$domain=tomshw.it
 @@||googletagmanager.com/gtm.js$domain=traum-ferienwohnungen.de
-@@||googletagmanager.com/gtm.js$domain=tribuna.com
 @@||googletagmanager.com/gtm.js$domain=turkcell.com.tr
 @@||googletagmanager.com/gtm.js$domain=tv-asahi.co.jp
 @@||googletagmanager.com/gtm.js$domain=type.jp
@@ -162648,7 +162647,6 @@ link.smartrecruiters.resillion.com$image
 link.smartrecruiters.talan.com$image
 link.smithandfamily.com$image
 link.snipcash.com$$script:contains(urlPC)
-link.snipcash.com,paymoney.click,tm-earn.com#%#//scriptlet('abort-on-property-read', 'open')
 link.snowboardingforum.com$image
 link.solflare.com$image
 link.somfy.com$image
@@ -164460,7 +164458,6 @@ marketingcloud-np.delltechnologies.com$image
 marketscreener.com,zonebourse.com##div[style="width: 100%;"] > #zppMiddle2
 marktplaats.nl,mijnaegonpensioen.nl#@##socialButtons
 marriott.com,sandiegouniontribune.com,walb.com##.action-bar
-mashentai.com,xfeed.com,hqfap.com,telugusexkathalu.com,pornjav.tv,xv-ru.com,xvideos.com,xnxx.com,pmvhaven.com#%#//scriptlet('abort-on-property-read', 'exoJsPop101')
 maslife.es,piensoluegoactuo.com###container_opacity
 masrawy.com,yallakora.com###izooto-optin
 massfans.cc,massrips.cc###banner
@@ -169958,6 +169955,7 @@ satkurier.pl,solarkurier.pl,tulodz.pl##body,html:style(overflow: auto !important
 sauto.cz#@?#ul:has(.c-item) > :not(.c-item)
 savefree.in,surattimes.com##.bn-content
 savills.*##.sv-cookie-management
+sazwe.com,link.snipcash.com,paymoney.click,tm-earn.com#%#//scriptlet('abort-on-property-read', 'open')
 sberbank.com,sberbank.ru##.cookies-nova
 sberbank.com,sberbank.ru##div[class^="CookieWarning-"]
 sbs-mkt-stage1-res.adobe-campaign.com$image
@@ -176802,6 +176800,7 @@ xperiablog.net,burningangel.com#@#.header-ad
 xpgod.com##.gg,.gg2
 xpornotubes.com,dildoxxxtube.com,oxotube.com###ubr
 xprime4u.*,movies4u.*##.onclick-input
+xpxp.eu,mashentai.com,xfeed.com,hqfap.com,telugusexkathalu.com,pornjav.tv,xv-ru.com,xvideos.com,xnxx.com,pmvhaven.com#%#//scriptlet('abort-on-property-read', 'exoJsPop101')
 xsexvideos.pro,mature-tube.sexy#%#(function(){var b=window.setTimeout;window.setTimeout=function(a,c){if(!/window\.location\.href = ("\/sell\.php"|popURL)/.test(a.toString()))return b(a,c)};})();
 xsexvideos.pro,mature-tube.sexy#%#//scriptlet('prevent-setTimeout', '/window\.location\.href = ("\/sell\.php"|popURL)/')
 xsexvideos.pro,mature-tube.sexy,pornpipi.com###myads
@@ -177446,6 +177445,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||101.ru^$cookie=uniqClientId
 ||1024wanzhai.
 ||1024wanzhai.$popup,third-party
+||103.179.189.35^$network
 ||106.15.205.174/api^
 ||107.167.16.*.gif
 ||107.167.22.*.gif
