@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260613021536
-! Last modified: 2026/06/13 02:15:36
-! Blocked Filters: 264808
+! Version: 20260613113607
+! Last modified: 2026/06/13 11:36:07
+! Blocked Filters: 264803
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -38261,7 +38261,6 @@
 ##.sponsored-ad-label
 ##.sponsored-add
 ##.sponsored-ads
-##.sponsored-article
 ##.sponsored-article-item
 ##.sponsored-article-widget
 ##.sponsored-block
@@ -94468,6 +94467,7 @@ downloadhub.host##a[target="_blank"] > img[width="300"][height="300"]
 downloadingadda.com#?#.inside-right-sidebar > aside[id^="custom_html-"]:has(> .textwidget)
 downloadpirate.com##.entry-content > center
 downloadprivacy.com##div[data-styleslug="top-vpn-offers"]
+downloads-anymovies.com###e15
 downloads.codefi.re###spo
 downloads.codefi.re###spo2
 downloadtimecalculator.com##.desktophead
@@ -185827,7 +185827,7 @@ get-to.link###genesis-modal
 get-to.link###hover-message
 get-to.link#%#//scriptlet("prevent-window-open", "exdynsrv.com")
 get-to.link#%#//scriptlet('prevent-element-src-loading', 'script', 'prebid.revbid.net')
-get.it.com###termsfeed-pc1-notice-banner
+get.it.com,pensionplanpuppets.com###termsfeed-pc1-notice-banner
 get.pixelexperience.org##.mantine-arewlw
 get.popmenu.com,intellum.com,wi-fi.org###pi_tracking_opt_in_div
 getAds|
@@ -187534,9 +187534,6 @@ gq.com,them.us##.journey-unit__container
 gq.com.au##.ffNDsR
 gqindia.com##.topadbnr
 gr8.cc,psycatgames.com##.sticky-banner
-grab.tc##a[href^="https://youhodler.g2afse.com/click?pid="]
-grab.tc#%#//scriptlet("set-constant", "NoAdBlock", "noopFunc")
-grab.tc#%#//scriptlet("set-constant", "noAdBlock.on", "noopFunc")
 grabcad.com##[ng-if="model.asense"]
 grabon.in##.go-cstm-bnr
 grabone.co.nz##.main-footer__subscribe
@@ -205674,7 +205671,6 @@ multiplayer.it#@#.banner_ads
 multiplesclerosisnewstoday.com##.bio-lead-form
 multiplication.com##.slug
 multirbl.valli.org###lo-ads
-multiup.io#$?#.content-body > form[method="POST"][action^="https://multinews.me/"] { remove: true; }
 multiup.org###__admvnlb__modal_container
 multiup.org###admvpu
 multiup.org##.content-body > .alert-info
@@ -215693,7 +215689,6 @@ pron.tv##.nomobile
 pronouns.page##.adsinternal
 pronouns.page##.cc-modal
 pronouns.page##.d-block
-pronpic.org##.teaser
 pronto.com.ar##.header--redes
 proofpoint.com##.sharethis_toolbox
 propay.be##.accept_cookies_wrapper
@@ -217829,6 +217824,7 @@ reference.medscape.com#%#//scriptlet("set-constant", "webmd.ads2.setPageTarget",
 referrer.disqus.com$image
 refinery29.com##aside
 reflex.cz#@%#//scriptlet('ubo-acis.js', 'atob')
+refooty.com##.ad-placement-wrapper
 refurbed.at,refurbed.de,refurbed.dk,refurbed.fr,refurbed.ie,refurbed.it,refurbed.nl,refurbed.se##.bg-refurbed-blue
 refurbished.at,refurbished.be,refurbished.nl,refurbishedstore.de##+js(set-cookie, COOKIE_CONSENT, 1, , reload, 1)
 refurbished.at,refurbished.be,refurbished.nl,refurbishedstore.de##+js(set-cookie, COOKIE_MARKETING, false)
@@ -237055,6 +237051,7 @@ weverse.io###wevConsentManagerLayer
 weverse.io##.CookieAgreeView_container__qYaK3
 wevisit.com.br##.et_bloom_popup
 wewantjusticedao.org##+js(set-cookie, gdpr-analytics-enabled, false)
+weworkremotely.com##.feature--ad
 wfaa.com,wkyc.com##+js(rc, video__docker_state_docked, , stay)
 wfmz.com###tncms-region-front-featured-top
 wfmz.com#@#.tnt-dmp-reactive
@@ -251128,7 +251125,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||hosted.muses.org/mrp.js$domain=flamecomics.xyz|mgeko.cc
 ||hostedmovieupdates.aebn.net^$domain=datingpornstar.com
 ||hostingcloud.*.wasm^
-||hostingcloud.party
 ||hostinger.$removeparam=session
 ||hostinger.com/api-proxy/api/sentry/
 ||hostmath.com/Js/PromptShowAD.js
@@ -253399,7 +253395,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||legacy.com/globalscripts/tracking/
 ||legacy.com^*/unicaclicktracking.js?
 ||leggo.it/index.php?$image
-||legitonlinejobs.com/images/$third-party
 ||legitscript.com/seals/$script
 ||lego.com/api/dl-event-ingest
 ||leguide.com/js/lgtrk-*.js
@@ -261609,7 +261604,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||tracking-*.trnox.com^
 ||tracking-v*.a.run.app^
 ||tracking.*.miui.com^
-||tracking.cds.dmm.
+||tracking.cds.dmm.$image
 ||tracking.geo.*.amazonaws.com^
 ||tracking.ibotta-classic.ipn-ops.net^$app=com.ibotta.android
 ||tracking.miui.com
@@ -262397,7 +262392,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ventunotech.com/beacon/
 ||veo-hentai.com/wp-content/plugins/veohentai/popunder-unificado.js
 ||veodys.fr/api/cmp/
-||ver.gratis^$~image,domain=fulltv.com.ar|fulltv.tv|fulltv.com.mx
 ||vercanalestv.com/ad300.html$important
 ||vercanalestv.com/publimia.html$important
 ||vercel.app/ads/
@@ -263115,6 +263109,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||wetransfer.zendesk.com^$removeparam=amp%3Butm_medium
 ||wetransfer.zendesk.com^$removeparam=amp%3Butm_source
 ||wettigo136.com^$popup
+||weworkremotely.com/listing_ads/8/impression?
 ||weworkremotely.com^$third-party
 ||wfiles.hcomic.net/indexSwiper/*_*x*_*_TC_gif.gif
 ||wfla.com/CvbtpUrj/init.js
