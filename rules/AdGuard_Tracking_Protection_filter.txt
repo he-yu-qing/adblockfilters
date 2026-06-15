@@ -79380,7 +79380,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ||sas.f.peacocktv.com^
 ||sas.f.stable-int.peacocktv.com^
 ||sas.int-nft.peacocktv.com^
-||sas.peacocktv.com^
 ||sas.stable-int.peacocktv.com^
 ||goto.simplywall.st^
 ||swssp.simplywall.st^
@@ -182264,6 +182263,7 @@ mexc.com#%#//scriptlet('set-local-storage-item', '_yjsu_yjad', '$remove$')
 !
 ! NOTE: Specific rules
 !
+||hdrezka.ax/api/logs/event
 ||assets.poool.fr/engage.min.js
 ||usine-digitale.fr/pf/resources/newrelic.js
 ||advertising.amazon.dev/v1/ad-events/
@@ -191425,6 +191425,8 @@ d4?appid*type*
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/233239
+@@||cdn.optimizely.com/datafiles/*.json$domain=bbc.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233440
 @@||app.lyrebirdhealth.com/_app/immutable/chunks/google-analytics*.js$domain=app.lyrebirdhealth.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/233404
