@@ -572,7 +572,6 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ||analytics.ekonsilio.io^
 ||insights.xyba.dev^
 ||sts.marketingsuite.jp^
-||image-sap.sfmc-content.com^
 ||umami.vidup.to^
 ||umami.vidfast.pro^
 ||umami.vidcore.net^
@@ -80987,6 +80986,7 @@ prd.api.bleacherreport.com^
 ||sgtm.simoahava.com^
 ||lists.ccmbg.com^
 ||track-srv.vietnamnet.vn^
+||stw.zone-telechargement.
 ||stats.zone-telechargement.
 ||stats.tirexo.blue^
 ||intake-analytics.wikimedia.org^
@@ -185258,7 +185258,6 @@ ciudad.com.ar###cxense-wrapper
 ||yastatic.net/*/rsya-tag-users/
 ||lifenewsjr.com/xstat/
 ||api.solvvy.com/v1/pixels/track
-androplus.org##a[href^="https://px.a8.net/"]
 ||statistics.aldi-international.com/ppms.js
 ||iolam.it/service/trk
 ||inzynieria.com/addStats
@@ -188149,6 +188148,12 @@ adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_i
 ! Bad:  ||example.com^$cookie=flat_r_mb (should be in cookies_specific.txt)
 !
 !
+! Cloudflare Zaraz
+$cookie=cfz_adobe
+$cookie=cfz_facebook
+$cookie=cfz_google-analytics_v4
+$cookie=cfz_reddit
+$cookie=cfz_facebook-pixel
 ! Newspack
 $cookie=newspack-cid
 ! AppsFlyer
@@ -189033,6 +189038,8 @@ $cookie=bf_visit
 ! Bad:  ||monerominer.rocks^$third-party (should be in adservers.txt)
 !
 !
+! dugun.com
+||dugun.com^$cookie=uniqueId
 ! matchtv.ru
 ||matchtv.ru^$cookie=spbc_uuid
 ! telefonnyjdovidnyk.com.ua
@@ -189212,8 +189219,6 @@ $cookie=DEVICEFP_SEED_TIME,domain=mihoyo.com|hoyoverse.com
 ! 4game.com / .ru
 ||4game.ru^$cookie=trk
 ||4game.com^$cookie=trk
-! https://github.com/AdguardTeam/AdguardFilters/issues/211606
-||cloudflare.com^$cookie=cfz_facebook-pixel
 ! https://github.com/AdguardTeam/AdguardFilters/issues/211186
 ||unipegaso.it^$cookie=crm_multi_tracking
 ! ko44.ru
@@ -197322,6 +197327,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 ||kernellife.com^
 ||kidpowers.com^
 ||kindlereunion.com^
+||kingsealed.com^
 ||kitetuning.com^
 ||kittentacos.com^
 ||kittycatking.com^
