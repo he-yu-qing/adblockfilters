@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260621192522
-! Last modified: 2026/06/21 19:25:22
-! Blocked Filters: 185202
+! Version: 20260622013710
+! Last modified: 2026/06/22 01:37:10
+! Blocked Filters: 185206
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -53712,7 +53712,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /scrollup_button.js
 /scw-cookie-iub.min.js
 /sda/*$domain=chineseinla.com
-/sdc.js
+/sdc.js|
 /sdc1.js
 /sdc2.js
 /sdcTrackingCode.js
@@ -183807,6 +183807,10 @@ zzztube.com,videoporn.tube##.b-random-column
 ||tagomago.pl^$removeparam=variant
 ||tags.tiqcdn.com^$app=uk.co.thetimes|com.hulu.plus|com.booking
 ||talkfx.*/showTKImg?
+||tally.so^$doc,removeparam=device
+||tally.so^$doc,removeparam=version
+||tally.so^$removeparam=device
+||tally.so^$removeparam=version
 ||talpa-analytics.
 ||talpa-analytics.$third-party
 ||tanx.com^$third-party

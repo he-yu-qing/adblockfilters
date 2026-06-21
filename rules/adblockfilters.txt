@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260621192522
-! Last modified: 2026/06/21 19:25:22
-! Blocked Filters: 261868
+! Version: 20260622013710
+! Last modified: 2026/06/22 01:37:10
+! Blocked Filters: 261879
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -53885,7 +53885,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /scrollup_button.js
 /scw-cookie-iub.min.js
 /sda/*$domain=chineseinla.com
-/sdc.js
+/sdc.js|
 /sdc1.js
 /sdc2.js
 /sdcTrackingCode.js
@@ -64281,6 +64281,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||dual1080p.blogspot.com^$generichide
 @@||duckduckgo.com/?q=$generichide
 @@||duckduckgo.com/?q=$generichide,badfilter
+@@||duckduckgo.com/local.js$~third-party
 @@||duckduckgo.com/y.js?*url
 @@||duelmeta.com^$generichide
 @@||duihui.duoduocdn.com^$image,stealth=referrer,domain=zhibo8.cc
@@ -77604,8 +77605,6 @@ apkmoddone.com#%#//scriptlet('set-attr', '.adsbygoogle', 'data-ad-status', '0')
 apkmodget.com##.adv_wrap
 apkmodvn.com#%#//scriptlet('abort-on-property-write', 'tsvdRandomLink')
 apkmodvn.com,softfully.com,gamertweak.com,aastik.in,metrosaga.com##body .adsbygoogle:not(#style_important)
-apkmody.com##.above-ad-unit
-apkmody.com##a[href*="ldplayer.net?n="][target="_blank"]
 apkmody.fun#%#//scriptlet('prevent-window-open')
 apkmody.mobi###custom-container
 apkmody.mobi###flirtwith-modal
@@ -81921,6 +81920,7 @@ blockaway.net##a[href^="https://www.patreon.com/croxyproxy?"]
 blockbuster.dk,sfanytime.com##div[class^="GlobalCookieBanner__"]
 blockchain.com##+js(set-session-storage-item, dismissedTrackingBanner, true)
 blockchain.com##.czabrb
+blockchain.com##a[href^="https://snapmarkets.com/?utm_"]
 blockchain.info###tx_container > div:not([id]):not([class]) > table.table.table-striped[style="float:left;margin:0;width:100%;padding: 0 0 30px;"]
 blockchain.info##li.ad
 blockchain.info##span[translate="SPONSORS"]
@@ -88890,6 +88890,7 @@ cloudfam.io#%#//scriptlet('abort-current-inline-script', 'EventTarget.prototype.
 cloudfam.io#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'openAdWithFallback')
 cloudfam.io#%#//scriptlet('prevent-element-src-loading', 'script', '/adsbygoogle|doubleclick/')
 cloudfam.io#%#//scriptlet('prevent-fetch', '/pagead|adserve|adsbygoogle/')
+cloudfam.io#%#//scriptlet('prevent-fetch', 'method:HEAD')
 cloudfam.io#%#//scriptlet('prevent-window-open')
 cloudfam.io#?#.text-center:contains(Advertisement)
 cloudflare.com##.black.bg-orange-1-500.bottom-0.fixed
@@ -184030,6 +184031,7 @@ gadgetizedpanda.com##+js(nostif, isOpen)
 gadgetonhand.com##.ads-heading
 gadgetreview.com##.htlad-in_content
 gadgetreview.com##.htlad-right_rail
+gadgetreview.com##.wp-position-container-1781633738934
 gadgetreview.com#?#div.wp-container-core-group-is-layout-7014ffe2:has-text(Join over)
 gadgets.ndtv.com##.__agifstk
 gadgets.ndtv.com##.__wdgt_rhs_kpc
@@ -186113,6 +186115,7 @@ glowed3.click.s11.sfmc-osl.com$image
 glowestlid3.click.s11.sfmc-osl.com$image
 glowin02alid3.click.s11.sfmc-osl.com$image
 glowin2003lid3.click.s11.sfmc-osl.com$image
+glowing.com##.adsWrapper-0-0-136
 glowww.chemd3.click.s11.sfmc-osl.com$image
 glowww.foodd3.click.s11.sfmc-osl.com$image
 glowww.hostingalid3.click.s11.sfmc-osl.com$image
@@ -187846,7 +187849,6 @@ hax.co.id#@#.ad-box
 hax.co.id#@#.ad-box:not(#ad-banner):not(:empty)
 hax.co.id#@#.ad-wrapper
 haxball.com##.flexRow > .rightbar
-haxmac.cc##[onclick^="window.open"]
 haxmaps.com#%#//scriptlet('prevent-setTimeout', 'log_abb_tests')
 haxmaps.com#@##bottomAd
 haxnode.net,netfuck.net,majorscans.com,xerifetech.com,gokushiteki.com,warungkomik.com,tarotscans.com,ayatoon.com##body > #footer + div[id][class*=" "]
@@ -217831,6 +217833,7 @@ rust-servers.net#@##ad-banner-top
 rust-servers.net#@#.ad-sidebar
 rust-servers.net#@#.ad-slot
 ruter.no##.fixed-messages
+rutgames.net###rg-cookie-bar
 rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.lib,rutracker.net,rutracker.org#?#.vf-table > tbody > tr:not([data-topic_id]):has(> td > a[class^="ref-"])
 rutube.ru##.cookie-message-module__cookie-consent
 rutube.ru##.eu-cookie-popup-module__eu_cookie_popup
@@ -230658,6 +230661,7 @@ uploadrar.com##.my-4 > form[method="POST"] > center
 uploadrar.com##a[href*="?"][target="_blank"]
 uploadrar.com##a[role="button"][href^="http://"]
 uploadrar.com##center > a.btn:not([href*="uploadrar.com"])
+uploadrar.com##center > a[href][target="_blank"]
 uploadrar.com#?#div[class^="banner"]:not(:has(> div#commonId))
 uploadrar.com#?#div[class^="download"][class*="page"] div[class^="banner"]:has(> .as_ads_guard:only-child)
 uploadrar.com#?#div[class^="download"][class*="page"] div[class^="banner"]:has(> script:first-child + .adsbygoogle)
@@ -237122,6 +237126,7 @@ www.yahoo.com##body.font-yahoobeta > div.items-center:has(style)
 www.yahoo.com##div[id^="recirc-"] > .grid > .relative.w-full:has(> .inset-0[id^="_r_"])
 www.yahoo.com#%#//scriptlet('prevent-innerHTML', 'script', 'error-report')
 www.yahoo.com#?#.bg-white.border-\[\#eceff2\]:has-text(Weekday Newsletter)
+www.yahoo.com#?#.border-tertiary.rounded-lg:has-text(Newsletter)
 www.yahoo.com#?#.uppercase.text-xs:contains(Advertisement)
 www.yahoo.com#?#.uppercase.text-xs:has-text(Advertisement)
 www.yatu.tv##div[id^="myads_"]
@@ -239900,7 +239905,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||192ly.com/wp-content/cache/*.js
 ||194007.com/4058.gif
 ||199.116.177.156^$domain=~fc2.jp.ip
-||1abzar.ir/abzar/tools/stat/
 ||1av.to/assets/ad/
 ||1biqug.com/js/ajax.js
 ||1bitspace.github.io/wgaming/es/rectangle-medium/v2.html
@@ -241836,6 +241840,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||api.syg.ma/page_view
 ||api.taboola.com^$app=Mahjong.exe|Solitaire.exe|Microsoft.Msn.News.exe
 ||api.tacotax.fr/v2/amplitude_trackers
+||api.tally.so/forms/*/events
 ||api.target.com/consumers/*/ttms/events
 ||api.target.com/consumers/*_debugEvent=
 ||api.target.com/firefly_events/*/events/
@@ -248366,6 +248371,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||google.com/pagead/1p-user-list/
 ||google.com/pagead/conversion_async.js
 ||google.com/pagead/drt/
+||google.com/pagead/form-data/
 ||google.com/pagead/landing?
 ||google.com/rmkt/collect/
 ||google.com/shopping/customerreviews/$subdocument,third-party
@@ -258077,6 +258083,11 @@ zzztube.com,videoporn.tube##.b-random-column
 ||takefile.link/promo/$third-party
 ||talkfx.*/showTKImg?
 ||talkingpointsmemo.com/whoami
+||tally.so/api/forms/*/events
+||tally.so^$doc,removeparam=device
+||tally.so^$doc,removeparam=version
+||tally.so^$removeparam=device
+||tally.so^$removeparam=version
 ||talpa-analytics.
 ||talpa-analytics.$third-party
 ||tamil.samayam.com/tsiag/
