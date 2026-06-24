@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260624110531
-! Last modified: 2026/06/24 11:05:31
-! Blocked Filters: 260658
+! Version: 20260624115604
+! Last modified: 2026/06/24 11:56:04
+! Blocked Filters: 260653
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -82810,8 +82810,6 @@ cam4.tw##.hbanner
 cam4.tw##.subfoot-section
 cam69.com##.headboxBanner
 cam69.com,sexu.com##.sidebarBanner
-camarchive.tv#%#//scriptlet("set-constant", "adsBlocked", "falseFunc")
-camarchive.tv#%#//scriptlet("set-constant", "canads", "true")
 cambabe.me,camgirlbay.net#%#//scriptlet("abort-current-inline-script", "onload", "onclick")
 cambabe.me,camlovers.tv,camwhorescloud.com#%#//scriptlet("abort-on-property-read", "crakPopInParams")
 cambabe.video##.margin-fix[id^="list_videos_"] > noindex > .place
@@ -82844,8 +82842,6 @@ camfoxes.tv,camhub.one,boysxclusive.com,fyxxr.to,camwhores.tv,viralxxxporn.com,t
 camfuze.com##.banner_inner
 camgirlbay.net##.list-videos > .margin-fix > .place
 camgirlbay.net,camwhores.adult##body > .top[style="text-align:center;font-size:16px;"]:not([id])
-camgirls.casa##a[href^="/click.php?"]
-camgirls.casa#%#//scriptlet("abort-on-property-write", "p$00a")
 camhub.cc#%#//scriptlet("abort-on-property-read", "initPop")
 camhub.cc,public-porno.com##.grid-temp > li.spot:has(> div.thumb-box)
 camhub.one,camhub.*,fyxxr.to,porn4fans.com,porno24.to,viralxxxporn.com#%#//scriptlet('prevent-setTimeout', '.style.visibility', '2000')
@@ -179994,7 +179990,6 @@ fc.*###link-view > iframe[src*="/fc."]
 fc.lc#%#(function(){var c=document.addEventListener;document.addEventListener=function(a,b,d,e){"mouseup"!=a&&-1==b.toString().indexOf(`var U="click";var R='_blank';var v="href";`)&&c(a,b,d,e)}.bind(document);})();
 fc.lc#%#//scriptlet("prevent-window-open")
 fc2.com##div.ad_head_wide,div.side_menu_block
-fc2covid.com##.widget > center
 fcbarca.com##.adverts-box
 fcbarca.com##.banner__block
 fcbarca.com##.bets-container
@@ -186875,8 +186870,6 @@ hdporncomics.com##div[data-ad-injected]
 hdporner.tv,sxyporn.tv#%#//scriptlet('prevent-addEventListener', 'message', 'handleTrigger')
 hdpornfree.xxx##.container:has(> iframe[src^="//hdpornfree.xxx/sup/"])
 hdpornmax.com#?#.container > h2:contains(Recommended)
-hdpornpics.net#?#.money:has(.century:contains(ADS))
-hdpornpics.net#?#.money:has(.century:has-text(ADS))
 hdpornvideo.xxx##.lika
 hdscg.com###playBox,.wp.a_f,.a_mu,[src^="http://res.hdscg.com/adbox/"]
 hdsex.org##.inline-video-adv
@@ -191567,6 +191560,7 @@ isweb.it###trace-form
 iswinoujscie.pl###adsSpecial
 isyriza.gr###disclaimer
 isystemy.pl##.cookie-div-main
+it-insight.shop##ket-pdpa-alert
 it-notes.dragas.net,krautgartner-bus.at,lehmanns.de,solas.ie,valencia.es##.cc_dialog
 it-sharks.com#$##adBlocker { display: none !important; }
 it-sharks.com#$#.modal-backdrop { display: none !important; }
@@ -242754,7 +242748,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||camcaps.ac/33a9020b46.php
 ||camcaps.io/024569284e.php
 ||camcaps.to/400514f2db.php
-||camgirls.casa/p.php
 ||camhub.*/static/js/cc-kvs.js
 ||camhub.cc/static/js/bgscript.js
 ||camp-fire.jp/projects/*/view$removeparam=list
@@ -249760,6 +249753,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||klandmart.com/K-Landmart_0011.jpg
 ||klaviyo.com/onsite/js/sentry.
 ||klaviyo.com/onsite/track-analytics?
+||kleenscan.com/storage/images/banners/
 ||klix.ba/pixel/
 ||klm.us/CWZUvc/
 ||klook.com^$removeparam=aid
@@ -253215,6 +253209,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||pipipan.com/img/lanjuhua-aaa.png
 ||pipix.cc/gg.gif
 ||piratebays.fi/staticproxy/img/download1.png
+||piratecat.online/ads/
 ||pirkkalainen.fi/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js
 ||piwik.*.vn^
 ||pixabay.com/static/img/publisher/*_ad_
