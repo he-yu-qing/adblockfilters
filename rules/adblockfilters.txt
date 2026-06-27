@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260627015637
-! Last modified: 2026/06/27 01:56:37
-! Blocked Filters: 264736
+! Version: 20260627105919
+! Last modified: 2026/06/27 10:59:19
+! Blocked Filters: 264732
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -41165,7 +41165,6 @@
 ##IMG[onclick*="bucd.lol"]
 ##IMG[onclick='godown()'][src$='gif']
 ##IMG[onclick='golh()'][src$='.gif']
-##IMG[referrerpolicy='no-referrer'][src$='.gif'][width='100%']
 ##IMG[referrerpolicy='no-referrer'][style='box-sizing: border-box;height:calc(10vh); width:100%;padding: 0px 15px 10px 15px;']
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src$='tywheying/vv2-960x80.gif']
@@ -236800,6 +236799,7 @@ webdunia.com##.wd_social_link
 webeducate.top#%#//scriptlet('set-constant', 'adsBlocked', 'undefined')
 webelite.pl###infobar
 webex.com##.cookie-manage-body
+webex.com##div[aria-label="Cookie information"]
 webfail.com###wf-d-300x250-sb1
 webfail.com##[href^="http://twitter.com/intent/tweet"]
 webfail.com$$script[tag-content="omi-service"][min-length="20000"][max-length="150000"]
@@ -245100,6 +245100,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||biquyue.com/js/common.js
 ||birdsend.co/assets/static/js/pixel/
 ||birdsend.net/pixel
+||bis.org/metrics/web.gif?
 ||bisecthosting.com/partners/custom-banners/$third-party
 ||bistream.xyz/js/loader.js
 ||bit.ly/2FQyhNq$subdocument
@@ -254969,6 +254970,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||morfo.*.amazonaws.com/*/screning-*_*.jpg$domain=sciaga.pl
 ||morgenpost.de/resources/*/js/webtrekk
 ||morinaga.co.jp/assets/js/ga.js
+||morningstar.com/api/v1/analytics
 ||mortgagecentres.net/banner.gif
 ||mosoah.com/analytics.js
 ||mostbet-az90.com/upload/images/ref%20progr/
@@ -258824,6 +258826,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||seguridad.compensar.com/lib/js/fingerprint2.js$script,redirect=fingerprintjs2
 ||seiga.nicovideo.jp^$removeparam=track
 ||seir-sanduk.com/adblockaclib.js
+||seismic.com/playerservice/api/v1/log?
 ||select6.reader.qq.com/*/getRecommendDataForAd
 ||selenagomez.com/*/umg-analytics/
 ||sell*.etlong.com^
@@ -260169,13 +260172,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||static.zhipin.com/library/js/analytics/
 ||static.znews.vn/releases/wap/*/js/analytic.min.js
 ||static.znews.vn/releases/web/*/js/analytic.min.js
-||static.zongheng.com/*/ad$script
-||static.zongheng.com/upload/*ds/column/$script,image
-||static.zongheng.com/upload/fpbds/column/
-||static.zongheng.com/upload/recommend/game/201$image
-||static.zongheng.com^*/adClickStat.js
-||static.zongheng.com^*/ad_click.js
-||static.zongheng.com^*/logger.min.js
 ||static0.wi-fi.ru/static/000/ios/index.html
 ||static1.dmcdn.net/js/cpe/cpeEvent.min.js
 ||static1.dmcdn.net/js/cpe/cpeEventTracking.min.js

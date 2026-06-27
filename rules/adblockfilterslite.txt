@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260627015637
-! Last modified: 2026/06/27 01:56:37
-! Blocked Filters: 185222
+! Version: 20260627105919
+! Last modified: 2026/06/27 10:59:19
+! Blocked Filters: 185214
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -41149,7 +41149,6 @@
 ##IMG[onclick*="bucd.lol"]
 ##IMG[onclick='godown()'][src$='gif']
 ##IMG[onclick='golh()'][src$='.gif']
-##IMG[referrerpolicy='no-referrer'][src$='.gif'][width='100%']
 ##IMG[referrerpolicy='no-referrer'][style='box-sizing: border-box;height:calc(10vh); width:100%;padding: 0px 15px 10px 15px;']
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src$='tywheying/vv2-960x80.gif']
@@ -183669,13 +183668,6 @@ zzztube.com,videoporn.tube##.b-random-column
 ||static.yxdown.com/cj/$script
 ||static.zhanqi.tv/assets/web/static/j/web4.0/widget/chatBanner.js?v=
 ||static.zhipin.com/library/js/analytics/
-||static.zongheng.com/*/ad$script
-||static.zongheng.com/upload/*ds/column/$script,image
-||static.zongheng.com/upload/fpbds/column/
-||static.zongheng.com/upload/recommend/game/201$image
-||static.zongheng.com^*/adClickStat.js
-||static.zongheng.com^*/ad_click.js
-||static.zongheng.com^*/logger.min.js
 ||static2.ssp.xunlei.com/$image
 ||statics.123*.com/static/ks/
 ||statics.123pan.com/fe/phoenix-share/js/pcwapad.min.js
