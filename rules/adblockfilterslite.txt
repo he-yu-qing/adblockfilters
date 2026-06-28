@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260628183706
-! Last modified: 2026/06/28 18:37:06
-! Blocked Filters: 185193
+! Version: 20260629011732
+! Last modified: 2026/06/29 01:17:32
+! Blocked Filters: 185188
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -46793,6 +46793,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .icu/pssbk?$third-party
 .imgur.com/lumbar.gif
 .in/js/ads/
+.in/js/footer_ad.js
 .info.kansaimiraibank.co.jp/c/*.gif
 .info/ad.js
 .info/ad/
@@ -48179,6 +48180,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /ad-agent^
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
+/ad-blocking-detector/assets/js/adblock-detector.min.js
 /ad-choices-$image
 /ad-choices.png$image
 /ad-provider.
@@ -48252,13 +48254,11 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /adb1.gif?
 /adbanners/*$image
 /adblock-detect.$script
-/adblock-detector.min.js$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock/frontend_loader.js
 /adblockLogger/*
 /adblock_detector2.$script
 /adblock_logger.$script
-/adblockdetect.js$script
 /adblocker.js$domain=hindimearticles.net|solution-hub.com
 /adbot.
 /adcg/*
@@ -48374,7 +48374,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /adrum_
 /ads-
 /ads-250.$image
-/ads-async.$script
 /ads-blocking-detector.$script
 /ads-common.$image,script
 /ads-front.min.js$script
@@ -48452,7 +48451,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /adsct?
 /adsdelivery/*$subdocument
 /adsen.php
-/adserv.$script
 /adserve/*$script
 /adserver.
 /adserver.$popup
@@ -48918,7 +48916,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /apstag.js$script
 /aptrk.js
 /apu.php?$script
-/arcads.js$script
 /ard.png?
 /aria-web-telemetry-
 /arscode-ninja-popups/*$~stylesheet
@@ -49612,7 +49609,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /cms-gg.js
 /cms.gif?
 /cms/stats/*
-/cms_ads.js$script
 /cms_cookies_acceptance/cookie_policies-
 /cmslog.dll?
 /cn-track?
@@ -49745,7 +49741,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /consentcookie.min.js
 /console-ban.min.js
 /console-blocker/app-detect.js
-/content-ads.js$script
 /content-warning-v2/js/cwv3.min.js
 /content.php?id=148&type=g|$xmlhttprequest
 /content/ads/*$~xmlhttprequest
@@ -50145,7 +50140,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /cpex-cmp.min.js
 /cpm/i.ashx?
 /cpmShopAds^
-/cpmbanners.js$script
 /cpro.$popup,third-party
 /cpro/ui/*
 /create-lead.js
@@ -51698,6 +51692,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /js/delay.
 /js/detector.js$domain=bestsimsmods.com|dtbps3games.com|passionategeekz.com
 /js/dfp.js$script
+/js/doubleclick.min.js?v=
 /js/dubao.
 /js/dyguosj/*
 /js/easyAD.js
@@ -54301,7 +54296,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /std_newsletter_2017.js
 /sticky_ads.js$script
 /stickyad.js$script
-/stickyads.js$script
 /stm-gdpr-compliance/assets/js/scripts.js
 /stocktwits_share.png
 /storage/*.js#spot=$domain=beapirate.pw|proxtpb.art|unblocktheship.org
@@ -54973,6 +54967,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /vendor/analytics.js
 /vendor/analytics/*
 /vendor/cedexis/*
+/vendor/doubleclick.min.js
 /vendors~ads.
 /vestigo/v1/measure
 /vglnk.js
