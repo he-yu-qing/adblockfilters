@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260629011732
-! Last modified: 2026/06/29 01:17:32
-! Blocked Filters: 264062
+! Version: 20260629114551
+! Last modified: 2026/06/29 11:45:51
+! Blocked Filters: 264043
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -15451,7 +15451,6 @@
 ##.Header-cookie
 ##.Header-social
 ##.Header-socialIcons
-##.HeaderAd
 ##.HeaderAds
 ##.HeaderBannerAd
 ##.HeaderGrid-socialList
@@ -15600,7 +15599,6 @@
 ##.PrivacyNote
 ##.PrivacyPolicyNotice
 ##.PrivacySettingsBanner
-##.ProductAd
 ##.PushNotification--base
 ##.PushNotification--top
 ##.PushNotification-popover-dialog
@@ -15801,7 +15799,6 @@
 ##.Socialbuttons
 ##.Socials
 ##.Socials-root
-##.SovrnAd
 ##.Sponsor-container
 ##.SponsorHeader
 ##.SponsorIsland
@@ -15838,8 +15835,6 @@
 ##.Teaser-info-shares
 ##.Template_CookiesBox
 ##.Text-Advertising
-##.TextAd
-##.TextAdds
 ##.Textads
 ##.Tfacebook
 ##.TheCookieBanner
@@ -16318,7 +16313,6 @@
 ##.ad-970x250
 ##.ad-970x90
 ##.ad-Advert_Placeholder
-##.ad-E
 ##.ad-LREC
 ##.ad-LREC2
 ##.ad-Leaderboard
@@ -16669,7 +16663,6 @@
 ##.ad-group
 ##.ad-halfpage
 ##.ad-halfpage-placeholder
-##.ad-hdr
 ##.ad-head
 ##.ad-header
 ##.ad-header-below
@@ -17200,7 +17193,6 @@
 ##.ad-text-links
 ##.ad-textads
 ##.ad-textlink
-##.ad-thanks
 ##.ad-ticker
 ##.ad-tile
 ##.ad-title
@@ -17551,7 +17543,6 @@
 ##.adBanner728x90
 ##.adBillboard
 ##.adBkgd
-##.adBlock728
 ##.adBlockBottom
 ##.adBlockSpacer
 ##.adBlockSpot
@@ -17732,7 +17723,6 @@
 ##.adPanorama
 ##.adPlaceholder
 ##.adPlacement
-##.adPod
 ##.adPosition
 ##.adPremium
 ##.adRecommend
@@ -17845,7 +17835,6 @@
 ##.adUnit
 ##.adUnitHorz
 ##.adUnitVert
-##.adVar
 ##.adVertical
 ##.adVideo
 ##.adVideo2
@@ -18395,7 +18384,6 @@
 ##.adblock-top
 ##.adblock-top-left
 ##.adblock-wide
-##.adblock300
 ##.adblock300250
 ##.adblock728x90
 ##.adblock__banner
@@ -25938,7 +25926,6 @@
 ##.ctrlCookieBar
 ##.ctv-v2-share-wrapper
 ##.cube-ad
-##.cubeAd
 ##.cube_ad
 ##.cube_ads
 ##.cui-pt-item[data-qhb]
@@ -34452,7 +34439,6 @@
 ##.proko-cookie-consent
 ##.prom-olnk
 ##.promlnk[style="position:relative;width:100%;height:100%;"]
-##.promo-ad
 ##.promo-carousel-social
 ##.promo-linkedin
 ##.promo-mpu
@@ -50541,7 +50527,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /doseofporn.com\/[a-z]{0,5}[1-9]{0,5}[a-z]{0,5}[1-9][s\S]*.js/
 /dot.asp?
 /dot.gif?
-/doubleclick.min$script
 /doubleserve.js$badfilter
 /dow_analytics.js
 /download-link-js/?v=$script,~third-party
@@ -50969,7 +50954,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /footer-newsletter.jpg
 /footer-newsletter.js
 /footer-tracking.js
-/footer_ad.js$script,domain=~streamruby.com
 /footer_ads.php$subdocument
 /footerads.php$script
 /footerpixel.gif?
@@ -51695,7 +51679,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /inpl.measure.jssc
 /inpl.webpush.js
 /insales_counter.js?
-/insertads.js$script
 /inside-banner.mini.js$domain=irishradiolive.com|myonlineradio.at|myonlineradio.de|myonlineradio.hu|myonlineradio.nl|myonlineradio.sk|myradioendirect.fr|myradioenvivo.ar|myradioenvivo.mx|myradioonline.cl|myradioonline.es|myradioonline.it|myradioonline.pl|myradioonline.ro|ukradiolive.com
 /insights-emitter.
 /insights-emitter/*
@@ -51830,7 +51813,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /js/aahome.htm
 /js/ad.js$domain=69shuba.com
 /js/adInitializer.js$domain=ddwloclawek.pl|ddtorun.pl
-/js/ad_common.js$script
 /js/ad_insight/*
 /js/admiral-
 /js/adobe-analytics.js$domain=moneywise.com|money.ca
@@ -54152,7 +54134,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /slade.js
 /sli.*/imp?$image
 /slide_in_ads_close.gif$image
-/slider_ad.js$script
 /sliderad.js$script
 /slot_cmp.js
 /sluurpy_track.js
@@ -56463,9 +56444,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 1226.editor-qa1.marketingcloudqaapis.com$image
 1226.sock-qa1.marketingcloudqaops.com$image
 123-3d.nl,123accu.nl,123ink.se,123inkt.nl,123led.nl,123schoon.nl,123tinta.es,kabelshop.nl##.cookie123-popup
-123-bt.cn###mianze_fixed
-123-bt.cn###mianze_mask
-123-bt.cn##.sd
 123-hd.com###banner_right
 123-hd.com###banner_top
 123-hd.com##div[id^="banner_"]
@@ -61193,7 +61171,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||ads.sber.ru^$domain=ads.sber.ru
 @@||ads.shopee.*/$popup
 @@||ads.springer.de^$domain=ads.springer.de
-@@||ads.temu.com^$popup
 @@||ads.themoneytizer.com/*/gen.js$domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@||ads.themoneytizer.com/s/gen.js$domain=shorterall.com
 @@||ads.themoneytizer.com/s/gen.js?type=$domain=larvelfaucet.com
@@ -75974,6 +75951,7 @@ agoodmovietowatch.com##.stickyads
 agora.pl,blik.com,landkreis-mittelsachsen.de,viennapte.pl##.cm-overlay
 agora.webspecmail.com$image
 agoranovale.com.br,gcd.com.br,gmconline.com.br###cookieconsent
+agoranovale.com.br,gcd.com.br,gmconline.com.br,imax.traumpalast.de###cookieconsent
 agrarheute.com##.single-newsletter
 agrarlex.pl##div[class^="Ado__"]
 agri.webspecmail.com$image
@@ -76916,7 +76894,7 @@ amateurporn.co#%#//scriptlet('set-constant', 'isAdBlockActive', 'false')
 amateurporn.me,eachporn.com##.item[style]
 amateurpornvidz.com##div[style="height:280px;"]
 amateursexteens.com,bitchstop.com,czasting.com,czechgfs.com,czechvr.com,czechvrcasting.com,czechvrfetish.com,lesbianpickups.com,mentalpass.com###modal
-amazfit.com,cabletimetech.com##.otCookiesNotification
+amazfit.com,atlasheadrest.com,cabletimetech.com##.otCookiesNotification
 amazfitwatchfaces.com##.advp
 amazfitwatchfaces.com##.advpanel
 amazfitwatchfaces.com#?#.col-md-12 > .panel:has(> .panel-body > .advp)
@@ -77132,7 +77110,7 @@ americasvoice.news##a[href^="https://freekit.birchgold.com/"]
 americasvoice.news##div[class^="styles_wrap"]:has(> div[class] > div[id^="div-gpt-ad"])
 americasvoice.news##div[class^="styles_wrap"]:has(> div[class^="style_root"] > [src^="https://a.ads.rmbl.ws/"])
 americasvoice.news,arcadepunks.com,sweetalert2.github.io##img[width="728"]
-ames-surgery.com,baxtercycle.com,centralstate.bank,cumedicine.us,cyprus-childrensfund.org,dickinsonbradshaw.com,finleylaw.com,gabrielsonclinic4women.com,globalreach.com,gocivilairpatrol.com,halloumicheese.eu,hermesairports.com,heylroyster.com,iowaspecialtyhospital.com,mavroudis.com.cy,mcfarlandclinic.com,ombudsman.iowa.gov,pcbaonline.org,slots-cyprus.eu,smaluminium.com.cy,stephanis.com.cy,stredoceskykraj.cz,thewayhomedc.org,toumbas.com,welcomemagazinecy.com###cookie-consent-container
+ames-surgery.com,baxtercycle.com,centralstate.bank,cumedicine.us,cyprus-childrensfund.org,dickinsonbradshaw.com,eventeny.com,finleylaw.com,gabrielsonclinic4women.com,globalreach.com,gocivilairpatrol.com,halloumicheese.eu,hermesairports.com,heylroyster.com,iowaspecialtyhospital.com,mavroudis.com.cy,mcfarlandclinic.com,ombudsman.iowa.gov,pcbaonline.org,slots-cyprus.eu,smaluminium.com.cy,stephanis.com.cy,stredoceskykraj.cz,thewayhomedc.org,toumbas.com,welcomemagazinecy.com###cookie-consent-container
 amgreatness.com##.ag-social
 amgreatness.com##.bg-gray-200.mx-auto
 amgreatness.com##.w-full.mb-10
@@ -79170,7 +79148,7 @@ atlasobscura.com##.modal-sm-fullscreen
 atlasobscura.com##.place-body-ad
 atlasobscura.com##.places-newsletter-standalone
 atlasobscura.com##body:style(overflow: auto !important; position: initial !important;)
-atlasobscura.com,churchpop.com,hindustantimes.com,howsweeteats.com##.footer-subscribe
+atlasobscura.com,churchpop.com,headforpoints.com,hindustantimes.com,howsweeteats.com##.footer-subscribe
 atlasroofing.com##.util-cookie-consent
 atlassian.net##[jsm-cookie-consent-banner-wrapper]
 atlatszo.hu,atvavrupa.tv,avn.com,bostonmagazine.com,cas.sk,cloth5.com,commentwiki.fr,dzfoot.com,eldiariosur.com,epochtimes.it,hothardware.com,ikhwanonline.info,liganews.net,lonny.com,lovenature.com,malwaretips.com,mpasho.co.ke,niedziela.pl,northernvirginiamag.com,olhardigital.com.br,pnn.ps,precinctreporter.com,puntal.com.ar,radiojambo.co.ke,regione.abruzzo.it,sabah.com.tr,sneakernews.com,sourcefed.com,soutalomma.com,sudouest.fr,the-star.co.ke,transfermarkt.at,transfermarkt.ch,transfermarkt.co.uk,transfermarkt.com,transfermarkt.com.tr,transfermarkt.de,transfermarkt.es,transfermarkt.nl,transfermarkt.pl,transfermarkt.pt,vijesti.ba,wowhead.com,xn--tbnespaa-j3a.es##.header-social
@@ -90677,6 +90655,7 @@ consumerreports.org###mtRoundupPaywallPopup
 consumerreports.org###yeGivingTuesAlertContainer
 consumerreports.org##.btn__social
 consumerreports.org##.cda-newsletter
+consumerreports.org##.cda-newsletter-sign-up
 consumerreports.org##.guardian-cta
 consumerreports.org##.monetate_selectorHTML_48e69fae
 consumerreports.org##.wp_cta-container
@@ -94899,6 +94878,7 @@ dublaj.az##.post-content > section.bn-lg:has(> .row > div[id^="yandex_rtb"])
 dublaj.az#?##sidebar > .row > .col-sm-12 > .sidebar-widget:has(> .widget-head > h4.title:contains(Reklam))
 dublininquirer.com##.-alert.-fixed.notice
 dubravka.sk###set-win-coo
+duck.ai##[aria-label="Duck.ai works best in our private and free DuckDuckGo app!"]
 duck.ai,duckduckgo.com##+js(set-local-storage-item, duckaiHasAgreedToTerms, true)
 duckduckgo.com###ads
 duckduckgo.com##.button_size-md__dS3Yr.button_secondary__DAail
@@ -200880,7 +200860,6 @@ m.mg.hotelhead.de$image
 m.mi.com##div.download-app-go
 m.mobile01.com##.u-gapNextV--lg.u-height280
 m.moovitapp.com##.splash-footer
-m.motonet.fi#@#.ProductAd
 m.mouthshut.com##.SecondAds
 m.mouthshut.com##.adsBoxRpt2
 m.mouthshut.com,motor-doctor.co.uk,motor-doctor.nl,motordoctor.at,motordoctor.ch,motordoctor.co.no,motordoctor.de,motordoctor.dk,motordoctor.es,motordoctor.fi,motordoctor.fr,motordoctor.gr,motordoctor.hu,motordoctor.it,motordoctor.pl,motordoctor.pt,motordoctor.ro,motordoctor.se##.top-btn
@@ -256061,6 +256040,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||phineypet.com/2x.png
 ||phineypet.com/300x600.png
 ||phlic.top/log/
+||phncdn.com/www-static/js/lib/user-clogs.js
 ||phoenix.de/php/mediaplayer/conf/tracking_
 ||phoenixnewtimes.com/phoenix/xandr/apnads.js
 ||phonearena.com/_track.php
@@ -256482,6 +256462,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||pornhub-sexfilme.net^$subdocument,domain=pornhub-sexfilme.net
 ||pornhub.*/_xa/ads
 ||pornhub.*/view_video.php?viewkey=$replace=/vastXml/_vastXml/,important,~third-party
+||pornhub.com/_i?
 ||pornhub.com/js/eht.js
 ||pornhub.com/pix.php?s=
 ||pornhub.com/video/category_tracker?e=$important
