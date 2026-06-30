@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260630021850
-! Last modified: 2026/06/30 02:18:50
-! Blocked Filters: 262234
+! Version: 20260630110856
+! Last modified: 2026/06/30 11:08:56
+! Blocked Filters: 262246
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -74282,6 +74282,11 @@ a2email.sharpchad.com$image
 a2email.yourknifeguy.com$image
 a2email.yourknifeguyrobert.com$image
 a2mobile.pl###oreos-popup
+a2zapk.dev###galax
+a2zapk.dev##.RightAside
+a2zapk.dev##a[href^="https://dropgalaxy.com/"] > img
+a2zapk.dev#%#//scriptlet("json-prune", "rot_url")
+a2zapk.dev#%#//scriptlet("prevent-addEventListener", "", "/tabunder|window\['open'\]/")
 a2zapk.dev$$script[tag-content="'Adblock','Enabled'"][min-length="5000"][max-length="10000"]
 a2zcity.net##center > a > *
 a2zcrack.com###header-banner468
@@ -81895,6 +81900,7 @@ bleacherreport.com##.appInstallButton
 bleacherreport.com##.fixedRegion
 bleacherreport.com,coles.com.au##[data-testid="ad"]
 bleachmyeyes.com,kojka.com##.spot-box
+bleachmyeyes.com,watchporn.to#%#//scriptlet('trusted-set-local-storage-item', 'kvsplayer_popunder_open', '2000000000000')
 bledina.com##.rs-icon
 bleedingcool.com###bc_sharing_is_caring
 bleedingcool.com###bottom_leaderboard2
@@ -189809,6 +189815,7 @@ howtofixwindows.com#%#//scriptlet("set-constant", "better_ads_adblock", "true")
 howtogeek.com###content > aside#secondary ~ div.article-bottom
 howtogeek.com##div[id^="purch_"]
 howtogeek.com#?#.entry-content > p ~ div[style] > span.future_inline_clone_target:upward(1)
+howtogeek.com#@#.w-adsninja-video-player
 howtopronounce.com##.adZindex
 howtotestfrontend.com##+js(set-local-storage-item, cookie_consent-2, NO)
 howwe.biz##._300_ad
@@ -193101,7 +193108,6 @@ j-cast.com###cxRelatedEntry
 j-cast.com###sp_j-cast_kiji_recommend_1
 j-cast.com#%#//scriptlet('abort-on-stack-trace', 'navigator', 'html-load')
 j2dw.ngo#%#//scriptlet("set-constant", "DHNewAntiAdBlocker", "true")
-j2team.dev#%#//scriptlet('prevent-setTimeout', 'afterRedirectUrl')
 j3pz.com##.hidden-xs
 jaa.or.jp###js-gdpr
 jabank-tokushima.or.jp#@#.ad_middle
@@ -235221,7 +235227,6 @@ watchporn.to##.header__bottom > a
 watchporn.to##.header__top-list
 watchporn.to##.header__top-txt
 watchporn.to##.single__holder > .single__aside:has(> .table)
-watchporn.to#%#//scriptlet('trusted-set-local-storage-item', 'kvsplayer_popunder_open', '2000000000000')
 watchporn.to,jerkwell.com,viralxxxporn.com,zzcartoon.com#%#//scriptlet('set-constant', 'flashvars.adv_pre_url', '')
 watchporn.to,jerkwell.com,xshemale.tv,viralxxxporn.com,zzcartoon.com#%#//scriptlet('set-constant', 'flashvars.adv_pre_src', '')
 watchporn4k.com,mdhstream.cc,fucking-tube.com##.happy-section
@@ -251618,6 +251623,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||letmejerk.com/*.php|
 ||letour.fr/img/dyn/partners/
 ||letsdoeit.com/tracking/
+||letsporn.com/abrk/
+||letsporn.com/npadm/
 ||letsporn.com/qsda/
 ||letsporn.com/sda/
 ||letssex.
@@ -256085,6 +256092,10 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ridge.com/cdn/shopifycloud/media-analytics/
 ||ridibooks.com$cookie=/^AMP/
 ||ridibooks.com$cookie=ruid
+||ridibooks.com/_ext/g/js?id=
+||ridibooks.com^$cookie=attribution_tool_params
+||ridibooks.com^$cookie=fingerprint
+||ridibooks.com^$cookie=pvid
 ||ridibooks.com^$removeparam=_rdt_arg
 ||ridibooks.com^$removeparam=_rdt_idx
 ||ridibooks.com^$removeparam=_rdt_sid
@@ -257876,6 +257887,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||static.read.tools/stats.min.js
 ||static.republicworld.com/assets/js/ads.min.js
 ||static.republika.co.id/js/tracker.js
+||static.ridicdn.net/books-backend/*/tracking/ridi-tracking-sdk.js
 ||static.rtrp.jp/static/js/googletagmanager.*.js
 ||static.shop-apotheke.com/media/js/shopmonitor3.js
 ||static.site24x7rum.jp/beacon/
