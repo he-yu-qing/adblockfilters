@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260709013842
-! Last modified: 2026/07/09 01:38:42
-! Blocked Filters: 264894
+! Version: 20260709105054
+! Last modified: 2026/07/09 10:50:54
+! Blocked Filters: 264898
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -70051,7 +70051,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yodu.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=youneed.win
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ytstv.me
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=z-lib.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=za.gl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zdopravy.cz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zefoy.com
@@ -90392,6 +90391,8 @@ colchones.es###avisosusc
 colemanfurniture.com##.user-consent-dialog
 coles.com.au##[data-testid="banner-container-desktop"]
 coles.com.au#?#.coles-targeting-UnitContainer:has(ul.product__top_messaging)
+coles.com.au#?#.list-item[role="presentation"]:has([data-testid="product-tile"]:contains(Sponsored))
+coles.com.au#?#.list-item[role="presentation"]:has([data-testid="product-tile"]:has-text(Sponsored))
 coleycooks.com,skinnyspatula.com##.inpost-save
 coleycooks.com,unofficialnetworks.com###block-9
 collaboraonline.com#?#.e-child.e-con-boxed.e-flex.elementor-element:has-text(Subscribe to our newsletter:)
@@ -192058,6 +192059,8 @@ imgbox.com###full-page-redirect
 imgbox.com###image-content-container > .image-container + div[style="text-align:center; margin-top:4px;"] > div[style="display: inline-block;width:300px;height:250px"]
 imgbox.com##[style="display: inline-block;width:300px;height:250px"]
 imgbox.com##div[id^="aad-header-"]
+imgbox.com#%#//scriptlet('remove-attr', 'href', 'a[href^="https://adv.clickadu.net/"][onclick]', 'stay')
+imgbox.com#%#//scriptlet('remove-attr', 'href', 'a[href^="https://go.clickwhore.com/"][onclick]', 'stay')
 imgburn.com##font[face="Arial"][size="1"]
 imgburn.com#?#td[class="contents"][align="center"]:has(> div[style="border: 1px solid black; width: 346px; padding: 5px;"])
 imgdawgknuttz.com#%#//scriptlet("abort-on-property-write", "atOptions")
@@ -217921,6 +217924,7 @@ ref=scotthelme.ghost.io$doc,removeparam=ref
 ref=shadcn.com$doc,removeparam=ref
 ref=shadcn.com^$removeparam=ref
 ref=spreadprivacy.com$removeparam=ref
+ref=sqliteviewer.app$doc,removeparam=ref
 ref=tedfordshire.co.uk$doc,removeparam=ref
 ref=the-browser$doc,removeparam=ref
 ref=theneedlenews.com$doc,removeparam=ref
