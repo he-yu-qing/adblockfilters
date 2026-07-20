@@ -1,0 +1,165 @@
+name: Updatenew
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 */8 * * *
+
+env:
+  TZ: Asia/Shanghai
+  SINGBOX_VERSION: 1.12.0-beta.21
+
+jobs:
+  Update_Filters:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+
+      - name: Setup Python 3.9.x
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9.x'
+
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y wget gzip
+          sudo timedatectl set-timezone "$TZ"
+
+          python -m pip install --upgrade pip
+          pip install -U tld IPy dnspython httpx loguru
+
+
+      - name: Update Filters
+        id: update
+        run: |
+          python adblock.py
+
+          rm -rf __pycache__
+          rm -rf app/__pycache__
+
+          echo "message=$(date)" >> $GITHUB_OUTPUT
+
+
+      # 编译 sing-box 给 HomeProxy 使用
+      - name: Compile Sing-Box filters
+        run: |
+
+          wget https://github.com/SagerNet/sing-box/releases/download/v${{env.SINGBOX_VERSION}}/sing-box-${{env.SINGBOX_VERSION}}-linux-amd64.tar.gz
+
+          tar -zxvf sing-box-${{env.SINGBOX_VERSION}}-linux-amd64.tar.gz
+
+          chmod +x sing-box-${{env.SINGBOX_VERSION}}-linux-amd64/sing-box
+
+
+          ./sing-box-${{env.SINGBOX_VERSION}}-linux-amd64/sing-box rule-set compile \
+          --output rules/adblocksingbox.srs \
+          rules/adblocksingbox.json
+
+
+          ./sing-box-${{env.SINGBOX_VERSION}}-linux-amd64/sing-box rule-set compile \
+          --output rules/adblocksingboxlite.srs \
+          rules/adblocksingboxlite.json
+
+
+          rm -rf sing-box*
+          
+          # 删除 sing-box 中间文件
+          rm -f rules/adblocksingbox.json
+          rm -f rules/adblocksingboxlite.json
+
+
+
+      # 清理不需要格式，避免GitHub大文件限制
+      - name: Cleanup Large Rules
+        run: |
+
+          echo "Cleanup unused rule formats"
+
+
+          # 删除 mihomo/clash/其他格式
+          rm -f rules/*.yaml
+          rm -f rules/*.list
+          rm -f rules/*.conf
+          rm -f rules/*.mrs
+
+
+          # 删除超过50MB文件
+          find rules -type f -size +50M -print
+          find rules -type f -size +50M -delete
+
+
+          echo "Remaining large files:"
+          du -h rules/* | sort -hr | head -30
+
+
+
+      - name: Commit Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: ${{ steps.update.outputs.message }}
+
+
+
+  Refresh_CDN:
+
+    needs: [ Update_Filters ]
+
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+
+
+      - name: Setup Python 3.9.x
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9.x'
+
+
+
+      - name: Install Dependencies
+        run: |
+
+          python -m pip install --upgrade pip
+
+          pip install -U tld IPy dnspython httpx loguru
+
+
+
+      - name: Refresh CDN Cache
+        run: |
+
+          python refreshcdn.py
+
+
+
+
+
+  Delete_Workflow_Runs:
+
+    needs: [ Refresh_CDN ]
+
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@main
+
+        with:
+          retain_days: 1
+          keep_minimum_runs: 5
