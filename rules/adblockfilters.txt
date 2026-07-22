@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、ADgk、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、HaGeZi Multi Pro、HaGeZi Multi Ultimate、China IP TV Blocklist、SmartTV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、Hagezi Anti-Piracy、Hagezi TikTok、Hagezi Xiaomi、Hagezi Apple、Hagezi Huawei、OISD Full、AWAvenue Ads Rule、Hblock、BlockListProject Ads、BlockListProject Tracking、Peter Lowe、AdAway hosts、GoodbyeAds hosts、StevenBlack hosts、1024_hosts、Pollock hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、NEOHosts Full、1Hosts (Lite)、1Hosts (Xtra)、1Hosts (Mini)、1Hosts (Pro)、1Hosts (Complete)、Legitimate URL Shortener、EU US Web Based Privacy、Browse_Safe_Hosts、Damengzhu WhiteList、doh。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260722183414
-! Last modified: 2026/07/22 18:34:14
-! Blocked Filters: 261802
+! Version: 20260723012502
+! Last modified: 2026/07/23 01:25:02
+! Blocked Filters: 261830
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -45287,7 +45287,7 @@ $removeparam=utm_viz_id
 $removeparam=utm_wave
 $removeparam=utmid
 $removeparam=uzcid
-$removeparam=v,hinta.fi|carrefoursa.com
+$removeparam=v,domain=hinta.fi|carrefoursa.com
 $removeparam=variant,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
 $removeparam=vc_lpp
 $removeparam=ved,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
@@ -56526,7 +56526,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 123ink.ca,shopperplus.ca##.footer-customer-gift
 123ink.ca,shopperplus.ca##.gift-bag
 123ink.ca,shopperplus.ca##.git-bag-pop
-123link.biz#%#//scriptlet("abort-on-property-read", "showAdsBlock")
 123link.pw##.box-main > div:not([class]):not([id]):not([style])
 123movie.cc,fmovie.cc##.bannerR2x
 123movies.*##.row-btns-special > a[target="_blank"]
@@ -60335,6 +60334,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@/premium*/tracks-*.html$xmlhttprequest,stealth=referrer
 @@/progress.php?callback=$script,domain=ytmp3.cc
 @@/proxy?data=$third-party,xmlhttprequest,stealth=referrer,domain=flixer.*
+@@/proxy?data=$third-party,xmlhttprequest,stealth=referrer,domain=hexa.su
 @@/pub/ad/*$domain=ruten.com.tw
 @@/pub1/??$domain=banggo.com
 @@/pubads*theguardian.com
@@ -73196,6 +73196,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||vidsrc.*/embed/$stealth=referrer
 @@||vidstream.to^$stealth=referrer,domain=egybest.*
 @@||vidtech.cbsinteractive.com^*/AkamaiAnalytics.swf$domain=kuathletics.com|mutigers.com|okstate.com
+@@||vidtub.kotocdn.site^$xmlhttprequest,stealth=referrer,domain=vidtube.site
 @@||vidtube.pro/embed$subdocument,stealth=referrer
 @@||vieon.vn^$generichide
 @@||vietget.net^$generichide
@@ -89431,6 +89432,7 @@ cogna.com.br##.sc-176b3dae-0
 cognitiveclass.ai##.announcement
 cognizantee.tekstac.com,xbox-store-checker.com##.eupopup-container
 coig.com.pl,derma-line.waw.pl,digitalart.pl,grekop.pl,metmax.com.pl,mijo.pl,rajdowiec.waw.pl,willastaropolska.pl,wypozyczalnialaptopow.pl,wypozyczalniaprojektorow.pl###BoxLine
+coin-free.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 coin360.com##+js(set-cookie, isCookiesAccepted, true)
 coin360.com##.GuYYbg
 coin360.com##.StickyCorner
@@ -182572,6 +182574,8 @@ foreignpolicy.com#?#.sidebar > div.sticky-container:has(> div.ad-container)
 foreignpolicy.com#?#.sidebar > div.sticky-container:has(> div[id^="distroscale_ad_"])
 foreignpolicy.com,seatguru.com###TB_overlay
 foreignpolicy.com,seatguru.com###TB_window
+foreks.com##.homepage-ad-desktop-bant
+foreks.com##the-ads
 forendors.cz##.wrapper_dhhcz
 forestriverforums.com##.recommended-stories
 forestriverinc.com###PrivacyPolicyNotice
@@ -183737,6 +183741,7 @@ futura-sciences.com#%#//scriptlet('set-constant', 'pa', 'emptyObj')
 futura-sciences.com#%#//scriptlet('set-constant', 'pa.privacy', 'emptyObj')
 futurebeat.pl###baner-outer
 futurebeat.pl##div[class^="cld-ban"]
+futurecurrencyforecast.com##.cwc-tor-widget
 futurefonts.com##.userTipBanner
 futuregaming.io##.ez-video-wrap
 futurework.org.au##.SiteFooter_signup
@@ -204074,6 +204079,7 @@ moviebaztv.com,parstv24.com,suryaindosinga.co,karanpc.com,topsporter.net,iconmon
 moviebite.cc##.site-ad-banner
 moviebite.cc#?#.transition-all.overflow-hidden.w-full:contains(Advertisement)
 moviebite.cc#?#.transition-all.overflow-hidden.w-full:has-text(Advertisement)
+moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.home-global-ad
 movieboxonline.net###detail-page > .mt-4 > .mt-4:has(> a.group.block[href^="https://gamixo.org/"])
 moviechat.org##.adc
 moviechat.org##a[href^="https://breathecup.com/?utm_source="][target="_blank"]
@@ -209044,6 +209050,7 @@ osf.io##.__cookie-banner__2a81b
 osf.io##.p-message-content
 osgamers.com##.r89-outstream-video
 osgamers.com#?##sidebar > .inner:has(> div > div[class^="r89-"][class*="-rectangle-"])
+oshi1.io##.notification-initial
 oshiete.ai#@#.snsBox
 oslobodjenje.ba##.item__share-wrap
 oslosportslager.no##.footerCurtainCookie
@@ -211149,6 +211156,11 @@ paradisehill.cc##.banners4
 paradisehill.cc##.bb-0
 paradisehill.cc##.block-to-top
 paradisehill.cc##.shapka
+paradoxscans.com##body > div[id][class*="_"]
+paradoxscans.com##body > footer ~ h4[class*="_"]
+paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"]
+paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""]
+paradoxscans.com##body > footer ~ h4[class*="_"] + div[class*="_"] + div[class=""] + div[class*="_"]
 paradoxscans.com,h-game18.xyz,topnewsshow.com,fazy.online,migdalor-news.co.il,gtf.com.ng,xn--nbkw38mlu2a.com,yuki0918kw.com,bcanotesnepal.com,conoscereilrischioclinico.it,nvimfreak.com,openstartup.tm,stablediffusionxl.com,techsbucket.com,f1ingenerale.com,maketoss.com,certificateland.com,downloadtanku.org#%#//scriptlet('prevent-eval-if', 'adbEnableForPage')
 parafix.com###gui_cookie_policy
 parallaximag.gr###main-content > div.column:has(> div.nx-banner-wrapper)
@@ -217054,7 +217066,7 @@ rifmelody.com##ad-host
 rifurl.com#%#//scriptlet("abort-on-property-read", "_cpp")
 rifurl.com#%#//scriptlet("prevent-window-open")
 rig-flip.com##+js(set-local-storage-item, cookie_consent, declined)
-right.com.cn###hd > div.wp > div.hdc > h2
+right.com.cn###hd > div.wp > div.hdc > h2 img.boardlogo
 right.com.cn##.a_t
 right.com.cn##.wp > .a_t:has(> table > tbody > tr > td > .adsbygoogle)
 right.com.cn##a[href^="https://jd.dangbei.com/"]
@@ -227679,6 +227691,13 @@ topcinema.*,vdbtm.shop,worldsports.me,sportsonline.*,mkvhub.*,unblocksite.pw,try
 topcv.vn##.banner-setting-cookie
 topfaps.com##.koukoku_1
 topfit-badgriesbach.de##.gatewayBar
+topfiveforex.com###wcfloatDiv
+topfiveforex.com##[href^="https://affiliate.iqoption.com/"]
+topfiveforex.com##[href^="https://betfury.io/"]
+topfiveforex.com##[href^="https://iqoption.com/"]
+topfiveforex.com##[href^="https://luckyfish.io/"]
+topfiveforex.com##[href^="https://olymptrade.com/"]
+topfiveforex.com##[href^="https://omibet.io/"]
 topg.org##.ga
 topg.org##.ga_header
 topg.org##.ga_header_f
@@ -240101,6 +240120,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||4399sj.com^*/mask-ad
 ||4438x*.com/Runtime/js/
 ||445nan.com/ad/
+||4466.com/4466/
 ||44hd.cc/js/$script
 ||44pd.com^*xds/
 ||46pj.com/go.js
@@ -241743,6 +241763,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||api.steampp.net/api/Advertisement/
 ||api.strats.gg/internal/api/*/visits
 ||api.streamelements.com/science/
+||api.strem.io/api/events
 ||api.syg.ma/page_view
 ||api.taboola.com^$app=Mahjong.exe|Solitaire.exe|Microsoft.Msn.News.exe
 ||api.tacotax.fr/v2/amplitude_trackers
@@ -242737,6 +242758,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||basvformu*.xyz^
 ||batchlogging*-eu.truecaller.com^
 ||batchlogging*-noneu.truecaller.com^
+||batery.win/promo/*/?affijet-click=*popunder$popup
 ||bathandbodyworks.com/lsXlyYa5/init.js
 ||batiactu.com/cap_
 ||batmanstream.com/competition.js
@@ -246943,6 +246965,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||fafvertizing.crazygames.com/*-prebid-
 ||fairfax.com.au/js/track/
 ||fairprice.com.sg/VZl2n4/
+||fairstone.ca^$doc,removeparam=adplacementid
 ||faiusr.com/2/ABUIABACGAAg_dCW0gUo7NqNJjDgATh3.jpg
 ||faiusr.com/3/ABUIABADGAAgkIXb6gUo-L_AwwcwsAk4Wg.gif
 ||fakings.com/tools/get_banner.php
@@ -247013,6 +247036,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||faptor.com/api/
 ||faptor.com/bump/
 ||faptrex.com/fire/popup.js
+||fapturbo.com/testoid/
 ||faqwiki.us/ezais/
 ||faro-collector-prod-*.grafana.net^
 ||faro-sportybet.sportydog.net/collect|$xmlhttprequest,redirect=noopjson
@@ -248524,6 +248548,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||harvester.joj.sk/api/v1/harvester.js
 ||hasbro.com/includes/js/metrics/
 ||hasbro.com/js/omniture.js
+||hashflare.eu/banners/
 ||haszon.hu/images/banners/
 ||hatalike.jp^$removeparam=track
 ||hatarako.net/api/recommend/analyze_logger
@@ -251427,6 +251452,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||loadshare.org/custom/*/tornadomovies_video.mp4$domain=tornadomovies.co
 ||loadshare.org/custom/VideoID-*/*.mp4$domain=fusionmovies.to
 ||loadx.ws/player/assets/js/jquery.js
+||loan.fairstone.ca^$doc,removeparam=jumpsource
 ||localau.vip/plugin/ad_
 ||localau.vip/plugin/pause.php
 ||localau.vip/plugin/show.php
@@ -251525,6 +251551,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||lotto.gmx.*^$removeparam=partnerId
 ||lotto.web.de^$removeparam=advertisementId
 ||lotto.web.de^$removeparam=partnerId
+||lottoelite.com/banners/
 ||lotuscard.cc/online/
 ||loudwire.com/internal-ad-api/
 ||louimg.com/i/2021/08/17/*.gif
@@ -255659,6 +255686,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ridomovies.*/js/plib/
 ||ridus.ru/stat?
 ||rigengjihua.cn/banner/
+||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
 ||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
 ||right.com.cn/forum/static/image/common/logo1.
