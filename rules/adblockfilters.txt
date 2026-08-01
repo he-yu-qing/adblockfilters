@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260801175753
-! Last modified: 2026/08/01 17:57:53
-! Blocked Filters: 270808
+! Version: 20260802005841
+! Last modified: 2026/08/02 00:58:41
+! Blocked Filters: 270811
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -211205,7 +211205,6 @@ nordicguarantee.com##.itc-cc
 nordicmag.info###text-92
 nordicmag.info###zox-lead-bot
 nordicnest.com,nordicnest.de,nordicnest.dk,nordicnest.es,nordicnest.fi,nordicnest.fr,nordicnest.jp,nordicnest.kr,nordicnest.nl,nordicnest.no,nordicnest.pl,nordicnest.se##div[style="opacity: 1; display: flex;"]
-nordicsemi.com,learngerman.dw.com,jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"]):not(.cell-container)
 nordiskfilm.com##.jOSWZa
 nordiskporselen.com###kjeks
 nordiskporselen.com##.w3-black
@@ -227484,6 +227483,7 @@ staples.com#?#.sku-configurator__skuOffsetCarouselNew:has(span:has-text(Sponsore
 staples.pt###cookie-new-cconsent-bar
 star-history.com###app > div.relative > div.relative.justify-end + div.fixed.right-0
 star-history.com##.fixed.right-0
+star-history.com##div.lg\:block > div.w-full:has(> a[href*="?utm_source"] img)
 star-history.com#?#.items-start.sidebar-sticky:contains(Featured Products)
 star-history.com#?#.items-start.sidebar-sticky:has-text(Featured Products)
 star-history.com#?#.mx-auto:has(> div.w-full > a[href][target="_blank"] > img[src^="https://star-history.com/sponsors/"])
@@ -241855,6 +241855,7 @@ winaero.com#@#.windia:not(.thank-you-adguard)
 winaero.com$$script[wildcard="*.innerHTML*.parentNode.insertBefore*"][max-length="2000"]
 winandmac.com,nicekkk.com###custom_html-3
 winbuzzer.com##.mfp-figure::before
+windguru.cz,nordicsemi.com,learngerman.dw.com,jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"]):not(.cell-container)
 windowcleaningforums.co.uk###elPostFeed .ipsSpacer_half a[href][target="_blank"][rel="nofollow noopener"] > img
 windowcleaningforums.co.uk###ipsLayout_footer a[href][rel="nofollow noopener"] > img
 windowcleaningforums.co.uk#?#.cWidgetContainer > .ipsList_reset > .ipsWidget_vertical:has(> .ipsWidget_inner > .ipsType_reset > a[href="https://thrivewp.com/"])
@@ -253597,6 +253598,8 @@ zzzyk.com###Tinfo
 ||e.ebidtech.com/cv/
 ||e.hnr.cn/choose/view/
 ||e.m6web.fr/events
+||e.meloming.com/i/v0/e
+||e.meloming.com/static/web-vitals.js
 ||e.pcloud.com/trackopen
 ||e.snmc.io/3.0/js/pb/pb-*.js
 ||e0514.com/do/js.

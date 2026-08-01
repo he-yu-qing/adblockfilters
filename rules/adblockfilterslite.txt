@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260801175753
-! Last modified: 2026/08/01 17:57:53
+! Version: 20260802005841
+! Last modified: 2026/08/02 00:58:41
 ! Blocked Filters: 186652
 !
 ###-CookieConsentContainer
@@ -166414,7 +166414,6 @@ nopixeljaps.com,preggoporn.tv,tinydicktube.com##.video-list-ads
 norclinic.com,normalink.es###c-cookies__modal
 nordest24.it,portalpuentealto.cl,upinthesky.nl,watchinamerica.com##.spc-social
 nordicnest.com,nordicnest.de,nordicnest.dk,nordicnest.es,nordicnest.fi,nordicnest.fr,nordicnest.jp,nordicnest.kr,nordicnest.nl,nordicnest.no,nordicnest.pl,nordicnest.se##div[style="opacity: 1; display: flex;"]
-nordicsemi.com,learngerman.dw.com,jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"]):not(.cell-container)
 nordlayer.com,scidoo.com##+js(set-cookie, consent, accepted)
 nordot.io,tennistv.com##.notification-wrapper
 nordpass.com,support.nordvpn.com##.ConsentWidget__container
@@ -176747,6 +176746,7 @@ win7xzb.com##.four_box
 win7xzb.com##.ware_gs
 winaero.com$$script[wildcard="*.innerHTML*.parentNode.insertBefore*"][max-length="2000"]
 winandmac.com,nicekkk.com###custom_html-3
+windguru.cz,nordicsemi.com,learngerman.dw.com,jamf.com#@#div.rendered[id][class*=" "]:not([id*="captcha"]):not(.cell-container)
 windows7en.com##.fu-welcome
 windowsactivationkey.com,hornygamer.com##center > a[onclick^="window.open("]
 windowsnoticias.com,movilforum.com,mrlabtest.com##.publi
