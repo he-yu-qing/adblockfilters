@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260801012909
-! Last modified: 2026/08/01 01:29:09
-! Blocked Filters: 273188
+! Version: 20260801102837
+! Last modified: 2026/08/01 10:28:37
+! Blocked Filters: 273198
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -43424,7 +43424,7 @@ $doc,removeparam=/^src=aff$/
 $doc,removeparam=/^src=rss$/
 $doc,removeparam=/^stm_.*$/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^sub_id\d=.*$/
-$doc,removeparam=/^subid1=.*$/i
+$doc,removeparam=/^subid1=.*$/i,domain=~11hentai.com|~abbdsm.com|~abebony.com|~abgay.tube|~abjav.com|~ablesbian.com|~abmilf.com|~abtranny.com|~abxxx.com
 $doc,removeparam=/^subid2=.*$/i
 $doc,removeparam=/^subid3=.*$/i
 $doc,removeparam=/^subid4=.*$/i
@@ -46354,6 +46354,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 -120x600-
 -120x600.
 -120x600_
+-1300-x-200-
 -1316632262.cos.
 -1316899192.cos.
 -1321533417.cos.
@@ -65610,6 +65611,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||gc.ca^$stealth=dpi
 @@||gceguide.com^$generichide
 @@||gcertificationcourse.com^$generichide
+@@||gdl.freegogpcgames.xyz^$generichide
 @@||gdpr-wrapper.privacymanager.io/gdpr/$script,xmlhttprequest,domain=dailybuzz.nl|esquire.de|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kleinezeitung.at|kurier.at|lablue.de|mediaite.com|nettivuokraus.com|omroepbrabant.nl|parra.nu|pickmypostcode.com|plusonline.nl|profil.at|rtvnoord.nl|verkeerplaza.nl|vesti.bg|weeronline.nl|weerplaza.nl
 @@||geekering.com^$generichide
 @@||geekpeaksoftware.com^$generichide
@@ -78434,6 +78436,7 @@ anpeandalucia.es,anpeasturias.es,anpecanarias.es,anpegalicia.es,crbinverbio.com,
 anqu.com##.game-ul.mb25,.adsbygoogle,#view1_bg,.guang1000,[src^="http://img.xa9t.com/html/click/"]
 ansa.it##.adv
 ansa.it##.extra:has(> div.ad)
+ansa.it##.fonti-preferite
 ansa.it##.media-share
 ansa.it##.news-detail > .box-news > a[href*="&utm_source=banner"][rel] > img
 ansa.it##.pp-adv
@@ -82072,6 +82075,7 @@ behance.net##.PrimaryNav-appLinkContainer-bhx
 behance.net##.SimplifiedPushToMobilePrompt-root-Sct
 behance.net##.js-vue-mobile-app-upsell
 behance.net##body,html:style(overflow: auto !important; position: initial !important;)
+behavioralscientist.org,crooksandliars.com,drewberquist.com,kentuckytoday.com,keysnews.com,ktbs.com,kulr8.com,lifezette.com,montanarightnow.com,msmagazine.com,newsmirror.net,newsnow.co.uk,northcentralpa.com,novaramedia.com,redvoicemedia.com,technicianonline.com,trueachievements.com,truetrophies.com,urbanmilwaukee.com,zarar.dev##.email-signup
 behaviourchangeagency.com##.ck-cookie-w
 behealthymagazine.abczdrowie.pl##article a[href^="https://www.zabka.pl/?utm_source"]
 behemothbrewing.co.nz,drinkboem.com,epicbeer.com,halfmoonwinestore.com.au,missionliquor.com,store.henryofpelham.com###prompt-background
@@ -85815,6 +85819,7 @@ careerindia.com#@#.os-header-ad
 careerindia.com,oneindia.com##.inhouse-content
 careerkarma.com##.ant-modal-root
 careermap.co.uk#%#//scriptlet("set-constant", "trackEvent", "noopFunc")
+careers.americanexpress.com,fa-etvc-saasfaprod1.fa.ocs.oraclecloud.com,krogerfamilycareers.com,onskefoto.se,st1.com,st1.fi,st1.se,ventilationland.co.uk##.cookie-consent-modal
 careers.cloud.com,etsy.com##+js(set-cookie, ctc_rejected, 1)
 careers.ing.com,kytary.*##+js(set-cookie, CookieConsent, 0, , reload, 1)
 careers.lilly.com,dell.com,itnews.com.au,jibtv.com,vandyke.com###gdpr-alert
@@ -92744,7 +92749,6 @@ cronn.de##.privacyoverlay
 crooksandliars.com##.am-unit
 crooksandliars.com##.donation-drive
 crooksandliars.com##.share-inner
-crooksandliars.com,drewberquist.com,kentuckytoday.com,keysnews.com,ktbs.com,kulr8.com,lifezette.com,montanarightnow.com,msmagazine.com,newsmirror.net,newsnow.co.uk,northcentralpa.com,novaramedia.com,redvoicemedia.com,technicianonline.com,trueachievements.com,truetrophies.com,urbanmilwaukee.com,zarar.dev##.email-signup
 croq-kilos.com###popinCK
 croq-kilos.com##.ck-newsletter
 crosig.hr##+js(set-cookie, cookie_control_consent, true)
@@ -94333,7 +94337,7 @@ deepbrid.com##.content > div.rounded-md.text-theme-10
 deepbrid.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'adblock')
 deepbrid.com#@#.ad-banner-top
 deepbrid.com#@#.google-ad
-deepdivedubai.com##div[fs-consent-element]
+deepdivedubai.com,thenode.gg##div[fs-consent-element]
 deepfake-porn.com,deepfucks.com,faply.cc,hdpornflix.com,hentaisexclub.com,sexkbj.com,vpornhd.com,x-picture.com##.happy-sidebar
 deepfakeporn.net##.primary > li.highlight ~ li
 deepfucks.com###block-88
@@ -182995,7 +182999,6 @@ f95zone.to##ul > li:has(> div > a[href^="https://f95zone.to/link-forums/"])
 f95zone.to##ul > li:has(> div > a[href^="https://f95zone.to/link-forums/"]) ~ li
 f95zone.to,imagetwist.com##a[href^="https://candy.ai/"]
 f95zone.to,pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.net/"]
-fa-etvc-saasfaprod1.fa.ocs.oraclecloud.com,krogerfamilycareers.com,onskefoto.se,st1.com,st1.fi,st1.se,ventilationland.co.uk##.cookie-consent-modal
 fa-mag.com###privacy-policy-sticky
 faapy.com##.footer > .container > .textlink
 faapy.com##a[href="https://faapy.com/cs/mylf/"]
@@ -198351,6 +198354,7 @@ kbb.com#?##kbbAdsMainCenterAd:upward(1)
 kbb.com#?#.css-1xa55ag.eaivgmg0 > div[style*="display"]:has(a[href*="//ad.doubleclick.net/"])
 kbb.com#@#.ad-med-rec
 kbb.com#@#.gpt-ad
+kbc-zagreb.hr##.cookie-settings-show
 kbc.be##.aem-trustarc__overlay
 kbc.be##.aem-trustarc__spinner
 kbizoom.com##.stream-item:has(> .stream-item-size > .adsbygoogle)
@@ -200217,6 +200221,7 @@ leeapk.com##.acrp-ad-box-1
 leeapk.com##.acrp-ad-box-2
 leeapk.com#$##acrp-adb-overlay { display: none !important; }
 leeapk.com#$#.acrp-adb-blur { overflow: auto !important; pointer-events: auto !important; }
+leeapk.com#%#//scriptlet('abort-on-property-write', 'AcrpConfig')
 leeapk.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
 leeapk.com#%#//scriptlet('prevent-setTimeout', 'bait')
 leeapk.com#@#.ad-banner
@@ -217063,6 +217068,7 @@ pexels.com##div[class^="FullWidth_container_"]:has(a[rel="sponsored noopener"])
 pexels.com##div[class^="RowGrid_grid__"] > div[class^="RowItem_gridItem__"]:has(> div[class^="AIGCAd_"])
 pexels.com##div[data-testid="item"]:has(> a[class^="CanvaAd"])
 pexels.com##div[data-testid="item"]:has(a[href^="https://www.pexels.com/g/"])
+pexels.com##div[data-testid="item"]:has(h4[data-heading][class*="inlineTitleText"])
 pexels.com##header > a[href^="https://www.canva.com/"]
 pexels.com#?#[data-testid="column"] [data-testid="item"]:contains(Sponsored)
 pexels.com#?#[data-testid="column"] [data-testid="item"]:has-text(Sponsored)
@@ -217549,6 +217555,7 @@ pixabay.com##.show-gtty-item > div[style="font-size:14px;color:#a5a8ab;margin:5p
 pixabay.com##[class^="adsSection"]
 pixabay.com##[class^="gettySponsored"]
 pixabay.com##div[class*="sponsoredWithResults"]
+pixabay.com##div[class]:has(> [class^="title--"] a[href*="sponsored"])
 pixabay.com##div[class^="adPlacement"]
 pixabay.com##div[class^="adSponsoredMediaContainer-"]
 pixabay.com##div[class^="cell--"]:has(button[aria-label="About this advertiser"])
@@ -243249,6 +243256,7 @@ wololo.net,lebakcyber.net,ifdreamscametrue.com,nudes7.com,switch-xci.xyz,ps4pkg.
 wololo.net,lebakcyber.net,ifdreamscametrue.com,nudes7.com,switch-xci.xyz,ps4pkg.com,iptv4best.com,topnewsshow.com,intelligentliving.co,apkmaza.net,outplayed.it,nulleb.com,picgiraffe.com,cgtips.org,locurainformaticadigital.com,alltutorialsworld.com,racefans.net,csitalia.org,aulianza.com,pkmods.com,projetoscanlator.com,foxaholic.com,game-2u.com,easytutoriel.com,junaedialwi.com,otakuwire.com,xiaomitools.com,cfd.ninja,bwe.su,ebookscart.com,sciotocountydailynews.com,blogarti.com,labkom.co.id,muratisbilir.com.tr,saberprogramas.com,smarteranalyst.com,10elol.it,app.poweradspy.com,money-sense.club,dailymockup.com,ciclosport.com,litecompare.com,legendas.dev,sexgayhot.com,ggwptech.com,ultimate-catch.eu,xingkbjm.com,avoiderrors.com,freejavbt.com,desirefx.me,healthlytalks.com,androidride.com,v2rayssr.com,embetronicx.com,freemockup.net,bozuyukhaberajansi.com,shatter-box.com,haberpop.com,edmtunes.com,textfonts.net,wotcheatmods.com,grafixfather.com,yolgunlukleri.net,amirantivirus.com,spaziogames.it,modernvalueinvesting.de,omglyrics.com,kindleku.com,onurcici.com,variatkowo.pl,lauxanh.org,robloxscripts.com,filmboxoffice.web.id,satcesc.com,stilearte.it,gidabilinci.com,ipeenk.com,hwzone.co.il,tyrocity.com,plugintorrent.com,pinsystem.co.uk,trgamestudio.com,terrarium.com.pl,3dzip.org,turreta.com,elevatortoday.com,canalbpv.com,thesimarchitect.com,desktophut.com,hackinformer.com,bookflare.org,earmilk.com,chimicamo.org,otobelgesel.com,ad4msan.win,mediasobytiya.com,bambusmann.de,gizchina.com,msguides.com,csonline2.net,airlive.net,arch2o.com,asianhobbyist.com,automobile-propre.com,barboflacmusic.com,celebsepna.com,civetta.tv,culture-informatique.net,dubs.top,faq.ph,freepreset.net,gamesmagnet.net,gktoday.in,jimods.com,jimtechs.biz,jkmk.net,jppinto.com,learncpponline.com,ovagames.com,phonandroid.com,precitaj.si,scat.gold,soskidkami.ru,thefalse9.com,ucuzaucak.net,veezie.st,z3x-team.com#@##adSense
 wololo.net,lebakcyber.net,ifdreamscametrue.com,nudes7.com,switch-xci.xyz,ps4pkg.com,iptv4best.com,topnewsshow.com,intelligentliving.co,apkmaza.net,outplayed.it,nulleb.com,picgiraffe.com,cgtips.org,locurainformaticadigital.com,alltutorialsworld.com,racefans.net,csitalia.org,aulianza.com,pkmods.com,projetoscanlator.com,foxaholic.com,game-2u.com,easytutoriel.com,junaedialwi.com,otakuwire.com,xiaomitools.com,cfd.ninja,bwe.su,ebookscart.com,sciotocountydailynews.com,blogarti.com,labkom.co.id,muratisbilir.com.tr,saberprogramas.com,smarteranalyst.com,10elol.it,app.poweradspy.com,money-sense.club,dailymockup.com,ciclosport.com,litecompare.com,legendas.dev,sexgayhot.com,ggwptech.com,ultimate-catch.eu,xingkbjm.com,avoiderrors.com,freejavbt.com,desirefx.me,healthlytalks.com,androidride.com,v2rayssr.com,embetronicx.com,freemockup.net,bozuyukhaberajansi.com,shatter-box.com,haberpop.com,edmtunes.com,textfonts.net,wotcheatmods.com,grafixfather.com,yolgunlukleri.net,amirantivirus.com,spaziogames.it,modernvalueinvesting.de,omglyrics.com,kindleku.com,onurcici.com,variatkowo.pl,lauxanh.org,robloxscripts.com,filmboxoffice.web.id,satcesc.com,stilearte.it,gidabilinci.com,ipeenk.com,hwzone.co.il,tyrocity.com,plugintorrent.com,pinsystem.co.uk,trgamestudio.com,terrarium.com.pl,3dzip.org,turreta.com,elevatortoday.com,canalbpv.com,thesimarchitect.com,desktophut.com,hackinformer.com,bookflare.org,earmilk.com,chimicamo.org,otobelgesel.com,ad4msan.win,mediasobytiya.com,bambusmann.de,gizchina.com,msguides.com,csonline2.net,airlive.net,arch2o.com,asianhobbyist.com,automobile-propre.com,barboflacmusic.com,celebsepna.com,civetta.tv,culture-informatique.net,dubs.top,faq.ph,freepreset.net,gamesmagnet.net,gktoday.in,jimods.com,jimtechs.biz,jkmk.net,jppinto.com,learncpponline.com,ovagames.com,phonandroid.com,precitaj.si,scat.gold,soskidkami.ru,thefalse9.com,ucuzaucak.net,veezie.st,z3x-team.com$$script[tag-content="anOptionAdsSelectors"][max-length="3000"]
 wolt.com##.ConsentsBannerOverlay
+wolt.com##[data-test-id="MainDiscoveryContent"] li[draggable]:has(a[aria-label*="Sponsored"])
 wolt.com##div[data-test-id="MainDiscoveryContent"] li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
 wolt.com##div[data-test-id="SearchResultVenueSection"] li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
 wolt.com##ul[data-test-id="VenueVerticalListGrid"] > li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
@@ -246751,6 +246759,7 @@ znaki.edu.pl#@##ad_close
 znaki.edu.pl#@##adbox
 znaki.edu.pl#@#.adsbygoogle-noablate
 znaki.edu.pl#@#ins.adsbygoogle[data-ad-slot]
+znayka.cc##div[style^="position:fixed;z-index:9999;left:18px;bottom:18px;"]
 znds.com###diy_mobanbus_view_right2
 znds.com##.a_czt
 znds.com##div#sitefocus
@@ -251283,6 +251292,8 @@ zzzyk.com###Tinfo
 ||bing.com/api/*/mediation/clientauction
 ||bing.com/api/shopping/v1/telemetry
 ||bing.com/api/v1/mediation/tracking?
+||bing.com/apps^$removeparam=brand
+||bing.com/apps^$removeparam=pc
 ||bing.com/fd/ls/
 ||bing.com/fd/ls/GLinkPing.aspx?
 ||bing.com/fd/ls/l?IG=
@@ -261098,7 +261109,6 @@ zzzyk.com###Tinfo
 ||logbase.io/metrics
 ||logger-*.dailymotion.com^
 ||logger-*.vty.dailymotion.com/dm/
-||loggerx.com^$third-party
 ||loggly.com^$third-party
 ||login.afreecatv.com^$removeparam=szFrom
 ||login.di.se/assets/adblk.js

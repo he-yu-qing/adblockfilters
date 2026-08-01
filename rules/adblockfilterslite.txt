@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260801012909
-! Last modified: 2026/08/01 01:29:09
-! Blocked Filters: 186647
+! Version: 20260801102837
+! Last modified: 2026/08/01 10:28:37
+! Blocked Filters: 186651
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -43229,7 +43229,7 @@ $doc,removeparam=/^src=aff$/
 $doc,removeparam=/^src=rss$/
 $doc,removeparam=/^stm_.*$/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^sub_id\d=.*$/
-$doc,removeparam=/^subid1=.*$/i
+$doc,removeparam=/^subid1=.*$/i,domain=~11hentai.com|~abbdsm.com|~abebony.com|~abgay.tube|~abjav.com|~ablesbian.com|~abmilf.com|~abtranny.com|~abxxx.com
 $doc,removeparam=/^subid2=.*$/i
 $doc,removeparam=/^subid3=.*$/i
 $doc,removeparam=/^subid4=.*$/i
@@ -46159,6 +46159,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 -120x600-
 -120x600.
 -120x600_
+-1300-x-200-
 -1316632262.cos.
 -1316899192.cos.
 -1321533417.cos.
@@ -66174,6 +66175,7 @@ beforeitsnews.com,celebrity.red,codastory.com,dailygood.org,databricks.com,evero
 beforeitsnews.com,highshortinterest.com##[href^="https://tinyurl.com/"]
 beforeitsnews.com,in5d.com##[href*="hop.clickbank.net"]
 begeek.cn##[href="http://static.webhek.com/tb.html"],.adsbygoogle
+behavioralscientist.org,crooksandliars.com,drewberquist.com,kentuckytoday.com,keysnews.com,ktbs.com,kulr8.com,lifezette.com,montanarightnow.com,msmagazine.com,newsmirror.net,newsnow.co.uk,northcentralpa.com,novaramedia.com,redvoicemedia.com,technicianonline.com,trueachievements.com,truetrophies.com,urbanmilwaukee.com,zarar.dev##.email-signup
 behemothbrewing.co.nz,drinkboem.com,epicbeer.com,halfmoonwinestore.com.au,missionliquor.com,store.henryofpelham.com###prompt-background
 beinmatch.*###sponsor
 beinmatch.*#%#//scriptlet("abort-on-property-read", "S9tt")
@@ -67240,6 +67242,7 @@ carcomplaints.com,dolldivine.com,entrepreneur.com,interglot.com,news18.com,price
 cardcluster.com,traderie.com##div[class^="AdSlot__"]
 cardinalnews.org,washingtoninformer.com##.newspack-popup-container
 careerindia.com,oneindia.com##.inhouse-content
+careers.americanexpress.com,fa-etvc-saasfaprod1.fa.ocs.oraclecloud.com,krogerfamilycareers.com,onskefoto.se,st1.com,st1.fi,st1.se,ventilationland.co.uk##.cookie-consent-modal
 careers.cloud.com,etsy.com##+js(set-cookie, ctc_rejected, 1)
 careers.ing.com,kytary.*##+js(set-cookie, CookieConsent, 0, , reload, 1)
 careers.lilly.com,dell.com,itnews.com.au,jibtv.com,vandyke.com###gdpr-alert
@@ -71366,7 +71369,6 @@ crmbuyer.com,ectnews.com,technewsworld.com##.content-block-slinks
 crmbuyer.com,ectnews.com,technewsworld.com##.content-tab-slinks
 crocotube.com,zedporn.com##span[id^="TAm-Native-Bottom-"]
 croda.com,frontgate.com,incotec.com,york.ac.uk##.c-cookie-banner
-crooksandliars.com,drewberquist.com,kentuckytoday.com,keysnews.com,ktbs.com,kulr8.com,lifezette.com,montanarightnow.com,msmagazine.com,newsmirror.net,newsnow.co.uk,northcentralpa.com,novaramedia.com,redvoicemedia.com,technicianonline.com,trueachievements.com,truetrophies.com,urbanmilwaukee.com,zarar.dev##.email-signup
 crowd.mos.ru,ctc.ru##[class^="AcceptCookie_"]
 croxy.network,stackfront.xyz,proxyium.com,youtubeunblocked.live,croxyproxy.rocks,croxy.org,datatech.icu,croxyproxy.net,croxyproxy.com,blockaway.net###zapperSquare
 crsky.com##.Adown_dli
@@ -71801,6 +71803,7 @@ decrypt.co,metabattle.com##div[style^="min-width: 300px;"]
 dedejs.com##[class^="gg"]
 dedoles.*##.mailinglist-signin
 deep-edge.net,forums.digitalspy.com,marketwatch.com#@#.has-ad
+deepdivedubai.com,thenode.gg##div[fs-consent-element]
 deepfake-porn.com,deepfucks.com,faply.cc,hdpornflix.com,hentaisexclub.com,sexkbj.com,vpornhd.com,x-picture.com##.happy-sidebar
 deepgoretube.site,lewdgames.to#@##fwdevpDiv0
 deepseek.com##.cookie_banner-wrap
@@ -156677,7 +156680,6 @@ f2movies.to,moviesjoy.to##.news-iframe
 f2movies.to,streameast.watch#%#//scriptlet("abort-current-inline-script", "JSON.parse", "getPropertyValue('content')")
 f95zone.to,imagetwist.com##a[href^="https://candy.ai/"]
 f95zone.to,pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.net/"]
-fa-etvc-saasfaprod1.fa.ocs.oraclecloud.com,krogerfamilycareers.com,onskefoto.se,st1.com,st1.fi,st1.se,ventilationland.co.uk##.cookie-consent-modal
 faapy.com,minneapolis.org,visitcos.com,visitpittsburgh.com##.msg
 faayoo.com###footer_fd
 faayoo.com##.qr_code
@@ -179800,6 +179802,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||bing.$removeparam=ts
 ||bing.$removeparam=wlexpsignin
 ||bing.$removeparam=wsso
+||bing.com/apps^$removeparam=brand
+||bing.com/apps^$removeparam=pc
 ||bing.com^$cookie=ABDEF
 ||bing.com^$removeparam=/^sh[b-np-z0-9]/
 ||bio-equip.com/dimg/
