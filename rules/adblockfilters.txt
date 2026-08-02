@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260802175618
-! Last modified: 2026/08/02 17:56:18
-! Blocked Filters: 273082
+! Version: 20260803005757
+! Last modified: 2026/08/03 00:57:57
+! Blocked Filters: 273087
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -86603,10 +86603,11 @@ chatgpt.com##div[data-testid] div[class^="max-"] > div[data-testid="image-card-v
 chatgpt.com##div[data-testid] div[class^="relative max-"]:has(> div[data-testid="image-card-v2"] + .pointer-events-none button[aria-label="Sponsored options"])
 chatgpt.com##section:has(> [aria-label="Sponsored"])
 chatgpt.com#%#//scriptlet('trusted-json-set', 'WeakMap.prototype.set', '$[?(@.ads_response_id)].*', '$remove$', '', 'arg:1')
-chatgpt.com#%#//scriptlet('trusted-replace-outbound-text', 'TextDecoder.prototype.decode', '/^{"type": "ads", "content": {"ads_request_id":[\s\S]*?"ads_response_id":[\s\S]*}$/', '{}')
 chatgpt.com#%#//scriptlet('trusted-replace-outbound-text', 'TextDecoder.prototype.decode', '/^{"type":\s*"ads",\s*"content":\s*{"ads_request_id":.*?"ads_response_id":.*}$/', '{}')
 chatgpt.com#?#.fixed.bottom-0:has-text(Try Atlas)
 chatgpt.com#?#.md\:px-\[60px\]:has-text(By messaging ChatGPT)
+chatgpt.com#?#.opacity-100.transition-opacity.ease-out:contains(Sponsored options)
+chatgpt.com#?#.opacity-100.transition-opacity.ease-out:has-text(Sponsored options)
 chatgpt.com#?#.z-20.bottom-full:has-text(Get Extension)
 chatgptfree.ai#?#.elementor-widget-container > style + p:contains(/^ADS$/)
 chatib.us##.login-container > div[class^="col-"] > center > div.mrg-b-25
@@ -92280,6 +92281,7 @@ corriere.it###box_mkt_hp_spalla_dx
 corriere.it###ddayBox
 corriere.it###pno_manina_2024_inline
 corriere.it###youreporter
+corriere.it##.sponsor-strip
 corriere.it##a[href^="https://it.chili.tv"]
 corriere.it##div[id^="rcsad_"]
 corriere.it##div[style="min-height: 1500px;"]
@@ -228747,6 +228749,9 @@ stocktwits.com#?#.leading-\[16px\]:contains(Advertisement)
 stocktwits.com#?#.leading-\[16px\]:has-text(Advertisement)
 stockwatch.pl##div[class*="-"] > span[data-adsourl]:first-child + img:last-child
 stockwatch.pl##div[class*="-"]:has(> span[data-adsourl]:first-child + img:last-child)
+stockx.com##[data-component="brand-tile"]:has([data-testid="sponsored-tag"])
+stockx.com##[data-component="product-tile"]:has([data-testid="sponsored-tag"])
+stockx.com##[data-testid="banner-collage"] .chakra-aspect-ratio:has(a[title*="Promo"])
 stoffdronning.no###consent-parent-container
 stokesentinel.co.uk##.shop-window[data-impr-tracking="true"]
 stokrotka.pl###cboxWrapper
@@ -244624,12 +244629,12 @@ xhamster.com##div[data-testid="right-banner-section"]
 xhamster.com#$#div[style*="adVideo"] { position: absolute!important; left: -3000px!important; }
 xhamster.com,xhamster.one,xhamster2.com##[class^="xplayer-banner"]
 xhamster.com,xhamster2.com##.wio-xbanner
+xhamster.com,xhamster46.desi##.xplayer > div.xh-helper-hidden + div[class*="-hover-menu"]
 xhamster.fm,erotic-beauties.com,hardsex.cc,sex-movies.biz,sikwap.xyz,tube18.sexy#%#//scriptlet('abort-current-inline-script', 'pop_init')
 xhamster11.com#%#//scriptlet('abort-on-property-write', 'wio-vpopunder')
 xhamster2.com##.wio-xspa
 xhamster45.desi##[data-role="cookies-modal"]
 xhamster46.desi##.thumb-list__item:has(> div[class*="skeleton-"])
-xhamster46.desi##.xplayer > div.xh-helper-hidden + div[class*="-hover-menu"]
 xhamster46.desi,tr.myxh.today,r.usbxh.life,xhamster44.desi,aawweb.beauty,colourxh.site,xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster22.com,xhamster27.com,openxh.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com#$#.thumb-list > .video-thumb { margin-right: 0px !important; }
 xhamster46.desi,tr.myxh.today,tr.usbxh.life,xhamster44.desi,aawweb.beauty,colourxh.site,xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster22.com,xhamster27.com,openxh.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.top-menu div[data-item] > a[target="_blank"]
 xhamster46.desi,tr.myxh.today,tr.usbxh.life,xhamster44.desi,aawweb.beauty,colourxh.site,xhamster43.desi,fullxh.com,interxh.site,xhspot.com,xhwide5.com,xhchannel.com,xhtotal.com,xhtree.com,xhwide2.com,xhlease.world,xhamsterporno.mx,valuexh.life,xhdate.world,xhbranch5.com,galleryxh.site,xhbig.com,xhaccess.com,xhofficial.com,seexh.com,xhamster42.desi,xhvid.com,xhamster20.desi,xhamster19.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhamster3.com,xhplanet2.com,megaxh.com,xhamster16.*,xhamster.com,xhamster2.com,xhamster7.com,xhamster8.com,xhamster9.com,xhamster10.com,xhamster12.com,xhamster13.*,xhamster14.com,xhamster15.com,xhamster17.*,xhamster18.*,xhamster19.com,xhamster1.desi,xhamster2.desi,xhamster3.*,xhamster4.desi,xhamster22.com,xhamster27.com,openxh.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##.traffic-stars
