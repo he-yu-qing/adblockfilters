@@ -1,9 +1,9 @@
-! Checksum: Jc6V3cYhjYYk5cDPTLKmPw
-! Diff-Path: ../patches/17/17-s-1785398187-3600.patch
+! Checksum: KN7yNtJt+BE+2E9XNGhdDA
+! Diff-Path: ../patches/17/17-s-1785844133-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.13.79
-! TimeUpdated: 2026-07-30T07:54:15+00:00
+! Version: 2.0.13.81
+! TimeUpdated: 2026-08-04T11:46:17+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -533,6 +533,8 @@ $removeparam=tduid
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/pull/237405
+||erkekadam.org^$removeparam=kaynak
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237045
 ||supply.amazon.com^$removeparam=ref_
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-17821852
@@ -3636,8 +3638,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_ext
 @@$removeparam=utm_medium,domain=hobbygames.ru
 @@$removeparam=utm_campaign,domain=hobbygames.ru
 @@$removeparam=utm_source,domain=hobbygames.ru
+! https://github.com/AdguardTeam/AdguardFilters/issues/237174
 ! https://github.com/AdguardTeam/AdguardFilters/issues/236387
-@@||shopify.com/authentication/$removeparam=analytics_trace_id,domain=momogo.de
+@@||shopify.com/authentication/$removeparam=analytics_trace_id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/230641
 @@/e/er?$removeparam=elqTrackId,domain=s1740541080.t.eloqua.com|app.econnect.utexas.edu|clk.texaslonghorns.com
 @@/e/er?$removeparam=elq,domain=s1740541080.t.eloqua.com|app.econnect.utexas.edu|clk.texaslonghorns.com
