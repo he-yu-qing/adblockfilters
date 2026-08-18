@@ -17,7 +17,6 @@ bilibili.com#%#//scriptlet('trusted-replace-argument', 'history.pushState', '2',
 bilibili.com#%#//scriptlet('trusted-replace-argument', 'history.replaceState', '2', 'replace:/(?<=[?&])(?:vd_source|trackid|spm_id_from)=[^&#]*&?//g')
 !
 ! Youtube
-!+ NOT_PLATFORM(ext_chromium_mv3)
 www.youtube.com#%#//scriptlet('prevent-xhr', '/\/api\/stats\/atr\?.+?&rt=\d+\.\d+.+?&volume=\d+&cbr=.+?&fexp=v1%[-%0-9C]{300,}&.+?&muted=\d(&vis=3)?&docid=/ method:POST')
 ! Ad-Shield
 ! Prevent Ad-Shield tracking script - Only tracking ad block traffic. NOT Ad-Shield advertisement or protection.
@@ -100558,6 +100557,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||analytics.streamvaultsrc.click^
 ||cat.pexels.com^
 ||affiliate.unisender.com^
 ||ling.willowmovies.com^
@@ -314715,6 +314715,8 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||instyle.com/static/*/static/modules/js/AssertiveYield/
+nishispo.nishinippon.co.jp#?##access-ranking:contains(Recent Articles)
 ||theroot.com/wp-content/plugins/advanced-ads-tracking/
 ||api.redgifs.com/v*/events/
 ||api.heikeji.me/api/logs/check
