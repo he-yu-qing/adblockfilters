@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260822003112
-! Last modified: 2026/08/22 00:31:12
-! Blocked domains: 29805
+! Version: 20260822090204
+! Last modified: 2026/08/22 09:02:04
+! Blocked domains: 29835
 ! unBlocked domains: 63
 !
 ||0000f0deb5f4e6c3.com^
@@ -838,14 +838,17 @@
 ||agd.p.360.cn^
 ||agd2.p.360.cn^
 ||api.shuaji.360.cn^
+||bp.f.360.cn^
 ||browser.360.cn^
 ||c.mse.360.cn^
 ||c.sayhi.360.cn^
 ||care.help.360.cn^
+||cc.f.360.cn^
 ||cm.dmp.360.cn^
+||conf.f.360.cn^
+||conf2.f.360.cn^
 ||daikuan.360.cn^
 ||down.360.cn^
-||f.360.cn^
 ||fenxi.360.cn^
 ||h5.mse.360.cn^
 ||hao.360.cn^
@@ -853,26 +856,45 @@
 ||iad.e.360.cn^
 ||jiagu.360.cn^
 ||lianmeng.360.cn^
+||mclean.f.360.cn^
 ||mobilem.360.cn^
+||mscan.f.360.cn^
+||msch.f.360.cn^
 ||msoftdl.360.cn^
+||mvconf.f.360.cn^
+||p.f.360.cn^
 ||papi.look.360.cn^
+||pconf.f.360.cn^
+||pscan.f.360.cn^
 ||qstore.inner.api.sj.360.cn^
+||qup.f.360.cn^
+||qurl.f.360.cn^
 ||s.360.cn^
+||sconf.f.360.cn^
 ||sd.360.cn^
 ||sdk.look.360.cn^
 ||se.360.cn^
 ||shouji.360.cn^
 ||show.look.360.cn^
+||skconf.f.360.cn^
+||smvconf.f.360.cn^
 ||socm.dmp.360.cn^
 ||soft.data.weather.360.cn^
 ||softdl4.360.cn^
 ||stat.m.360.cn^
+||tconf.f.360.cn^
+||tconf2.f.360.cn^
 ||tf.360.cn^
 ||tools.soft.360.cn^
 ||tr.p.360.cn^
 ||u.360.cn^
 ||u.api.look.360.cn^
+||uconf.f.360.cn^
+||vcheck.f.360.cn^
+||vconf.f.360.cn^
+||vd.f.360.cn^
 ||wan.360.cn^
+||wsus.f.360.cn^
 ||yasuo.360.cn^
 ||ykapi.luyou.360.cn^
 ||yule.360.com^
@@ -4662,7 +4684,8 @@
 ||dl.bamengame.com^
 ||h.baminw.cn^
 ||j.baminw.cn^
-||baminw.com.cn^
+||n.baminw.com.cn^
+||q.baminw.com.cn^
 ||banbeng.cn^
 ||banchuanggz.com^
 ||bandao-bandaotiyu-live.com.cn^
@@ -6714,6 +6737,8 @@
 ||cloud-wpss.com.cn^
 ||cloudbreach.digital^
 ||cloudcome.net^
+||7mnpeh.com1.z0.glb.clouddn.com^
+||7xi9g1.com1.z0.glb.clouddn.com^
 ||bkt.clouddn.com^
 ||rus3rcqtp.hn-bkt.clouddn.com^
 ||s6rxifhln.hn-bkt.clouddn.com^
@@ -8888,6 +8913,10 @@
 ||dxpmedia.com^
 ||2021.dxsbb.com^
 ||dxsjcz.cn^
+||ak.dxsvr.com^
+||rc.dxsvr.com^
+||tls.dxsvr.com^
+||u.dxsvr.com^
 ||dxsz56.com^
 ||adsdkapi.dxys.pro^
 ||fumiad.dxys.pro^
@@ -11557,6 +11586,7 @@
 ||googleflights-cn.net^
 ||googlefood.cn^
 ||googlegce.com.cn^
+||googlehcn.com.cn^
 ||googlehcom.com.cn^
 ||googlei.com.cn^
 ||googlel.com.cn^
@@ -18468,7 +18498,8 @@
 ||monitor.oneprocloud.com^
 ||onetelegram.com.cn^
 ||natdetection.onethingpcs.com^
-||oneway.mobi^
+||ads.oneway.mobi^
+||tl.oneway.mobi^
 ||file.oneweone.cn^
 ||oneyouxi.com.cn^
 ||onezapp.com^
@@ -27456,7 +27487,6 @@
 ||hao.xiaomi.com^
 ||heyue.xiaomi.com^
 ||huosai.xiaomi.com^
-||hybrid.xiaomi.com^
 ||idmb.register.xmpush.global.xiaomi.com^
 ||image.box.xiaomi.com^
 ||image.cdn.mvideo.xiaomi.com^

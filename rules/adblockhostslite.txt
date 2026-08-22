@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260822003113
-# Last modified: 2026/08/22 00:31:13
-# Blocked domains: 29805
+# Version: 20260822090205
+# Last modified: 2026/08/22 09:02:05
+# Blocked domains: 29835
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -852,14 +852,17 @@ ff02::3	ip6-allhosts
 0.0.0.0	agd.p.360.cn
 0.0.0.0	agd2.p.360.cn
 0.0.0.0	api.shuaji.360.cn
+0.0.0.0	bp.f.360.cn
 0.0.0.0	browser.360.cn
 0.0.0.0	c.mse.360.cn
 0.0.0.0	c.sayhi.360.cn
 0.0.0.0	care.help.360.cn
+0.0.0.0	cc.f.360.cn
 0.0.0.0	cm.dmp.360.cn
+0.0.0.0	conf.f.360.cn
+0.0.0.0	conf2.f.360.cn
 0.0.0.0	daikuan.360.cn
 0.0.0.0	down.360.cn
-0.0.0.0	f.360.cn
 0.0.0.0	fenxi.360.cn
 0.0.0.0	h5.mse.360.cn
 0.0.0.0	hao.360.cn
@@ -867,26 +870,45 @@ ff02::3	ip6-allhosts
 0.0.0.0	iad.e.360.cn
 0.0.0.0	jiagu.360.cn
 0.0.0.0	lianmeng.360.cn
+0.0.0.0	mclean.f.360.cn
 0.0.0.0	mobilem.360.cn
+0.0.0.0	mscan.f.360.cn
+0.0.0.0	msch.f.360.cn
 0.0.0.0	msoftdl.360.cn
+0.0.0.0	mvconf.f.360.cn
+0.0.0.0	p.f.360.cn
 0.0.0.0	papi.look.360.cn
+0.0.0.0	pconf.f.360.cn
+0.0.0.0	pscan.f.360.cn
 0.0.0.0	qstore.inner.api.sj.360.cn
+0.0.0.0	qup.f.360.cn
+0.0.0.0	qurl.f.360.cn
 0.0.0.0	s.360.cn
+0.0.0.0	sconf.f.360.cn
 0.0.0.0	sd.360.cn
 0.0.0.0	sdk.look.360.cn
 0.0.0.0	se.360.cn
 0.0.0.0	shouji.360.cn
 0.0.0.0	show.look.360.cn
+0.0.0.0	skconf.f.360.cn
+0.0.0.0	smvconf.f.360.cn
 0.0.0.0	socm.dmp.360.cn
 0.0.0.0	soft.data.weather.360.cn
 0.0.0.0	softdl4.360.cn
 0.0.0.0	stat.m.360.cn
+0.0.0.0	tconf.f.360.cn
+0.0.0.0	tconf2.f.360.cn
 0.0.0.0	tf.360.cn
 0.0.0.0	tools.soft.360.cn
 0.0.0.0	tr.p.360.cn
 0.0.0.0	u.360.cn
 0.0.0.0	u.api.look.360.cn
+0.0.0.0	uconf.f.360.cn
+0.0.0.0	vcheck.f.360.cn
+0.0.0.0	vconf.f.360.cn
+0.0.0.0	vd.f.360.cn
 0.0.0.0	wan.360.cn
+0.0.0.0	wsus.f.360.cn
 0.0.0.0	yasuo.360.cn
 0.0.0.0	ykapi.luyou.360.cn
 0.0.0.0	yule.360.com
@@ -4676,7 +4698,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	dl.bamengame.com
 0.0.0.0	h.baminw.cn
 0.0.0.0	j.baminw.cn
-0.0.0.0	baminw.com.cn
+0.0.0.0	n.baminw.com.cn
+0.0.0.0	q.baminw.com.cn
 0.0.0.0	banbeng.cn
 0.0.0.0	banchuanggz.com
 0.0.0.0	bandao-bandaotiyu-live.com.cn
@@ -6728,6 +6751,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	cloud-wpss.com.cn
 0.0.0.0	cloudbreach.digital
 0.0.0.0	cloudcome.net
+0.0.0.0	7mnpeh.com1.z0.glb.clouddn.com
+0.0.0.0	7xi9g1.com1.z0.glb.clouddn.com
 0.0.0.0	bkt.clouddn.com
 0.0.0.0	rus3rcqtp.hn-bkt.clouddn.com
 0.0.0.0	s6rxifhln.hn-bkt.clouddn.com
@@ -8902,6 +8927,10 @@ ff02::3	ip6-allhosts
 0.0.0.0	dxpmedia.com
 0.0.0.0	2021.dxsbb.com
 0.0.0.0	dxsjcz.cn
+0.0.0.0	ak.dxsvr.com
+0.0.0.0	rc.dxsvr.com
+0.0.0.0	tls.dxsvr.com
+0.0.0.0	u.dxsvr.com
 0.0.0.0	dxsz56.com
 0.0.0.0	adsdkapi.dxys.pro
 0.0.0.0	fumiad.dxys.pro
@@ -11571,6 +11600,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	googleflights-cn.net
 0.0.0.0	googlefood.cn
 0.0.0.0	googlegce.com.cn
+0.0.0.0	googlehcn.com.cn
 0.0.0.0	googlehcom.com.cn
 0.0.0.0	googlei.com.cn
 0.0.0.0	googlel.com.cn
@@ -18482,7 +18512,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	monitor.oneprocloud.com
 0.0.0.0	onetelegram.com.cn
 0.0.0.0	natdetection.onethingpcs.com
-0.0.0.0	oneway.mobi
+0.0.0.0	ads.oneway.mobi
+0.0.0.0	tl.oneway.mobi
 0.0.0.0	file.oneweone.cn
 0.0.0.0	oneyouxi.com.cn
 0.0.0.0	onezapp.com
@@ -27470,7 +27501,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	hao.xiaomi.com
 0.0.0.0	heyue.xiaomi.com
 0.0.0.0	huosai.xiaomi.com
-0.0.0.0	hybrid.xiaomi.com
 0.0.0.0	idmb.register.xmpush.global.xiaomi.com
 0.0.0.0	image.box.xiaomi.com
 0.0.0.0	image.cdn.mvideo.xiaomi.com
