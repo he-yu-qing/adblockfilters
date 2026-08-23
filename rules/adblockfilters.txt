@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260823002159
-! Last modified: 2026/08/23 00:21:59
+! Version: 20260823090621
+! Last modified: 2026/08/23 09:06:21
 ! Blocked Filters: 382495
 !
 ###-CookieConsentContainer
@@ -94586,6 +94586,8 @@ computable.nl##.social-media-sharers-wrap
 computable.nl,cyberseceurope.com,fsr.eui.eu##.ce-banner
 computacenter.com##+js(set-cookie, consent_seen, 1)
 compute.click.s11.sfmc-osl.com$image
+computer.org###scrollToTopLink
+computer.org##.ad-area
 computer.org##.adBlockBanner
 computerbase.de##+js(set-cookie, OptanonAlertBoxClosed, 1)
 computerbase.de##.adbox-wrapper
@@ -99712,7 +99714,6 @@ earlystage.pl##+js(set-cookie, analytics_storage, false)
 earlystage.pl##+js(set-cookie, functionality_storage, false)
 earlystage.pl##+js(set-cookie, personalization_storage, false)
 earlystage.pl##+js(set-cookie, security_storage, false)
-earnbitmoon.club,multiclaim.net,claimbits.net,coinadster.com###wcfloatDiv4
 earnhub.net##center ins
 earnlab.com##+js(set-cookie, el_consent, necessary)
 earone.it##div[style^="width:968px;min-height:300px;background:url"]
@@ -306024,7 +306025,7 @@ kf.qq.com#%#//scriptlet('set-constant', 'Aegis', 'noopFunc')
 kffhealthnews.org##.block--newsletter
 kfim.com##.message
 kfz-betrieb.vogel.de###nl_block
-kgdavia.ru##.cookieAgr
+kgdavia.ru,mmkavia.ru##.cookieAgr
 kh.hu##+js(set-cookie, kh_cookie_level1, true)
 kh.hu##+js(set-cookie, kh_cookie_level3, false)
 kh.hu##+js(set-cookie, kh_cookie_level4, false)
@@ -314646,7 +314647,7 @@ mbauniverse.com###block-views-home-page-banner-block
 mbauniverse.com##.shriresume-logo
 mbc.net###mbc-policy
 mbc.net##.mbc-policy
-mbconfidential.com,news.itsfoss.com,untappedcities.com,words.filippo.io##.subscribe-cta
+mbconfidential.com,news.itsfoss.com,thecyclingweek.com,untappedcities.com,words.filippo.io##.subscribe-cta
 mbd.baidu.com###content_wrapper + div + .default-container
 mbd.baidu.com##.commonPadding
 mbd.baidu.com##.default-container
@@ -316461,7 +316462,6 @@ miscgroup.com###cookies-policy-panel
 mishaptube.com##.table
 misinforeview.hks.harvard.edu##.misinfo-banner
 missav.*##div[style="width: 300px; height: 100px;"]
-missav.*,missav123.com,missav888.com##.lg\:block
 missav.*,missav123.com,missav888.com##.lg\:hidden
 missav.*,missav123.com,missav888.com##.relative > div[x-init*="campaignId=under_player"]
 missav.*,missav123.com,missav888.com##[x-show$="video_details'"] > div > .list-disc
