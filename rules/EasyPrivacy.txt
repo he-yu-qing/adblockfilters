@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202608231609
+! Version: 202608240042
 ! Title: EasyPrivacy
-! Last modified: 23 Aug 2026 16:09 UTC
+! Last modified: 24 Aug 2026 00:42 UTC
 ! Expires: 4 days (update frequency)
-! Commit: edded313c758f2c84bc35a63c30e8adb6f2d40cf
+! Commit: 9ec235677552c2c19bc845d1351b4f95f69e1e1f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10216,7 +10216,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||brandmetrics.com^$third-party
 ||citypaketet.se^$third-party
 ||dep-x.com^$third-party
-||lwadm.com^$third-party
 ||myvisitors.se^$third-party
 ||prospecteye.com^$third-party
 ||publish-int.se^$third-party
@@ -15209,6 +15208,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacons.ai/api/next_api/rta_v1/
 ||beacons.digital.disneyadvertising.com^
 ||bearblog.dev/hit/
+||beehiiv.com/nectar_analytics
+||beehiiv.com/page_view
 ||beforeitsnews.com/core/ajax/counter/count.php^
 ||behance.net/log
 ||behance.net/v2/logs
@@ -55053,6 +55054,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
 ||anyelse.com/stat^
+||api.bus-location.1507t.xyz/3.0/ping
 ||api.mercari.jp/client_events/
 ||apps.nhk.jp/assets/dtm/
 ||askdoctors.jp/assets/packs/js/impression_tracker-
@@ -56661,7 +56663,6 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ! 
 ! ---------- Swedish ----------
 ! 
-@@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||picsearch.com/js/comscore.js$domain=dn.se
 ! 
 ! ---------- Thai ----------
