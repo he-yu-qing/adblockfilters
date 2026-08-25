@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260825003510
-! Last modified: 2026/08/25 00:35:10
-! Blocked Filters: 383096
+! Version: 20260825090430
+! Last modified: 2026/08/25 09:04:30
+! Blocked Filters: 383100
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -80002,6 +80002,7 @@ apnews.com##div[class^="TwoColumnContainer"]:has(> div[class^="TwoColumnContaine
 apnews.com#$#.LeadFeature { min-height: auto !important; }
 apnews.com#$#:root { --stickyPos: 0 !important; }
 apnews.com#$?#.Page-header-leaderboardAd { remove: true; }
+apnews.com#?#.HTMLModuleEnhancement:has-text(Sign up)
 apnews.com,arabiaweather.com,atlasobscura.com,forum.audiogon.com,gamesindustry.biz,golfdigest.com,zerohedge.com##.leaderboard-container
 apnews.com,heraldnet.com,inquirer.com,newsnationnow,njbiz.com,parent.com,thehill.com,therecord.com##.fancybox-overlay
 apnews.com,heraldnet.com,inquirer.com,newsnationnow,njbiz.com,parent.com,thehill.com,therecord.com##body,html:style(overflow: auto !important; position: initial !important;)
@@ -336249,6 +336250,8 @@ sms.esimplus.me##.kVTekw
 sms24.me##div[class^="ado-"]
 sms24.me##div[id^="div-gpt-ad"]
 sms24.me#$#.pub_728x90.text-ad.text_ads.text-ads.text-ad-links { display: block!important; }
+sms24.me#%#//scriptlet('remove-attr', 'onerror', 'script[id][onerror]')
+sms24.me#%#//scriptlet('remove-node-text', 'script', ').join(String.fromCharCode')
 sms24.me,sms24.info##body > div[style^="position: fixed; z-index: 1000"]
 sms24.me,sms24.info#%#//scriptlet("prevent-addEventListener", "", "showAdblock()")
 sms24.me,sms24.info#%#//scriptlet("prevent-setTimeout", "/ADBLOCK|window\.\$ado|showAdblock/")
@@ -373916,6 +373919,7 @@ zzzyk.com###Tinfo
 ||olybet.lv^$removeparam=ref
 ||olyhdliveextra-a.akamaihd.net/*.mp4$domain=theplatform.com
 ||olympics.com/ddna-event-router/
+||olympusxyz.com/_nuxt/CIJNsars.js
 ||om.cn/api/ad-om/
 ||omanhua.net/scripts/show/3
 ||omanhua.net/scripts/show/a
