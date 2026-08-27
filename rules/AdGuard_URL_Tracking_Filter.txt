@@ -1,9 +1,9 @@
-! Checksum: IyoKVeQiHvfcFjgHcvfuxA
-! Diff-Path: ../patches/17/17-s-1787732457-3600.patch
+! Checksum: Nlq/82PhRUQvoPeNjq9UHQ
+! Diff-Path: ../patches/17/17-s-1787811299-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.13.97
-! TimeUpdated: 2026-08-26T08:18:45+00:00
+! Version: 2.0.13.99
+! TimeUpdated: 2026-08-27T06:12:18+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -535,6 +535,9 @@ $removeparam=tduid
 ! Good: ||example.org^$removeparam=cx
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/239451
+||deview.co.jp^$removeparam=am_ko
+||deview.co.jp^$removeparam=anc
 ! https://github.com/AdguardTeam/AdguardFilters/issues/239319
 ||weathernews.jp^$removeparam=media
 ! https://github.com/AdguardTeam/AdguardFilters/issues/239313
@@ -1294,6 +1297,8 @@ $removeparam=phfp,domain=protonvpn.com|proton.me
 ! ExpressVPN
 ||expressvpn.com^$removeparam=xvcid
 ||expressvpn.com^$removeparam=shareid
+! https://github.com/AdguardTeam/AdguardFilters/issues/239435
+||news.golfdigest.co.jp^$removeparam=ctid
 ! links on www.golfdigest.co.jp
 ||golfdigest.co.jp^$removeparam=car
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-12099447
