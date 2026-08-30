@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260830213243
-! Last modified: 2026/08/30 21:32:43
-! Blocked Filters: 298038
+! Version: 20260831030415
+! Last modified: 2026/08/31 03:04:15
+! Blocked Filters: 298041
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -65904,6 +65904,8 @@ aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-car
 aliexpress.com#?##card-list > .search-item-card-wrapper-gallery:has(a.search-card-item[href*="&aem_p4p_detail="] div[class*="cards--image--"] > div[class*="multi--ax--"]:has-text(/^(?:AD|An[uú]ncio|광고|広告)$/)):has(+ .search-item-card-wrapper-gallery a.search-card-item:not([href*="&aem_p4p_detail="]))
 aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, OfflineAudioContext, undefined)
 aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefined)
+aliexpress.com,aliexpress.ru,aliexpress.us#%#//scriptlet('ubo-set', 'OfflineAudioContext', 'undefined')
+aliexpress.com,aliexpress.ru,aliexpress.us#%#//scriptlet('ubo-set', 'navigator.bluetooth', 'undefined')
 aliexpress.com,aliexpress.us###header-float-banner
 aliexpress.com,aliexpress.us##._3KrBP
 aliexpress.com,aliexpress.us##.drogue-poplayer-modal
@@ -68465,7 +68467,7 @@ bounce.e.ndsp.com.au.inbound.402.vwfla6.mx.salesforce.com$image
 bounce.msf.org.au.inbound.402.vwfla6.mx.salesforce.com$image
 bounce.revealbi.io$image
 bounce.usa.email.chattem.com$image
-boundingintocomics.com,thegrio.com##.tpd-incontent-ad-container
+boundingintocomics.com,theblast.com,thegrio.com##.tpd-incontent-ad-container
 bountyparents.e.aremedia.com.au$image
 bournemouthecho.co.uk,decalgirl.com,feedspot.com,jobomas.com,police.uk,straitstimes.com,younow.com##.modal-backdrop
 bournemouthecho.co.uk,jobomas.com,patient.info##.modal
@@ -75607,7 +75609,7 @@ dramacool.*##.sidebar.mCS-autoHide
 dramacool.*#?#.content-right > div.block-tab > div.block > div.tab-content:has(> div.ads_place_160)
 dramacool.*#?#.content-right > div.block-tab > ul.tab > li:contains(/^Ads$/)
 drc1bk94f7rq8.cloudfront.net,shiropro-re.net#@##ad_link
-dreadcentral.com,justjared.com##.widget_tpd_ad_widget
+dreadcentral.com,justjared.com,theblast.com##.widget_tpd_ad_widget
 dream.team.onetake.ai$image
 dreambigtravelfarblog.com,englandexplore.com,founderreports.com,interacnetwork.com,iowagirleats.com,unexpectedlydomestic.com###cbox
 dreieich.de,koenigstein.de##.cookie-consent-dialogue
@@ -269436,6 +269438,7 @@ just-food.com,railway-technology.com,retail-insight-network.com,verdict.co.uk##.
 justanswer.co.uk,justanswer.com,justanswer.de,justanswer.es##+js(set-cookie, cbChecked, true)
 justjared.com$$script[tag-content="pub_300x250m"][max-length="14000"]
 justjared.com,justjaredjr.com##.top_rail_shell
+justjared.com,theblast.com##.tpd-tcm-widget
 justporn.com,app.ninekon.com,yogaporn.net,3dporndude.com##.spot
 juxia.com###fmt
 juxia.com##.game_img_list
