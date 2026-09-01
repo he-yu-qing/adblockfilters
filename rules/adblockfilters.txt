@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260901052016
-! Last modified: 2026/09/01 05:20:16
-! Blocked Filters: 385802
+! Version: 20260901112001
+! Last modified: 2026/09/01 11:20:01
+! Blocked Filters: 385807
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -360397,6 +360397,8 @@ zzzyk.com###Tinfo
 ||a*.chajiaotong.com^
 ||a*.pr-cy.ru/stat/
 ||a*.smlog.co.kr^
+||a-bly.com^$cookie=AMP_
+||a-bly.com^$cookie=device-id
 ||a-lehdet.fi^*/cmp.js
 ||a-mpd.com/pixel.png
 ||a.a2sky.com/2022/177113/*_600.jpg
@@ -361721,6 +361723,8 @@ zzzyk.com###Tinfo
 ||api.20min.ch/kaia/v*/persist
 ||api.270degrees.nl/*/log?apiKey=
 ||api.4lapy.ru/api/v*/events/
+||api.a-bly.com/api/*/ad/events/
+||api.a-bly.com/api/*/retail_ad/display-event
 ||api.about.me/user/performance/record/views|
 ||api.actagtracker.jp/tag|
 ||api.ad.xiaomi.com
@@ -380613,6 +380617,7 @@ zzzyk.com###Tinfo
 ||static.d.lecai.com/js/*m.js$script
 ||static.danawa.com/globaljs/static/Insight_WebAnalytics_
 ||static.danawa.com/globaljs/static/bdl/dsac.min.js
+||static.danawa.com/globaljs/static/bdl/dsas_client.min.js
 ||static.danawa.com/globaljs/static/logger_Insight_WebAnalytics.js
 ||static.danawa.com/globaljs/static/logger_Insight_WebAnalytics_mobile.js
 ||static.danawa.com/globaljs/static/logger_trackEvent.js
