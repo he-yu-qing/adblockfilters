@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260903031437
-! Last modified: 2026/09/03 03:14:37
-! Blocked Filters: 385806
+! Version: 20260903104510
+! Last modified: 2026/09/03 10:45:10
+! Blocked Filters: 385812
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -70832,6 +70832,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||muzu.tv/flash/*tracking
 @@||mvcat.com^$generichide
 @@||mvz.hufeland.de^$stealth=dpi
+@@||mwa.co.th^$stealth=dpi
 @@||mxcontent.net^$media,third-party,stealth=referrer
 @@||mxomo.com^$image,stealth=referrer,domain=kxo.moe
 @@||my-bucket-s3-*-amazonaws.*.*/*.m3u8$stealth=referrer,domain=ibomma.*
@@ -80799,6 +80800,8 @@ aquacard.co.uk##+js(set-cookie, marketingCookieConsent, 0)
 aquacard.co.uk,marbles.com##+js(set-cookie, cookieConsentSet, 1)
 aquaglide.com##.elementor-element-7bf6fcab
 aquagrunt.ru##.confidentalInfo
+aquaguardservices.co.in,fakepe.com,rajcet.com#$#body { overflow: auto !important; }
+aquaguardservices.co.in,fakepe.com,rajcet.com#$#div[style^="position: fixed; inset: 0px; z-index: 10001;"] { display: none !important; }
 aquahaus-gaus.de,breparat.de,countryphone.de,e-material.de,goldshop-ulm.de,hannibelle.de,hollandstyle.de,holzfee.com,italianfoodlovers.de,landkarten-und-grafiken.de,liebesache.de,livolo-deutschland.de,modehasen.de,motecs-shop.com,natura-samen.de,scandmarkt.com,schamanentraum.eu,seamless-fashion.de,sm-pc.de,superstreusel.de##.lightbox-backdrop
 aqualip.de##.HrSys-Gips-iBoxDivOverlay
 aquamanga.com,reaperscans.com###radio_content
@@ -82153,7 +82156,7 @@ autohome.com.cn##div#ad_990_tm,div#ad_fbanner_00,div#ad_fbutton_00,div#ad_ic_vid
 autohome.com.cn,jdzj.com,loveshang.com##.advbox
 autohome.com.cn,loveshang.com##.advbox
 autohome.com.cn,sina.com.cn##div[class*="game"]
-autoindustriya.com##[data-testid="cookie-consent-banner"]
+autoindustriya.com,techmadesimple.net##[data-testid="cookie-consent-banner"]
 autojournal.cz###leftsidebar > div[id]:has(> .textwidget:only-child > a:only-child > img[src*="Banner"]:only-child)
 autojournal.cz##body > div:not([class],[id]):has(> .r-main)
 autojournal.cz##div:has(> .r-main:only-child)
@@ -296336,8 +296339,10 @@ geekwire.com###geekwork-sidebar
 geekwire.com###startup-resources-sidebar
 geekwire.com###tips-sidebar
 geekwire.com##.announcement-box
+geekwire.com##.gw-interstitial-overlay
 geekwire.com##.section-sponsored_tax
 geekwire.com##.type-sponsor_post.teaser
+geekwire.com##body:style(overflow: scroll !important; position: unset !important)
 geekwire.com#@#.sponsor_post
 geeky-gadgets.com###text-105335641
 geekzone.co.nz##.adsbygoogle
@@ -382928,6 +382933,7 @@ zzzyk.com###Tinfo
 ||unknowncheats.me/forum/images/ez^
 ||unleash-edge-prod.penpencil.co/api/frontend/client/metrics
 ||unleash-edge.wrtn.ai/api/frontend/client/metrics|
+||unleash.zenchef.com/api/frontend/client/metrics
 ||unmoor.com/config.json
 ||unpkg.com/@topsort/analytics.js
 ||unpkg.com/cookie-though

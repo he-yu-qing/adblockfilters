@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260903031437
-! Last modified: 2026/09/03 03:14:37
-! Blocked Filters: 298139
+! Version: 20260903104510
+! Last modified: 2026/09/03 10:45:10
+! Blocked Filters: 298142
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -66670,6 +66670,8 @@ apuntmedia.es,bloomberg.com,forward.com,jns.org,northernvirginiamag.com,sandiego
 apyhub.com,ilarahealth.com,ksaexpo2025.sa,paderborn.de##+js(set-cookie, cookies-accepted, true, , reload, 1)
 aqara.com###modal-agreement
 aquacard.co.uk,marbles.com##+js(set-cookie, cookieConsentSet, 1)
+aquaguardservices.co.in,fakepe.com,rajcet.com#$#body { overflow: auto !important; }
+aquaguardservices.co.in,fakepe.com,rajcet.com#$#div[style^="position: fixed; inset: 0px; z-index: 10001;"] { display: none !important; }
 aquahaus-gaus.de,breparat.de,countryphone.de,e-material.de,goldshop-ulm.de,hannibelle.de,hollandstyle.de,holzfee.com,italianfoodlovers.de,landkarten-und-grafiken.de,liebesache.de,livolo-deutschland.de,modehasen.de,motecs-shop.com,natura-samen.de,scandmarkt.com,schamanentraum.eu,seamless-fashion.de,sm-pc.de,superstreusel.de##.lightbox-backdrop
 aquamanga.com,reaperscans.com###radio_content
 aquapalace.cz,obchod.crew.cz##.cs
@@ -67140,6 +67142,7 @@ autohome.com.cn##div#ad_990_tm,div#ad_fbanner_00,div#ad_fbutton_00,div#ad_ic_vid
 autohome.com.cn,jdzj.com,loveshang.com##.advbox
 autohome.com.cn,loveshang.com##.advbox
 autohome.com.cn,sina.com.cn##div[class*="game"]
+autoindustriya.com,techmadesimple.net##[data-testid="cookie-consent-banner"]
 autokrs.cz,comfeel.cz,drpalani.com,easygujaratityping.com,fibt.com,joberty.com,majordentalclinics.com,parkovaniplzen.cz,pidentists.com,studentbostader.se,viciunaigroup.eu,westlaimplants.com##.cc-container
 autokult.pl,autocentrum.pl,jastrzabpost.pl,money.pl,kobieta.wp.pl,polygamia.pl,film.wp.pl,www.wp.pl#%#//scriptlet('abort-on-property-write', 'Object.prototype.reloadedSlots')
 autokult.pl,komorkomania.pl,gadzetomania.pl,fotoblogia.pl#?#body > .modal__body-adblock:has(>.modal__body)
