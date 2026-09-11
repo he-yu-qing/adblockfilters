@@ -1,9 +1,9 @@
-! Checksum: PU0TxHcc6lk7kkf3y8nLLg
-! Diff-Path: ../patches/17/17-s-1789090020-3600.patch
+! Checksum: rpTsDX9+aPKVwaQAlpTpiQ
+! Diff-Path: ../patches/17/17-s-1789108046-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.14.21
-! TimeUpdated: 2026-09-11T01:23:43+00:00
+! Version: 2.0.14.23
+! TimeUpdated: 2026-09-11T06:24:28+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -535,6 +535,10 @@ $removeparam=tduid
 ! Good: ||example.org^$removeparam=cx
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/241039
+||note.com^$removeparam=external_type
+||note.com^$removeparam=external_position
+||note.com^$removeparam=rt
 ! https://github.com/AdguardTeam/AdguardFilters/issues/240997
 ||myfans.jp^$removeparam=aff
 ! https://github.com/AdguardTeam/AdguardFilters/issues/240949
@@ -1795,9 +1799,12 @@ $removeparam=from,domain=doujinnomori.com|shinshi-manga.net|echiman.com|dojin-na
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179379
 ||lenta.ru^$removeparam=es
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179934
-||finance.yahoo.co.jp^$removeparam=cpt_m
-||finance.yahoo.co.jp^$removeparam=cpt_n
-||finance.yahoo.co.jp^$removeparam=cpt_s
+! https://github.com/AdguardTeam/AdguardFilters/issues/241035
+||yahoo.co.jp^$removeparam=cpt_n
+||yahoo.co.jp^$removeparam=cpt_m
+||yahoo.co.jp^$removeparam=cpt_s
+||yahoo.co.jp^$removeparam=cpt_c
+||yahoo.co.jp^$removeparam=fr
 ||sbisec.co.jp^$removeparam=waad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179524
 ||ejje.weblio.jp^$removeparam=erl
