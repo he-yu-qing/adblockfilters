@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260913210752
-! Last modified: 2026/09/13 21:07:52
-! Blocked Filters: 383781
+! Version: 20260914023341
+! Last modified: 2026/09/14 02:33:41
+! Blocked Filters: 383783
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -43346,6 +43346,7 @@ $doc,removeparam=/^icid_.*$/
 $doc,removeparam=/^intgrtn_.*$/
 $doc,removeparam=/^itm_.*$/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
+$doc,removeparam=/^m_.*$/,domain=macys.com|macysinc.com
 $doc,removeparam=/^matomo_.*$/
 $doc,removeparam=/^mbsy[=_]/
 $doc,removeparam=/^mpid=.*$/i,domain=~miguvideo.*
@@ -43593,6 +43594,7 @@ $doc,removeparam=tk,domain=indeed.com
 $doc,removeparam=traceId
 $doc,removeparam=tracking_type
 $doc,removeparam=tracking_user
+$doc,removeparam=trackingid,domain=adobe.com|macys.com
 $doc,removeparam=tt_content
 $doc,removeparam=tt_medium
 $doc,removeparam=ttclid
@@ -43676,7 +43678,6 @@ $removeparam=/^featured_on=pythonbytes$/
 $removeparam=/^has-promotion=$/
 $removeparam=/^hc_.*$/,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
 $removeparam=/^linkshareid=.*$/i,domain=bloomingdales.com|macys.com
-$removeparam=/^m_.*$/,domain=macys.com|macysinc.com
 $removeparam=/^mweb_user_id.*$/,domain=reddit.app.link
 $removeparam=/^partnerid=.*$/i,domain=1800contacts.com|al.to|allenedmonds.com|bloomingdales.com|combat.pl|famousfootwear.com|johnstonprams.com|macys.com|naturalizer.com|shoes.com|sportler.com|x-kom.pl
 $removeparam=/^pf_rd_.*$/,domain=shopbop.com|amazon.*|imdb.com|zappos.com|audible.*|6pm.com
@@ -372442,7 +372443,6 @@ zzzyk.com###Tinfo
 ||macys.com/EventsWar/
 ||macys.com/sitemonetization/v1/sponsored-products/
 ||macys.com/tag_path/
-||macys.com^$removeparam=trackingid
 ||mad-daily.com^*/cp-module-
 ||mad4wheels.com/plugins/js-b/js/js-b.min.js
 ||mad4wheels.com/plugins/theme/js/editweb_plugin_double_check.js
@@ -376363,6 +376363,7 @@ zzzyk.com###Tinfo
 ||quora.com/qemail/tc?$removeparam=al_imp
 ||quora.com/qemail/tc?$removeparam=uid
 ||quora.com/qevents.js
+||quora.com^$doc,removeparam=qv_src
 ||quora.com^$removeparam=share
 ||quote.fm/services/button/$third-party
 ||quotev.com/ajax/ping
@@ -379385,6 +379386,7 @@ zzzyk.com###Tinfo
 ||support.github.com/session/event
 ||support.github.com/session/user
 ||support.google.com/apis/logjourney
+||support.google.com^$doc,removeparam=ctx
 ||support.google.com^$doc,removeparam=sjid
 ||support.google.com^$removeparam=ref_topic
 ||support.huawei.com/enterprisesearch/3rdParty/opensource/analytics/
