@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260914023341
-! Last modified: 2026/09/14 02:33:41
-! Blocked Filters: 383783
+! Version: 20260914110815
+! Last modified: 2026/09/14 11:08:15
+! Blocked Filters: 383790
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -43393,6 +43393,7 @@ $doc,removeparam=/^wickedkeyword=.*$/i
 $doc,removeparam=/^wickedplacement=.*$/i
 $doc,removeparam=/^wickedsource=.*$/i
 $doc,removeparam=/^wtm_.*$/
+$doc,removeparam=CLRTags,domain=microsoft.com|windows.com
 $doc,removeparam=FMID
 $doc,removeparam=IPID
 $doc,removeparam=LGWCODE
@@ -62287,7 +62288,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@://doubleclick.com/|$xmlhttprequest,domain=watch.plex.tv
 @@://googlesyndication.com/|$domain=raenonx.cc
 @@://html-load.com/loader.min.js$domain=dogdrip.net|smsonline.cloud
-@@://ipv6.google.com/maps^$removeparam=utm_campaign
+@@://ipv6.google.com/maps^$doc,removeparam=/^\??utm_.*$/i
 @@://localhost/$generichide
 @@://localhost:$generichide
 @@://m1.*.*/v/*/*.css$xmlhttprequest,stealth=referrer
@@ -62297,7 +62298,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@://www.coinbase.com^$stealth=webrtc
 @@://www.exoclick.com/ads.js|
 @@://www.fedex.com/Tracking?
-@@://www.google.*/maps^$removeparam=utm_campaign
+@@://www.google.*/maps^$doc,removeparam=/^\??utm_.*$/i
 @@://www.liquidweb.com/kb/wp-content/themes/lw-kb-theme/images/ads/vps-sidebar.jpg
 @@://www.sinya.com.tw^$stealth=ip
 @@://www3.doubleclick.net^|$xmlhttprequest
@@ -67495,7 +67496,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||google.*/images/icons/product/adsense-
 @@||google.*/imgres?
 @@||google.*/mapmaker/gen_204?$subdocument,xmlhttprequest
-@@||google.*/maps$doc,removeparam=utm_campaign
 @@||google.*/maps^$removeparam=utm_campaign
 @@||google.*/url?$removeparam=ved
 @@||google.*/url?*%26srsltid%3D$removeparam=srsltid
@@ -359731,6 +359731,7 @@ zzzyk.com###Tinfo
 ||adobe.com/download/$removeparam=trackingid
 ||adobe.com/experienceedge/*/collect?
 ||adobe.com/td_redirect.html$popup
+||adobe.com^$doc,removeparam=correlationId
 ||adobe.com^$removeparam=mv2
 ||adobe.io/system/log
 ||adobe.io/web/v1/metrics
@@ -360460,6 +360461,7 @@ zzzyk.com###Tinfo
 ||americanas.com.br^$removeparam=pfm_pos
 ||americanas.com.br^$removeparam=pfm_type
 ||americanexpress.com/beacon
+||americanexpress.com^$doc,removeparam=inav
 ||americantourister.co.kr/on/demandware.static/Sites-AmericanTouristerKR-Site/*/internal/jscript/dwac-*.js
 ||americascardroom.eu/ads/$popup,third-party
 ||americass.net/interstice-ad
@@ -364197,6 +364199,8 @@ zzzyk.com###Tinfo
 ||cjs-cdkeys.com/index.php?action=track
 ||cjw123.com/jx/static/picture/
 ||cjx111.com/ads/
+||ck12.org^$doc,removeparam=_eid
+||ck12.org^$doc,removeparam=_mid
 ||ck180.net/mitao
 ||ck1997.com/js/lunbo.js
 ||ckk.ai/sw.js
@@ -366393,6 +366397,9 @@ zzzyk.com###Tinfo
 ||eclog*-*.cafe24.com^
 ||eclog*-*.cafe24.com^$third-party
 ||eco.cdn.dopc.cz^$image
+||ecoflow.com^$doc,removeparam=sc_lid
+||ecoflow.com^$doc,removeparam=sc_llid
+||ecoflow.com^$doc,removeparam=sc_src
 ||ecoimages.xyz/furs/mastiff.js
 ||ecoimages.xyz/furs/mortgage.php
 ||ecommerce-events*.adscale.com^
@@ -368069,6 +368076,7 @@ zzzyk.com###Tinfo
 ||getotal.com/api/v1/prepare/ads
 ||getpos.de/ext/
 ||getpublica.com^$cookie=p_uid
+||getquip.com^$doc,removeparam=syclid
 ||gettapeads.com/stat/
 ||getthisappnow.com^$popup
 ||gettranny.com^$removeparam=campaign
@@ -376892,7 +376900,6 @@ zzzyk.com###Tinfo
 ||rising.cn^*/pic-ad/
 ||rising.com.cn/weblog/
 ||riskbird.com/riskbird-api/guest/unionGoods
-||rival-contents.com^$third-party
 ||riverisland.com^$removeparam=sem
 ||rivestream.*/scripts/monetag-special.js^
 ||rivnepost.rv.ua/wp-admin/admin-ajax.php?action=rbcollect

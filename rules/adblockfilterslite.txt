@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20260914023341
-! Last modified: 2026/09/14 02:33:41
-! Blocked Filters: 298210
+! Version: 20260914110815
+! Last modified: 2026/09/14 11:08:15
+! Blocked Filters: 298218
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -43197,6 +43197,7 @@ $doc,removeparam=/^wickedkeyword=.*$/i
 $doc,removeparam=/^wickedplacement=.*$/i
 $doc,removeparam=/^wickedsource=.*$/i
 $doc,removeparam=/^wtm_.*$/
+$doc,removeparam=CLRTags,domain=microsoft.com|windows.com
 $doc,removeparam=FMID
 $doc,removeparam=IPID
 $doc,removeparam=LGWCODE
@@ -60873,7 +60874,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@://doubleclick.com/|$xmlhttprequest,domain=watch.plex.tv
 @@://googlesyndication.com/|$domain=raenonx.cc
 @@://html-load.com/loader.min.js$domain=dogdrip.net|smsonline.cloud
-@@://ipv6.google.com/maps^$removeparam=utm_campaign
+@@://ipv6.google.com/maps^$doc,removeparam=/^\??utm_.*$/i
 @@://localhost/$generichide
 @@://localhost:$generichide
 @@://m1.*.*/v/*/*.css$xmlhttprequest,stealth=referrer
@@ -60883,7 +60884,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@://www.coinbase.com^$stealth=webrtc
 @@://www.exoclick.com/ads.js|
 @@://www.fedex.com/Tracking?
-@@://www.google.*/maps^$removeparam=utm_campaign
+@@://www.google.*/maps^$doc,removeparam=/^\??utm_.*$/i
 @@://www.liquidweb.com/kb/wp-content/themes/lw-kb-theme/images/ads/vps-sidebar.jpg
 @@://www.sinya.com.tw^$stealth=ip
 @@://www3.doubleclick.net^|$xmlhttprequest
@@ -61888,7 +61889,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||google.*/images/icons/product/adsense-
 @@||google.*/imgres?
 @@||google.*/mapmaker/gen_204?$subdocument,xmlhttprequest
-@@||google.*/maps$doc,removeparam=utm_campaign
 @@||google.*/maps^$removeparam=utm_campaign
 @@||google.*/url?$removeparam=ved
 @@||google.*/url?*%26srsltid%3D$removeparam=srsltid
@@ -290014,6 +290014,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||admob-app-id-*.firebaseio.com^
 ||admob.*^
 ||admulti.
+||adobe.com^$doc,removeparam=correlationId
 ||adobe.com^$removeparam=mv2
 ||adorama.com^$removeparam=bc_pid
 ||adorama.com^$removeparam=obem
@@ -290394,6 +290395,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||americanas.com.br^$removeparam=pfm_page
 ||americanas.com.br^$removeparam=pfm_pos
 ||americanas.com.br^$removeparam=pfm_type
+||americanexpress.com^$doc,removeparam=inav
 ||an.yandex.
 ||ana*.inews24.com^
 ||ana.co.jp^$removeparam=cid
@@ -291734,6 +291736,8 @@ zzztube.com,videoporn.tube##.b-random-column
 ||cjdropshipping.com/common-public/fingerprintjs
 ||cjn.cn^*/ad/
 ||cjw123.com/jx/static/picture/
+||ck12.org^$doc,removeparam=_eid
+||ck12.org^$doc,removeparam=_mid
 ||cl*.k5a.io^
 ||cl*.k5a.io^$third-party
 ||clarity.ms^$cookie=ANON
@@ -292587,6 +292591,9 @@ zzztube.com,videoporn.tube##.b-random-column
 ||ebrun.com/jfile/position/js/*.js
 ||eclog*-*.cafe24.com^
 ||eclog*-*.cafe24.com^$third-party
+||ecoflow.com^$doc,removeparam=sc_lid
+||ecoflow.com^$doc,removeparam=sc_llid
+||ecoflow.com^$doc,removeparam=sc_src
 ||ecommerce-events*.adscale.com^
 ||ecosia.org^$removeparam=addon
 ||ecs.*.on.aws/events?cee=
@@ -293049,6 +293056,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ||getitfree.cn/wp-content/plugins/adunblocker/*.js
 ||getitfree.cn/wp-content/plugins/anti-
 ||getpublica.com^$cookie=p_uid
+||getquip.com^$doc,removeparam=syclid
 ||gettranny.com^$removeparam=campaign
 ||gettyimages.*/pulse$ping
 ||gexing.com/i/*960x
