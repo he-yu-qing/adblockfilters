@@ -1,9 +1,9 @@
-! Checksum: hoPloH36X7dXgFGxYbajRw
-! Diff-Path: ../patches/17/17-s-1789287677-3600.patch
+! Checksum: 4ygGWczwyH6Gt261ZhYpUg
+! Diff-Path: ../patches/17/17-s-1789384627-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.14.26
-! TimeUpdated: 2026-09-13T08:18:17+00:00
+! Version: 2.0.14.29
+! TimeUpdated: 2026-09-14T11:14:41+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -535,6 +535,12 @@ $removeparam=tduid
 ! Good: ||example.org^$removeparam=cx
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/241319
+||newspicks.com^$removeparam=invoker
+! https://github.com/AdguardTeam/AdguardFilters/issues/240828
+! https://github.com/AdguardTeam/AdguardFilters/issues/241277
+$removeparam=ro,domain=khb-tv.co.jp|kab.co.jp|kfb.co.jp|maidonanews.jp|ncctv.co.jp|yorozoonews.jp|news.ksb.co.jp
+$removeparam=ri,domain=khb-tv.co.jp|kab.co.jp|kfb.co.jp|maidonanews.jp|ncctv.co.jp|yorozoonews.jp|news.ksb.co.jp
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-18417614
 ||spotfund.com^$removeparam=source
 ||spotfund.com^$removeparam=share_location
@@ -3033,12 +3039,13 @@ $removeparam=scid,domain=rakuten.co.jp|rakuten-wallet.co.jp
 ||nikkei.com^$removeparam=extpf
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228387
 ||nikkei.com^$removeparam=n_tw
+! https://github.com/AdguardTeam/AdguardFilters/issues/240847
 ! https://github.com/AdguardTeam/AdguardFilters/issues/106436
 ! https://github.com/AdguardTeam/AdguardFilters/issues/106435
 ! https://github.com/AdguardTeam/AdguardFilters/issues/106434
 ! https://github.com/AdguardTeam/AdguardFilters/issues/106432
-||nikkei.com^$removeparam=i_cid
-||nikkei.com^$removeparam=n_cid
+$removeparam=i_cid,domain=nikkei.com|nikkei.co.jp
+$removeparam=n_cid,domain=nikkei.com|nikkei.co.jp
 ||nikkeibp.co.jp^$removeparam=i_cid
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104716
 ||cyberlink.com^$removeparam=affid
