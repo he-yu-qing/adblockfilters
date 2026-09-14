@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260914224436
-! Last modified: 2026/09/14 22:44:36
-! Blocked Filters: 383844
+! Version: 20260915041112
+! Last modified: 2026/09/15 04:11:12
+! Blocked Filters: 383853
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -42659,7 +42659,7 @@
 ##ins.adsbygoogle[data-ad-client]
 ##ins.adsbygoogle[data-ad-slot]
 ##ins[class^="img_"][style^="display:inline-block;"]
-##ins[data-adsbygoogle-status]
+##ins[data-adsbygoogle-status]:not(.adsbygoogle)
 ##ins[id][data-anchor-status]
 ##journey-inline-newsletter
 ##kuma-cookie-bar
@@ -289448,7 +289448,6 @@ enikos.gr##.flex-col.h-full:has(> p.font-medium)
 enikos.gr##.sticky:has(> p.font-medium)
 enikos.gr#?#.content-wrap:has(> .googadd)
 enikos.gr#?#.footer-wrap:has(> div[id^="FootDesk_A_"])
-enikos.gr,real.gr##.advertisement
 enimerosi.com##.aritle-detail-description > div.row:has(> div > picture > img.banner_desktop)
 enimerosi.com##.detail-right-sd > div.d-sm-block:has(picture > img.banner_desktop)
 enimerosi.com##a[href="https://www.facebook.com/KazianisCashandCarry/"]
@@ -299030,6 +299029,7 @@ haymarketbooks.org##.ftr-follow
 hazipatika.com###box-humanmeteorologia
 hazipatika.com###panel > noindex
 hazlitt.net##.region-masthead-inner
+hb-nippon.com,worldjournal.com,nikkansports.com,robbreport.com,rollingstone.com,gloria.hr,deadline.com,vibe.com,goldderby.com,artnews.com,gearjunkie.com,urldecoder.org,base64decode.org,index.hr,willyweather.com.au,fandom.com,euronews.com#%#//scriptlet('remove-attr', 'onerror', 'script[id][onerror]')
 hb.ifeng.com###leftdl,#rightdl
 hb.qq.com##DIV.ad001,DIV#sideBars > DIV#tab,UL.tithd1107,DIV[style*="height:60px; width:1000px"],embed[src^="http://mat1.gtimg.com/hb/ad/"],div.absolute[id^="couplet_auto_gen_"],DIV#yashenghuo.common_channel + DIV.clear + DIV,div#hb_LMove,DIV.navigate + DIV.nav + DIV,DIV.navigate + DIV.nav + * + * + DIV,DIV.navigate + DIV.nav + * + * + * + DIV,.ad1
 hb.qq.com##div[style*="width:960px; height:90px;"]
@@ -354790,7 +354790,6 @@ worldjournal.com###privacy-agreement
 worldjournal.com###wrapper > #popup-banner
 worldjournal.com##.banner-zone
 worldjournal.com##.btn-top
-worldjournal.com,nikkansports.com,robbreport.com,rollingstone.com,gloria.hr,deadline.com,vibe.com,goldderby.com,artnews.com,gearjunkie.com,urldecoder.org,base64decode.org,index.hr,willyweather.com.au,fandom.com,euronews.com#%#//scriptlet('remove-attr', 'onerror', 'script[id][onerror]')
 worldledaily.com###worldledaily-com_300x1050
 worldlibertyfinancial.com##+js(set-local-storage-item, userAcceptedAnalytics, false)
 worldlifestyle.com##.ams-ad-full-wrapper
@@ -355610,7 +355609,7 @@ www.wp.pl###wp-leaflets-section
 www.wp.pl##.grid > div:not([class]):has(> div[class*=" "]:only-child > div[class*=" "]:first-child + div[class*=" "]:last-child > div:empty:first-child + img[src*="://v.wpimg.pl/"][alt][role="presentation"]:last-child)
 www.wp.pl##.relative > :is(div[class^="sc"], .wp-bg-transparent) > div[class^="sc"]:has(> img[src^="https://v.wpimg.pl/"][alt]:first-child + img[src^="https://v.wpimg.pl/"][alt] + div[class^="sc-"]:last-child)
 www.wp.pl##.relative >.relative > .items-center[style]:has(> img[src^="https://v.wpimg.pl/"][alt]:first-child + img[src^="https://v.wpimg.pl/"][alt] + div[class]:last-child)
-www.wp.pl##.wp-live-main > .wp-inner-content > div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div + script:last-child)
+www.wp.pl##.wp-inner-content > div[class*=" "]:has(> img[src^="https://v.wpimg.pl/"]:first-child + div + script:last-child)
 www.wp.pl##.wp-placeholder
 www.wp.pl##.wp-section-placeholder-container
 www.wp.pl##a[href^="https://direct.money.pl/landing-page/callcenter/"]
@@ -361139,6 +361138,7 @@ zzzyk.com###Tinfo
 ||app.dhgate.com/mobileApiWeb/biz-FeedBack-log.do
 ||app.dhgate.com/musr/logodata.do
 ||app.diagnoseo.com/tools/common-js/dsn.js
+||app.easy.tools/api/stats
 ||app.elitedomains.de/js/service/statistics.service.js
 ||app.gnosispay.com/relay-gp-ph/
 ||app.huawei.com/hwa-c*&action=
@@ -364248,6 +364248,9 @@ zzzyk.com###Tinfo
 ||cjx111.com/ads/
 ||ck12.org^$doc,removeparam=_eid
 ||ck12.org^$doc,removeparam=_mid
+||ck12.org^$document,removeparam=_eid
+||ck12.org^$document,removeparam=_mid
+||ck12.org^$document,removeparam=referrer
 ||ck180.net/mitao
 ||ck1997.com/js/lunbo.js
 ||ckk.ai/sw.js
@@ -370897,6 +370900,7 @@ zzzyk.com###Tinfo
 ||jishulink.com/jishulink/searching/ad/get?
 ||jishuqq.com/images/haodian.gif
 ||jishuqq.com/wadsb.gif
+||jisin.jp^$removeparam=rf
 ||jisoupan.com/static/
 ||jisusoft.com/ads/
 ||jisutiyu.com/app/js/*footer.js
@@ -370989,6 +370993,8 @@ zzzyk.com###Tinfo
 ||jpg.church/quicknoisilyheadbites.js
 ||jpm.cn/images/a/
 ||jpopsingles.eu/ddl/dl-get.png
+||jprime.jp^$removeparam=display
+||jprime.jp^$removeparam=from
 ||jpsk.jp^$removeparam=click
 ||jpysvip.net/ad/
 ||jrj.com.cn/h5Ad?
@@ -374085,6 +374091,8 @@ zzzyk.com###Tinfo
 ||newsbreak.com^$cookie=userId
 ||newscom.com/js/v2/ga.js
 ||newsdeutschland.com/RPC.php
+||newsdig.tbs.co.jp^$removeparam=ex_id
+||newsdig.tbs.co.jp^$removeparam=ex_position
 ||newser.com/*feolite/$script
 ||newser.com/utility.aspx?
 ||newshaifakrayot.net/bannershtml/
@@ -381628,6 +381636,7 @@ zzzyk.com###Tinfo
 ||vk.com/widget_community.php$third-party
 ||vk.com/widget_community_messages.php?$third-party
 ||vk.com/widget_like.php$third-party
+||vk.ru/rtrg
 ||vk922.com/img/
 ||vk923.com/img/
 ||vkandian.cn/footjs/
