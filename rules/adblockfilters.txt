@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260915041112
-! Last modified: 2026/09/15 04:11:12
-! Blocked Filters: 383853
+! Version: 20260915111019
+! Last modified: 2026/09/15 11:10:19
+! Blocked Filters: 383863
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -80848,6 +80848,7 @@ asbrav.org.br,nordhavn.dk,people-base-cbm.com,resurja.com,santander.pl##body,htm
 asc-pro.pl,maciej.je###flexiblecookies_container
 ascelibrary.org##.pb-las__label
 ascension.gg##+js(set-local-storage-item, CookieConsent_v2, false)
+ascensionpress.com,grumpystackle.com,santacruzbicycles.com,shop.orqafpv.com##csm-cookie-consent
 ascentstrategy.com,franciszkaniewieliczka.pl##.cookies__container
 ascii-code.com##.text-center.mb-3
 ascii-code.com##div[style="min-height: 240px;"]
@@ -290687,6 +290688,7 @@ f2movies.*#%#//scriptlet('set-constant', 'document.write', 'undefined')
 f2movies.to,cineb.rs,himovies.bz##.block_area > div[class][style="width: 100%; padding-bottom: 320px; position: relative;"]:empty
 f2movies.to,moviesjoy.to##.news-iframe
 f2movies.to,streameast.watch#%#//scriptlet("abort-current-inline-script", "JSON.parse", "getPropertyValue('content')")
+f7hyg4q.org,q8y5z.com,rupertisdivingintoocean.com,398fitus.com,f75s.com,f16px.com#%#//scriptlet('prevent-setTimeout', 'readyWait')
 f95zone.to###bisnre09
 f95zone.to###topNotice
 f95zone.to##.node--link:has([href^="/explore/"])
@@ -298124,7 +298126,6 @@ growthtechnology.com###popupbanner
 grozny.tv##.soc_list
 grubstreet.com##.follow-list
 gruenderservice.at#@##cookiehint
-grumpystackle.com,santacruzbicycles.com,shop.orqafpv.com##csm-cookie-consent
 grundig.com##.CookiePolicyBanner
 grundig.com##.site-footer__up
 grupapracuj.pl###gp_cookie_agreements
@@ -304215,6 +304216,11 @@ ishuhui.com##[class^="ad"],[id^="a_xx_d_"],.a_xx_d
 isi7.net#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 isidewith.com##.overlayBG
 isidewith.com##.overlayContent
+isitcracked.com##.ad-banner
+isitcracked.com##a[rel^="nofollow sponsored"]
+isitcracked.com##aside.hidden > div.sticky > div.rounded-xl:has(> p.tracking-widest)
+isitcracked.com##div.flex.justify-center:has(> div[class] > p.tracking-widest)
+isitcracked.com##div.min-h-screen > div.mx-auto:has(div.ad-banner)
 isitdownorjustme.net##.aioc_advertise_box
 isitdownorjustme.net##img[width="970"][height="250"]
 isitdownrightnow.com###commentstop
@@ -308046,6 +308052,7 @@ lavueltaholanda.com##.cookie-prefs-wrapper
 law.com,topcultured.com##h3
 law.cornell.edu##.gfs
 law.justia.com###newsletter-subscription-aside-widget
+law.justia.com##.jlead-v2
 law.justia.com##.rotating-leads
 law.justia.com,supreme.justia.com##.notification-banner
 law.ravellawfirm.com###adblock-overlay
@@ -319440,6 +319447,7 @@ n-ix.com##.cookiesBlock
 n-tv.de##.article__share
 n-tv.de##.article__share-wrapper
 n-tv.de##.teaser--newsletter
+n.exchange##+js(set-local-storage-item, isUserAcceptCookiesPolicy, true)
 n11.com#%#//scriptlet('prevent-addEventListener', 'click', 'ownerDocument', 'elements', 'a.product-card[href]')
 n12.co.il##div[class^="AdComponent_"]
 n12.co.il##div[class^="Ad_root"]
@@ -330727,7 +330735,6 @@ pzzc.net##.portal_block_summary
 q-shopp.ru##.panel-warning
 q7et8tow.mg.anglio.bg$image
 q84sale.com#%#//scriptlet("set-constant", "google_jobrunner", "noopFunc")
-q8y5z.com,rupertisdivingintoocean.com,398fitus.com,f75s.com,f16px.com#%#//scriptlet('prevent-setTimeout', 'readyWait')
 qa-babylink.zola.com$image
 qa-catalogsvc.cloud.s11.sfmc-osl.com$image
 qa-link.zola.com$image
@@ -361021,6 +361028,7 @@ zzzyk.com###Tinfo
 ||api.wikia.nocookie.net/*/wikia.php?controller=AdEngine*ApiController&method=getBTCode
 ||api.wikitree.co.kr/api/v*/postLog.php
 ||api.winnetnews.com/api/v*/banner/
+||api.winstall.app/analytics/
 ||api.wudizuqiu.com/72nba
 ||api.wudizuqiu.com/bocai.js
 ||api.x.com/live_pipeline/events?
@@ -362327,6 +362335,7 @@ zzzyk.com###Tinfo
 ||beppegrillo.it/js/cadetect.js
 ||berliner-stadtplan.com/t.gif
 ||bernama.com/storage/banner/
+||berrybase.de/widgets/cbax/analytics/
 ||bershka.com/integration/zenit/events/hit
 ||bescore.com/libs/e.js
 ||bescore.com/load?
@@ -379226,6 +379235,7 @@ zzzyk.com###Tinfo
 ||streamelements.com/z/t
 ||streamen.com/exports/$third-party
 ||streamereasy.click^$popup
+||streamex.hn/pop.js
 ||streamex.sh/pop.js
 ||streamfab.*^$removeparam=_csrc_
 ||streamfab.*^$removeparam=_cus_
