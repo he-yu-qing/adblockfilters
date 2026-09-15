@@ -3,14 +3,15 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20260915111020
-! Last modified: 2026/09/15 11:10:20
-! Blocked domains: 23602
+! Version: 20260915210907
+! Last modified: 2026/09/15 21:09:07
+! Blocked domains: 23582
 ! unBlocked domains: 64
 !
 ||server.000444.cn^
 ||395131115419474531.002.sh.cn^
 ||www.00772229.com^
+||010aa.cn^
 ||01302.cn^
 ||013572.cn^
 ||014901490149a.com^
@@ -426,6 +427,7 @@
 ||www.wowjs.1www.cn^
 ||1x3x.com^
 ||1yd.xyz^
+||1ylm.com.cn^
 ||200218.com^
 ||2004seo.cn^
 ||2005net.net^
@@ -1061,6 +1063,7 @@
 ||609999.xyz^
 ||ee.60w3s.cn^
 ||61165.com^
+||6261122.com^
 ||server.635206.cn^
 ||6381062.cn^
 ||6401.com.cn^
@@ -1440,6 +1443,7 @@
 ||9zbw.cn^
 ||9zgj.cn^
 ||a-bb-whatsapp.com.cn^
+||a-binance.com.cn^
 ||a-fl-whatsapp.com.cn^
 ||a-google.cn^
 ||a-google.hl.cn^
@@ -2432,7 +2436,6 @@
 ||native66.oss-us-west-1.aliyuncs.com^
 ||natpro.oss-me-east-1.aliyuncs.com^
 ||neighbors.oss-us-east-1.aliyuncs.com^
-||netposa-public.oss-cn-beijing.aliyuncs.com^
 ||new-sk.oss-ap-southeast-1.aliyuncs.com^
 ||newapril.oss-eu-central-1.aliyuncs.com^
 ||newhip.oss-cn-beijing.aliyuncs.com^
@@ -2859,6 +2862,7 @@
 ||s.anjuke.com^
 ||ankre.cn^
 ||anlc-wendingyule.com.cn^
+||anode-bet365.com.cn^
 ||anook.cn^
 ||anpeiex.com^
 ||anpostti.one^
@@ -2962,6 +2966,7 @@
 ||app-deepseek.com.cn^
 ||app-deepseekcn.com.cn^
 ||app-facebook.com.cn^
+||app-feiji.com.cn^
 ||app-fifaworldcup2026.com.cn^
 ||app-fqr-whatsapp.com.cn^
 ||app-google-chromme.com.cn^
@@ -3935,7 +3940,6 @@
 ||binancne.com.cn^
 ||bing-binance.com.cn^
 ||bing-google.hl.cn^
-||bing-kuaipai-seo.com.cn^
 ||bing-majianghul.com.cn^
 ||bingdianhuanyuan.cn^
 ||bingjujx.com.cn^
@@ -4073,6 +4077,7 @@
 ||bo-at-google.com.cn^
 ||board-deying.com.cn^
 ||bobaoapp.com.cn^
+||bobaopro.com.cn^
 ||bobhce.com^
 ||bobiqianbaoappanzhuoxiazaigw.com.cn^
 ||bobiqianbaoappguanwangxiazaigw.com.cn^
@@ -4150,6 +4155,7 @@
 ||boxsudy.cfd^
 ||boxsudz.cfd^
 ||boxuaobt.cfd^
+||boying333.com^
 ||nezha.boywe.cn^
 ||sftpgo.boywe.cn^
 ||bozhihua.com^
@@ -4653,6 +4659,7 @@
 ||cfcsj.cn^
 ||cfdasjjiophg.cn^
 ||cfdsemn.cn^
+||quote.cfi.cn^
 ||cfip.org.cn^
 ||cfngrohokspd.cn^
 ||cfoft.online^
@@ -7771,39 +7778,19 @@
 ||fda-yuih-whatsapp.com.cn^
 ||fdgkj.cn^
 ||fdoffice.cn^
+||60039.fduyixjy.cc^
 ||fe-whatsapp.com.cn^
 ||fe-wik-whatsapp.com.cn^
 ||features-google.com.cn^
 ||feaze-yunding.com.cn^
-||fecks-3yisports.com.cn^
-||fecks-6686sports.com.cn^
-||fecks-9bosports.com.cn^
-||fecks-bbsports.com.cn^
-||fecks-betwaysports.com.cn^
-||fecks-duomisports.com.cn^
-||fecks-jxsports.com.cn^
-||fecks-kskaishi.com.cn^
-||fecks-qiuxinsports.com.cn^
-||fecks-raygaming.com.cn^
-||fecks-wdyule.com.cn^
-||fecks-yishengbo.com.cn^
 ||fecks-yunding.com.cn^
 ||fedeleoron.com^
 ||fedex1.cn^
 ||stream-sdk.feedcoopapi.com^
 ||api.feelgood.cn^
-||feens-aggame.com.cn^
-||feens-aibosports.com.cn^
 ||feens-dingbosports.com.cn^
 ||feens-dingshengsports.com.cn^
-||feens-dog28.com.cn^
-||feens-fengniao.com.cn^
-||feens-hongbosports.com.cn^
-||feens-k9sports.com.cn^
 ||feens-n1gj.com.cn^
-||feens-top1sports.com.cn^
-||feens-xinhuosports.com.cn^
-||feens-yidesports.com.cn^
 ||feens-yunding.com.cn^
 ||feere-dingshengsports.com.cn^
 ||feere-kaifayule.com.cn^
@@ -8047,7 +8034,6 @@
 ||flow-dingli.com.cn^
 ||flow-whatssapp.hl.cn^
 ||flowgrid.digital^
-||flowlogic.top^
 ||whatapp.flows-whatapp.hl.cn^
 ||flowsilicon.cn^
 ||flsfzr.cn^
@@ -8121,7 +8107,6 @@
 ||fotao9.com^
 ||foundsafe.click^
 ||founeny25.cn^
-||fourbrother.cn^
 ||fovzg.cn^
 ||fowtk.cn^
 ||ad.foxitreader.cn^
@@ -9775,7 +9760,6 @@
 ||api-launcher-na.hismarttv.com^
 ||auth-em.hismarttv.com^
 ||auth-eu.hismarttv.com^
-||auth-jp.hismarttv.com^
 ||auth-launcher-em.hismarttv.com^
 ||auth-launcher-eu.hismarttv.com^
 ||auth-launcher-jp.hismarttv.com^
@@ -10278,6 +10262,7 @@
 ||dashboard.hxy66.cn^
 ||hy-cn.cn^
 ||hy5188.com^
+||hyddc.com.cn^
 ||status.hydun.com^
 ||zt.hydun.com^
 ||hyfanyi.com.cn^
@@ -11321,7 +11306,6 @@
 ||telemetry.api.joox.com^
 ||jooytec.com^
 ||jotoglobal.com^
-||joutlook.store^
 ||joy-bet365.com.cn^
 ||joycedejesus.shop^
 ||joyfartech.com^
@@ -11754,7 +11738,6 @@
 ||kkook.com.cn^
 ||kkrtov.one^
 ||kksuc.com^
-||kkvbyroasdr.cn^
 ||kkxqbh.top^
 ||kl-feishu.com.cn^
 ||kl76dc.cn^
@@ -12556,7 +12539,6 @@
 ||live-huohu.com.cn^
 ||live-lewan.com.cn^
 ||live-match-yunti.com.cn^
-||live-mk-zh.com.cn^
 ||live-nba-qq.com.cn^
 ||live-nunu.com.cn^
 ||live-resource.com.cn^
@@ -12628,6 +12610,7 @@
 ||lnwlw.cn^
 ||lnxhmrwk.com^
 ||lnysy.com^
+||auth.loambase.com^
 ||lockview.cn^
 ||deeplink.locokids.cn^
 ||lodipq3zb.com^
@@ -12805,7 +12788,6 @@
 ||lxqy.cn^
 ||lxtuzcb.cn^
 ||panel.lxtx.tech^
-||lxw.hk^
 ||lxxrmyy.com^
 ||ly-google.com.cn^
 ||ly-leyutiyu-sogou.com.cn^
@@ -13360,7 +13342,6 @@
 ||microsoftoffice365.cn^
 ||microsoftupsdata.com^
 ||microsot-teams.com.cn^
-||microsotf.dev^
 ||stat.microvirt.com^
 ||www.microvirt.com^
 ||micrsoft.com.cn^
@@ -15890,7 +15871,6 @@
 ||pc.bugly.qcloud.com^
 ||tracker-00.qvb.qcloud.com^
 ||7070-ppxcx-a1-3gg5ufwp666ee644-1300076834.tcb.qcloud.la^
-||qcog.cn^
 ||log.game.qcplay.com^
 ||qcsc1.vip^
 ||news.qcyz.cn^
@@ -16028,7 +16008,7 @@
 ||email.morse.qiniu.com^
 ||track.email.qiniu.com^
 ||log.qiniuapi.com^
-||7xkfic.com2.z0.glb.qiniucdn.com^
+||com2.z0.glb.qiniucdn.com^
 ||andfls.qiniudn.com^
 ||ads-vp5-xhscdn-com-idvnw0v.qiniudns.com^
 ||qinshu520.com^
@@ -18083,7 +18063,6 @@
 ||lianmengapi.snssdk.com^
 ||log.snssdk.com^
 ||log-hl.snssdk.com^
-||log-lf.snssdk.com^
 ||log-lq.snssdk.com^
 ||mcs.snssdk.com^
 ||mercury-sdk.snssdk.com^
@@ -19174,7 +19153,6 @@
 ||tigovip.click^
 ||tikon.com.cn^
 ||tiktok-auto.top^
-||tiktok-shop-ca.shop^
 ||tiktok123.top^
 ||tiktok4u.cn^
 ||tiktokcoinshop.com^
@@ -19746,6 +19724,7 @@
 ||uibjh29vqc.com^
 ||uicp.cn^
 ||uicp.fun^
+||uicp.net^
 ||uih.cn^
 ||bdjs.uimg.cn^
 ||uimr.cn^
@@ -20694,6 +20673,7 @@
 ||web-ffc-whatsapp.com.cn^
 ||web-fg-bex-whatsapp.com.cn^
 ||web-fifaworldcup2026.com.cn^
+||web-google-guge.com.cn^
 ||web-google.nm.cn^
 ||web-heiliao.hl.cn^
 ||web-hex-one-whatsapp.com.cn^
@@ -20861,6 +20841,7 @@
 ||api-z.weidian.com^
 ||logtake.weidian.com^
 ||weidianyuedu.com^
+||weierwater.com^
 ||service.weiguanai.cn^
 ||service.n.weiguanai.cn^
 ||upload.weiguanai.cn^
@@ -21972,7 +21953,6 @@
 ||xn--w9q675dm1p7em.net^
 ||xn--wxtr9fwyxk9c.xn--fiqs8s^
 ||xn--wxtr9fwyxk9co4hbua.xn--fiqs8s^
-||xn--yingkou-0b4k1a.top^
 ||xnceeho.com^
 ||xnhzpjij.shop^
 ||a.xnimg.cn^
