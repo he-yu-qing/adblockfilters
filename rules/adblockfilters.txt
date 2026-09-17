@@ -3,8 +3,8 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260917032416
-! Last modified: 2026/09/17 03:24:16
+! Version: 20260917110954
+! Last modified: 2026/09/17 11:09:54
 ! Blocked Filters: 383858
 !
 ###-CookieConsentContainer
@@ -47564,6 +47564,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /?affijet-click=$removeparam
 /?c=propeller&lpid=$all
 /?clck=*&sid=$document
+/?compression=*&ip=
 /?dm=*&blogid=$script
 /?encrypt=$empty,app=com.tencent.mtt.intl
 /?essb_counter_
@@ -63696,6 +63697,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||appapi.inspsearchapi.com^$domain=search.pch.com
 @@||appdn.net/wp-content/plugins/chilly-pot/assets/js/advertisement.min.js
 @@||appdn.net^$generichide
+@@||appdynamics.com/adrum/adrum-$script,domain=telecharge.com
 @@||appex-rf.msn.com/*.js?adtype=
 @@||appgw.ess.tencent.cn^$stealth=referrer
 @@||apple.com/metrics/ac-analytics/*/scripts/$domain=apple.com
@@ -290283,6 +290285,7 @@ everyeye.it#$#.adv-top { margin-top: 4.2rem !important; }
 everyeye.it#@#.adv-top
 everyonepiano.cn##[class^="EOPArticleReadAD"],.EOPFloatDefault,.EOPIndexLeftBar2,.EOPIndexLeftBar3,.img-responsive
 everyplate.com,nytimes.com,slideshare.net#%#//scriptlet('set-local-storage-item', '/^statsig/', '$remove$')
+everypolitician.org##.position-fixed.bottom-0:has(a[href="https://www.opensanctions.org/docs/privacy/"])
 everythinglifestyle.ca,fraservalleytoday.ca##.pp-btn-container
 everythingrf.com###featuredBottomContentContainer
 everythingrf.com###modalAfterInactivityFormContainer
@@ -327550,8 +327553,6 @@ pinterest.*#?#div > div[style] > div[data-grid-item="true"]:has(div[data-test-pi
 pinterest.*#?#div > div[style] > div[data-grid-item="true"]:has(div[data-test-pin-id] a[rel] div[class][style] > div[class]:last-child:matches-css(before, content:/Promoted\s*by|Promowane\s*przez|Sponsorisée\s*par|Рекламный\s*пин|Рекламодатель|Gesponsord\s*door|広告|Promocionado\s*por|Promovido\s*por/))
 pinterest.com##a[href*="&epik="]
 pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
-pinterest.com##div[data-grid-item]:has(a[rel="nofollow"][href^="http"])
-pinterest.com##div[data-grid-item]:has(div[data-test-id="pinrep-video"]):has(a[rel="nofollow"][href^="http"])
 pinterest.com,reddit.com###credential_picker_container
 pinterest.com,reddit.com###credential_picker_iframe
 pioneer.eu#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick^="trackOutboundLink"]')
@@ -335939,6 +335940,7 @@ simpleswap.io##+js(set-local-storage-item, cookies-notification-message-is-hidde
 simpleswap.io##.iRXLZi
 simpleswap.io##.styles_card__6n7j6
 simpleswap.io##body,html:style(overflow: auto !important; position: initial !important;)
+simpleswap.io##div:has(> div > div > a[href="/privacy-policy"])
 simplethread.com##.st-blogpost--subscribe
 simplic.com.br###home-page--how-it-works
 simplicity.in##.sc-desc-detail-page > p + div[style] > a[target="_blank"] > img
@@ -367107,7 +367109,6 @@ zzzyk.com###Tinfo
 ||fashionbykakao.com/api/*/tr?
 ||fashionnova.com^$cookie=2c.cld
 ||fashionnova.com^$cookie=OptimizelyUserId
-||fast-surveys.com^$third-party
 ||fast.a.klaviyo.com/media/js/analytics/klaviyo_analytics.js
 ||fast.fonts.net/jsapi/core/mt.js
 ||fast.wistia.net/assets/external/googleAds.js
@@ -380573,7 +380574,6 @@ zzzyk.com###Tinfo
 ||tracking-v*.a.run.app^
 ||tracking.*.miui.com^
 ||tracking.cds.dmm.$image
-||tracking.geo.*.amazonaws.com^
 ||tracking.gfycat.com/viewCount/
 ||tracking.ibotta-classic.ipn-ops.net^$app=com.ibotta.android
 ||tracking.miui.com
