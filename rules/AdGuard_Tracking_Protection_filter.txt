@@ -2460,7 +2460,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ||clickcease.com^$third-party
 ||logs.juspay.in
 ||http-intake.logs.datadoghq.com^
-||logs.browser-intake-datadoghq.eu^
+||browser-intake-datadoghq.eu^
 ||logs.datadoghq.eu^
 ||logs.datadoghq.com^$third-party
 ||zprk.io^$third-party
@@ -100586,6 +100586,7 @@ biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||otl.minefun.io^
 ||counter.wargamings.net^
 ||analyticssec.overwolf.com^
 ||gadata.motorpresse.de^
@@ -314795,6 +314796,8 @@ naver.com#%#//scriptlet('trusted-json-set', 'JSON.stringify', '$.env.br_sr', '38
 !
 ! NOTE: Specific rules
 !
+||s.omsolution.net/omStatApi/
+karofilm.ru,cinemastar.ru#%#//scriptlet('set-local-storage-item', 'device_uuid', '$remove$')
 ||gorbilet.ru/blog/js/metrics.js
 ||mediaexpert.pl/_internal/metrics/
 ||wargamings.net/png.php?id=
@@ -327509,9 +327512,6 @@ demae-can.com#%#//scriptlet('remove-attr', 'data-trm-action|data-trm-category|da
 ||google-analytics.com/analytics.js$script,redirect=google-analytics,important,domain=biomedglobal.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61456
 @@||googletagmanager.com/gtm.js$domain=filgoal.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/60961
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
-@@||secure.quantserve.com/quant.js$domain=fruitlab.com
 ! https://github.com/AdguardTeam/AdguardFilters/pull/61240
 @@||googletagmanager.com/gtag/js$domain=klix.ba
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60887
