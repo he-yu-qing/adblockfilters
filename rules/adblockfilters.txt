@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260921023047
-! Last modified: 2026/09/21 02:30:47
-! Blocked Filters: 384012
+! Version: 20260921110514
+! Last modified: 2026/09/21 11:05:14
+! Blocked Filters: 384023
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -30128,7 +30128,6 @@
 ##.is-script-ad
 ##.is-social
 ##.is-sp[data-ad]
-##.is-sponsored
 ##.is-sticky-ad
 ##.is-style-newsletter
 ##.is-totop
@@ -43494,7 +43493,7 @@ $doc,removeparam=lId,domain=apple.com|reddit.com|reddittorjg6rue252oqsxryoxengaw
 $doc,removeparam=lcid,domain=~rekono.si
 $doc,removeparam=lctg,domain=bleacherreport.com|weather.com
 $doc,removeparam=lgw_code
-$doc,removeparam=lid,domain=baidu.com|clickserve.dartsearch.net|flipkart.com|instagram.com|weather.com
+$doc,removeparam=lid,domain=baidu.com|clickserve.dartsearch.net|flipkart.com|instagram.com|weather.com|harborfreight.com
 $doc,removeparam=line_uid
 $doc,removeparam=lk,domain=marriott.com|www.ritzcarltonyachtcollection.com
 $doc,removeparam=loclid
@@ -78972,7 +78971,7 @@ americasvoice.news##a[href^="https://freekit.birchgold.com/"]
 americasvoice.news##div[class^="styles_wrap"]:has(> div[class] > div[id^="div-gpt-ad"])
 americasvoice.news##div[class^="styles_wrap"]:has(> div[class^="style_root"] > [src^="https://a.ads.rmbl.ws/"])
 americasvoice.news,arcadepunks.com,sweetalert2.github.io##img[width="728"]
-ames-surgery.com,baxtercycle.com,centralstate.bank,cumedicine.us,cyprus-childrensfund.org,dickinsonbradshaw.com,eventeny.com,finleylaw.com,fishbase.*,gabrielsonclinic4women.com,globalreach.com,gocivilairpatrol.com,halloumicheese.eu,hermesairports.com,heylroyster.com,iowaspecialtyhospital.com,mavroudis.com.cy,mcfarlandclinic.com,ombudsman.iowa.gov,pcbaonline.org,slots-cyprus.eu,smaluminium.com.cy,stephanis.com.cy,stredoceskykraj.cz,thewayhomedc.org,toumbas.com,welcomemagazinecy.com###cookie-consent-container
+ames-surgery.com,baxtercycle.com,centralstate.bank,cumedicine.us,cyprus-childrensfund.org,dickinsonbradshaw.com,eventeny.com,finleylaw.com,fishbase.*,gabrielsonclinic4women.com,globalreach.com,gocivilairpatrol.com,halloumicheese.eu,hermesairports.com,heylroyster.com,iowaspecialtyhospital.com,mavroudis.com.cy,mcfarlandclinic.com,ombudsman.iowa.gov,pcbaonline.org,sealifebase.org,slots-cyprus.eu,smaluminium.com.cy,stephanis.com.cy,stredoceskykraj.cz,thewayhomedc.org,toumbas.com,welcomemagazinecy.com###cookie-consent-container
 amgelescape.com###ads-blog-content
 amgelescape.com##.sidebar > div[class="widget HTML"][id^="HTML"]
 amgelescape.com##div[class^="owneditads"]
@@ -80089,7 +80088,7 @@ apkrabi.io##.ads12
 apksum.com##.ad-left
 aplgo.com##+js(set-cookie, cookie_agreement, 1, , reload, 1)
 aplikuj.pl,bracket2026.com,btr-tools.com,cgn.gg,chemist-4-u.com,coderland.com,extract.pics,hopetv.org,londonciv.org.uk,schletter-group.com,stringfurniture.com##.inset-0.fixed
-apllogistics.com,atraveo.de,bridgeland.com,countwordsfree.com,dielinke.berlin,domenus.ru,e-domizil.de,foxsports.com.au,goyabu.vip,gregorys.gr,hafnarfjordur.is,hoster.ru,hsleiden.nl,ima.is,lexus.com.cy,lexus.gr,lexus.ie,lexus.no,lexus.ro,lexus.sk,naturgenussfestival.de,news.com.au,rooftopatpier17.com,rosatomflot.ru,sgtech.co.il,sinfonia.is,socalgas.com,swapspace.co,totalplay.com.mx,tudogostoso.com.br,wardvillage.com,webhint.io##.disclaimer
+apllogistics.com,atraveo.de,bridgeland.com,countwordsfree.com,dielinke.berlin,domenus.ru,e-domizil.de,fikser.ru,foxsports.com.au,goyabu.vip,gregorys.gr,hafnarfjordur.is,hoster.ru,hsleiden.nl,ima.is,lexus.com.cy,lexus.gr,lexus.ie,lexus.no,lexus.ro,lexus.sk,naturgenussfestival.de,news.com.au,rooftopatpier17.com,rosatomflot.ru,sgtech.co.il,sinfonia.is,socalgas.com,swapspace.co,totalplay.com.mx,tudogostoso.com.br,wardvillage.com,webhint.io##.disclaimer
 apmnews.com###coConsent
 apmnews.com##body,html:style(overflow: auto !important; position: initial !important;)
 apnetv.biz#%#//scriptlet('trusted-set-local-storage-item', 'adExpiryTime', '1922573520000')
@@ -100752,7 +100751,6 @@ electroschematics.com##.billboard-wrapper
 eleftherostypos.gr##div[data-ocm-ad]
 elegantflyer.com##.cookie__form
 elektrikstore.hu,kesvadasz.hu,tipik.hu###exposeMaskOverlay
-elektro.info.pl,mashingup.jp#@#.is-sponsored
 elektroauto-news.net##.elementor-element-b0ed665
 elektroda.de,elektroda.com,elektroda.pl##.JWzeW7p9as
 elektroda.de,elektroda.com,elektroda.pl##.VNByCMZS9T
@@ -334806,6 +334804,15 @@ securityweek.com##.zox-top-soc-wrap
 securityweek.com##body,html:style(overflow: auto !important; position: initial !important;)
 securityweek.com#$#.pum-overlay[data-popmake*="welcome-popup-ad"] { display: none !important; }
 securityweek.com#$#html { overflow: auto !important; }
+sedaily.com###ad-art-2-0
+sedaily.com###ad-art-3-0
+sedaily.com###ad-art-4-0
+sedaily.com###ad-main-1-0
+sedaily.com###ad-main-2-0
+sedaily.com###ad-main-3-0
+sedaily.com###ad-main-4-0
+sedaily.com##.justify-center.z-\[9999\].inset-0
+sedaily.com##.md\:h-\[180px\]
 sede-tu.seg-social.gob.es##.tuss-cookies
 sede.coruna.gal##+js(set-cookie, AYTO_CORUNA_COOKIES, 1, , reload, 1)
 sedeelectronica.sic.gov.co##[aria-label="Aviso de cookies"]
@@ -339529,6 +339536,7 @@ stylecraze.com##.flying-carpet-wrapper
 stylecraze.com##.fx-flying-carpet
 stylecraze.com##div[id^="adsolut"]
 stylecraze.com##div[id^="ubvideoad"]
+styler.rbc.ua##.s-cookie
 styletread.co.nz##.popup_overlay
 stylist.co.uk##.advert-slot
 stylist3d.com##.comp-accept-cookies-popup
@@ -353708,6 +353716,7 @@ webhelplobalid3.click.s11.sfmc-osl.com$image
 webhostingbuzz.com###bottom-left-modal
 webhostingtalk.pl##a[href*="&utm_medium=banner"]
 webinarsid3.click.s11.sfmc-osl.com$image
+webisjericho.com###gp-google-preferred-source
 webjx.com###middleimg
 webkaka.com###tdMidPic
 webkaka.com##.pNavigateAd
@@ -368918,6 +368927,8 @@ zzzyk.com###Tinfo
 ||happymail.co.jp^$removeparam=Log
 ||happysex.ch/app_jquery/Tracking.js
 ||harant-test.ru/statistics.php
+||harborfreight.com^$doc,removeparam=infy
+||harborfreight.com^$doc,removeparam=mi_ecmp
 ||hardbritlads.com/banner/
 ||hardcoreluv.com/hmt.gif
 ||hardgif.com/clck.php
