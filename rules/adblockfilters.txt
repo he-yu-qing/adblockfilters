@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：GoodbyeAds hosts、anti-AD、AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS Filter、AdGuard Tracking Protection filter、AdGuard URL Tracking Filter、AdGuard Malicious Filter、EasyList、EasyList China、EasyPrivacy、CJX Annoyance List、anti-AD、yhosts、ADgk、SmartTV Blocklist、1024 hosts、ad-wars hosts、秋风广告过滤规则、大圣净化 Purple、大圣净化 Black、大圣净化 White、HalfLife Xinggsf rule、xinggsf mv、jiekouAD、HaGeZi Multi Light、HaGeZi Multi Medium、China IP TV Blocklist、Scamblocklist、NoCoin FilterList、Fanboy Annoyance List、Fanboy Social Blocking List、Disconnect Tracking List、Phishing Army、Malware Domain List、AdRules DNS List、Hagezi Threat Intelligence、AWAvenue Ads Rule、Peter Lowe、AdAway hosts、AdGuard Allowlist、CatNotDie BlockList、NEOHosts Basic、1Hosts (Lite)、1Hosts (Mini)、Legitimate URL Shortener、EU US Web Based Privacy、Damengzhu WhiteList。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260922041828
-! Last modified: 2026/09/22 04:18:28
-! Blocked Filters: 384026
+! Version: 20260922110511
+! Last modified: 2026/09/22 11:05:11
+! Blocked Filters: 384034
 !
 ###-CookieConsentContainer
 ###ACCETTA_COOKIES
@@ -48215,6 +48215,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{3,5}=\d{6,7}$/$script,xmlhttprequest,third-party,match-case
 /^https?:\/\/[0-9a-z]{13,14}\.cloudfront\.net\/\?[a-z]{3,5}=\d{6}$/$domain=workink.click,xmlhttprequest,redirect=noopjs
 /^https?:\/\/[0-9a-z]{5,}\.com\/.*/$script,third-party,xmlhttprequest,domain=1cloudfile.com|745mingiestblissfully.com|adblockeronstape.me|adblockeronstreamtape.me|adblockeronstrtape.xyz|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|adblocktape.online|adblocktape.store|adblocktape.wiki|advertisertape.com|anonymz.com|antiadtape.com|bowfile.com|clickndownload.click|clicknupload.space|cloudvideo.tv|daddylivehd.sx|dailyuploads.net|databasegdriveplayer.xyz|deltabit.co|dood.la|dood.li|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|dooood.com|dramacool.sr|drivebuzz.icu|ds2play.com|embedplayer.site|embedsb.com|embedsito.com|embedstream.me|engvideo.net|enjoy4k.xyz|eplayvid.net|evoload.io|filemoon.sx|files.im|flexy.stream|fmovies.ps|gaybeeg.info|gdriveplayer.pro|gettapeads.com|givemenbastreams.com|gogoanimes.org|gomo.to|hexload.com|imgtraffic.com|kesini.in|kickasstorrents.to|linkhub.icu|lookmyimg.com|mangareader.to|membed.net|mirrorace.org|mixdrop.ag|mixdrop.click|mixdrop.club|mixdrp.co|movies2watch.tv|mp4upload.com|nelion.me|noblocktape.com|nsw2u.org|ovagames.com|pcgamestorrents.com|putlocker-website.com|reputationsheriffkennethsand.com|rintor.space|rojadirecta1.site|scloud.online|shavetape.cash|skidrowcodex.net|smallencode.me|stapadblockuser.art|stapadblockuser.click|stapadblockuser.info|stapadblockuser.xyz|stape.fun|stapewithadblock.beauty|stapewithadblock.monster|stapewithadblock.xyz|strcloud.in|streamadblocker.cc|streamadblocker.com|streamadblocker.store|streamadblocker.xyz|streamlare.com|streamnoads.com|streamta.pe|streamta.site|streamtape.cc|streamtape.com|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamtapeadblockuser.art|streamtapeadblockuser.homes|streamtapeadblockuser.monster|streamtapeadblockuser.xyz|strikeout.ws|strtape.cloud|strtape.tech|strtapeadblock.club|strtapeadblocker.xyz|strtapewithadblock.art|strtapewithadblock.xyz|supervideo.cc|supervideo.tv|tapeadsenjoyer.com|tapeadvertisement.com|tapeantiads.com|tapeblocker.com|tapenoads.com|tapepops.com|tapewithadblock.com|tapewithadblock.org|thepiratebay0.org|thepiratebay10.xyz|theproxy.ws|thevideome.com|toxitabellaeatrebates306.com|un-block-voe.net|upbam.org|upload.do|upstream.to|userscloud.com|v-o-e-unblock.com|vido.lol|vidsrc.me|vidsrc.stream|vipleague.im|vipleague.pm|voe-unblock.net|voe.sx|vudeo.io|vudeo.net|yesmovies.mn|youtube4kdownloader.com
+/^https?:\/\/[0-9a-z]{5,}\.com\/.*/$script,third-party,xmlhttprequest,domain=1cloudfile.com|adblockeronstape.me|adblockeronstreamtape.me|adblockeronstrtape.xyz|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|adblocktape.online|adblocktape.store|adblocktape.wiki|advertisertape.com|anonymz.com|antiadtape.com|bowfile.com|clickndownload.click|clicknupload.space|cloudvideo.tv|dailyuploads.net|databasegdriveplayer.xyz|deltabit.co|dood.la|dood.li|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|dooood.com|dramacool.sr|drivebuzz.icu|ds2play.com|embedplayer.site|embedstream.me|engvideo.net|eplayvid.net|filemoon.sx|files.im|flexy.stream|fmovies.ps|gaybeeg.info|gettapeads.com|givemenbastreams.com|hexload.com|imgtraffic.com|kesini.in|kickasstorrents.to|linkhub.icu|lookmyimg.com|mangareader.to|mirrorace.org|mixdrop.ag|mixdrop.click|mixdrop.club|mixdrp.co|movies2watch.tv|mp4upload.com|nelion.me|noblocktape.com|ovagames.com|pcgamestorrents.com|rintor.space|scloud.online|shavetape.cash|skidrowcodex.net|stapadblockuser.art|stapadblockuser.click|stapadblockuser.info|stapadblockuser.xyz|stape.fun|stapewithadblock.beauty|stapewithadblock.monster|stapewithadblock.xyz|strcloud.in|streamadblocker.cc|streamadblocker.com|streamadblocker.store|streamadblocker.xyz|streamnoads.com|streamta.pe|streamta.site|streamtape.cc|streamtape.com|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamtapeadblockuser.art|streamtapeadblockuser.homes|streamtapeadblockuser.monster|streamtapeadblockuser.xyz|strikeout.ws|strtape.cloud|strtape.tech|strtapeadblock.club|strtapeadblocker.xyz|strtapewithadblock.art|strtapewithadblock.xyz|supervideo.cc|tapeadsenjoyer.com|tapeadvertisement.com|tapeantiads.com|tapeblocker.com|tapenoads.com|tapepops.com|tapewithadblock.com|tapewithadblock.org|thepiratebay0.org|thepiratebay10.xyz|theproxy.ws|toxitabellaeatrebates306.com|un-block-voe.net|upbam.org|upstream.to|userscloud.com|v-o-e-unblock.com|vido.lol|vidsrc.me|vipleague.im|vipleague.pm|voe-unblock.net|voe.sx|vudeo.io|yesmovies.mn|youtube4kdownloader.com
 /^https?:\/\/[0-9a-z]{8,}\.com\/.*/$~media,third-party,domain=strtape.cloud,badfilter
 /^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$third-party,xmlhttprequest,domain=1link.club|apiyoutube.cc|bestmp3converter.com|dood.wf|lulustream.com|mp4upload.com|poscitech.com|sportcast.life|streamhub.to|streamvid.net|tokybook.com|uqload.io
 /^https?:\/\/[0-9a-z]{8,}\.xyz\/.*/$~media,third-party,domain=sportcast.life,badfilter
@@ -52574,6 +52575,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /monitor?rtype=
 /monitor_analytic.js
 /monitor_browser/collect/*
+/monitor_web/settings/browser-settings?
 /monitoring?o=$xmlhttprequest
 /monitus.js
 /monsido.js
@@ -62073,6 +62075,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@/fuckadblock.$domain=datehub.co|golangnote.com|joyk.com|liumingye.cn|lnk2.cc|poedb.tw|share1223.com
 @@/fuckadblock.js$domain=camiris.com
 @@/fuckadblock.js$domain=meucdn.vip|yandexcdn.com|hqq.tv|waaw.tv
+@@/ga-tracking.min.js$script,domain=boots.no|checkout.platekompaniet.no
 @@/gen.php?playerid$subdocument,stealth=referrer,domain=fastreams.live|fastreams.com|ftmstreams.com
 @@/gettoken.php?$xmlhttprequest,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in
 @@/ggjs/*$domain=tingfm.com
@@ -82696,7 +82699,7 @@ baltic-course.com###bannerbottom
 baltic-course.com###bannerleft
 baltic-course.com,webfail.com###bannertop
 baltic-watches.com,np-brijuni.hr,vilgain.com##+js(set-cookie, consent, 0, , reload, 1)
-baltic.art,keywordsstudios.com,uofmhealth.org###cookie-law
+baltic.art,evildeadthegame.com,keywordsstudios.com,uofmhealth.org###cookie-law
 balticlivecam.com##.fp-sponsor
 balticlivecam.com##.vjs-poster
 baltimoresun.com,capitalgazette.com,chicagotribune.com,courant.com,dailypress.com,latimes.com,mcall.com,orlandosentinel.com,sandiegouniontribune.com,sun-sentinel.com##div[data-adloader-size]
@@ -86034,7 +86037,7 @@ btdb.*#%#//scriptlet("abort-on-property-write", "zoneSett")
 btdb.in##.banner,.banner-bottom,[width="728"][height="90"]
 btechsmartclass.com##.bsc-ads-bar
 btechsmartclass.com##.bsc-h-ad
-bteva.co.il,dailysale.co.il,delitlv.co.il,eshop.ingtech.cz,frederiqueconstant.co.uk,paneco.co.il##.mst-gdpr__cookie-bar-wrapper
+bteva.co.il,dailysale.co.il,delitlv.co.il,eshop.ingtech.cz,frederiqueconstant.co.uk,medi-link.co.il,paneco.co.il##.mst-gdpr__cookie-bar-wrapper
 bteye.org##.fastdown > ul
 btge.cc##.hidden-sm.hidden-xs
 btgpactual.com##btg-privacy-policy
@@ -87885,8 +87888,9 @@ chatgpt.com##+js(set-session-storage-item, oai/apps/noAuthHasDismissedSoftRateLi
 chatgpt.com##.border-token-border-default.mt-2.border-t:has(button[aria-label="Ad options"])
 chatgpt.com##.wm-app-threadContent aside[aria-label^="Sponsored"]
 chatgpt.com##[class*="_assistantAds"]
-chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"][href*="&oppref="])
+chatgpt.com##[data-message-role="assistant"] > section[class]:has(> [aria-label] > div[role="list"] a[rel][target="_blank"][href*="&oppref="])
 chatgpt.com##[data-testid="bazaar-v2-elevated-box"]
+chatgpt.com##a[rel][target="_blank"][href*="?utm_"][href*="&oppref="]
 chatgpt.com##aside[data-assistant-ads-unit]
 chatgpt.com##div.opacity-100.transition-opacity.ease-out:has(button[aria-label="Sponsored options"], button[aria-label="Ad options"])
 chatgpt.com##div[class]:has(> button[class] > span.text-nowrap > svg.icon-sm > use[href="/cdn/assets/sprites-core-fxfgsfqf.svg#d3876b"])
@@ -87905,7 +87909,6 @@ chatgpt.com#%#(()=>{const e=!1,r=':is(aside, div[role="complementary"])',t=/"ads
 chatgpt.com#%#//scriptlet('json-prune', 'messages.*.ads messages.*.renderedAdsHtml')
 chatgpt.com#%#//scriptlet('trusted-json-set', 'WeakMap.prototype.set', '$[?(@.ads_response_id)].*', '$remove$', '', 'arg:1')
 chatgpt.com#%#//scriptlet('trusted-replace-outbound-text', 'TextDecoder.prototype.decode', '/(<span\b(?![^>]*\bdata-clear-all)[^>]*\bdata-conversation-control=")assistant-ads"/g', '$1assistant-xds"')
-chatgpt.com#%#//scriptlet('trusted-replace-outbound-text', 'TextDecoder.prototype.decode', '/<template data-assistant-ads-html=""><aside aria-label.+?<\/aside><\/template>/', '')
 chatgpt.com#%#//scriptlet('trusted-replace-outbound-text', 'TextDecoder.prototype.decode', '/^{"type":\s*"ads",\s*"content":\s*{"ads_request_id":.*?"ads_response_id":.*}$|^{"type":\s*"ads",.*"ads_response_id":.*"ads_request_id":.*}$/', '{}')
 chatgpt.com#?##thread [class^="border-"]:contains(/Ad|Sponsored/):not([class*="sidebar"])
 chatgpt.com#?##thread [class^="border-"]:has-text(/Ad|Sponsored/):not([class*="sidebar"])
@@ -98758,6 +98761,7 @@ dokonline.com###Counters
 dokonline.com###Counters + div[class="block"]
 dokoplay.xyz,daddylive.mp,movieshd.watch,streamhd247.info#%#//scriptlet('abort-current-inline-script', 'document.documentElement', 'break;case $.')
 dokutv.net###cmp_overlay
+dola.com##.cookie-banner-GvGlIh
 doladowania.orange.pl##.bm-privacy
 dolarhoje.com###privacy-warning
 dolarhoy.com##.compartir_redes
@@ -335851,6 +335855,8 @@ siasat.com##div[id^="ad-slot"]
 siberiantimes.com##.centerBannerRight
 siberiantimes.com##.logoBanner
 sibnet.ru###telegram_push
+sibnet.ru###widget-messenger
+sibnet.ru##.push
 sibur.ru###privacyPolicy
 sicherheitstraining24.de##+js(set-cookie, consented_cookie_types, required)
 sickipedia.net##.policy-panel
@@ -364105,7 +364111,8 @@ zzzyk.com###Tinfo
 ||chatbot.denizbank.com/Content/media/$media
 ||chatfuel.com/cf-analytics/
 ||chatgpt.com/awe/api/v2/rum^$ping,xmlhttprequest
-||chatgpt.com/backend-api/bazaar/conversation/*/ads|$xmlhttprequest
+||chatgpt.com/backend-api/*/message_supplements
+||chatgpt.com/backend-api/bazaar/*/ads
 ||chatgpt.com/backend-api/beacons/
 ||chatgpt.com/backend-api/codex/app-download-signal^$xmlhttprequest
 ||chatgpt.com/backend-api/sentinel/ping
@@ -366765,6 +366772,7 @@ zzzyk.com###Tinfo
 ||engage.cloud.microsoft/main/*thread$removeparam=trk_thread_id
 ||engage.cloud.microsoft/main/*thread$removeparam=trk_user
 ||engage.newmode.net/embed/
+||engagelab.com/ma-report/
 ||engageplatform.com/api/trace/d/record?
 ||engerio.sk/api/v1/listener/
 ||engine.*&iframe|$subdocument,third-party
@@ -368284,7 +368292,6 @@ zzzyk.com###Tinfo
 ||ghostretail.com/api/event/
 ||gianteagle.com/webevents/
 ||giaoji.com/Runtime/Js/
-||gias.jd.com/js/pc-tk.js
 ||gias.jd.com/js/td.js
 ||gifhq.com/a1.php?
 ||gifhq.com/d2.js
@@ -378078,6 +378085,7 @@ zzzyk.com###Tinfo
 ||shopee.*/__t__$xmlhttprequest
 ||shopee.tw/__t__
 ||shopee.tw/v2/shpsec/web/report
+||shoperatech.com/s/collect?
 ||shopflo.com/api/v1/spark
 ||shopify.com/*/assets/instant-pixel.js
 ||shopify.com/*/assets/script_tag.js
