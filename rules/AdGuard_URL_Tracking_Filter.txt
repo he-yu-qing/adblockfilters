@@ -1,9 +1,9 @@
-! Checksum: KSKWcBICQGfZ0rK6sMHivA
-! Diff-Path: ../patches/17/17-s-1791360626-3600.patch
+! Checksum: jUqsBLm3+FTzHTDW1mUqSw
+! Diff-Path: ../patches/17/17-s-1791454234-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.14.62
-! TimeUpdated: 2026-10-07T08:08:15+00:00
+! Version: 2.0.14.65
+! TimeUpdated: 2026-10-08T10:07:36+00:00
 ! Expires: 10 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -22,6 +22,9 @@
 !
 ! NOTE: Generic rules
 !
+! Prisjakt
+! https://developer.prisjakt.nu/docs/sections/for-shops/analytics/pj-pixel/
+$removeparam=pjclid
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-17285759
 $removeparam=/^weekend-reading-link-\d{6}$/
 ! Not identified. Used on avira.com, malwarebytes.com and some other sites
@@ -535,11 +538,12 @@ $removeparam=tduid
 ! Good: ||example.org^$removeparam=cx
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/243658
+||sp.mbga.jp^$removeparam=_from
+||sp.mbga.jp^$removeparam=_fr
+! https://github.com/AdguardTeam/AdguardFilters/issues/243661
 ! https://github.com/AdguardTeam/AdguardFilters/issues/243539
 ||search.yahoo.co.jp^$removeparam=frtype
-||paypaygourmet.yahoo.co.jp^$removeparam=CosNo
-||restaurant.ikyu.com^$removeparam=CosNo
-||restaurant.ikyu.com^$removeparam=CosUrl
 ||bangumi.org^$removeparam=and_yjweb
 ||yahoo-mbga.jp^$removeparam=_ref
 ||retty.me^$removeparam=utm_y_smt_top
